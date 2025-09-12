@@ -83,7 +83,6 @@ src
 | Họ và tên        | Tên rút gọn |SĐT        |EMAIL              |
 |------------------|-------------|-----------|-------------------|
 | Nguyễn Đức Vũ    | dvu         |0333496018 |ndv120806@gmail.com|
-| Mai Tiến Việt    | mviet       |   ||
 | Nguyễn Kim Tuyền | ktuyen      |||
 | Lê Quý Tùng      | qtung       |||
 
