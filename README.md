@@ -2,7 +2,7 @@
 
 Lưu ý: tất cả các ảnh đều dùng dạng \*.webp hãy dùng công cụ nào đấy để convert sang, chúc may mắn
 
-**HƯỚNG DẪN SỬ DỤNG GIT** --- [link github](hhttps://gist.github.com/antruongnguyen/6bb4ebbcb8ad3608eeddff97ca615c47)
+**HƯỚNG DẪN SỬ DỤNG GIT** --- [link github](https://gist.github.com/antruongnguyen/6bb4ebbcb8ad3608eeddff97ca615c47)
 
 
 **LINK TRA CỨU CSS**  ----   [w3schools](https://www.w3schools.com/css/default.asp)
