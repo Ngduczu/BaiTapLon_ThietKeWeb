@@ -1,11 +1,16 @@
 # Bài tập lớn Thiết Kế Web
 
+🔴 ***TUYỆT ĐỐI KHÔNG ĐƯỢC PUSH THẲNG VÀO MAIN MÀ PHẢI TẠO NHÁNH PUSH LÊN NHÁNH RỒI TẠO PULL REQUEST***🔴
+
+
 Lưu ý: tất cả các ảnh đều dùng dạng \*.webp hãy dùng công cụ nào đấy để convert sang, chúc may mắn
 
-**HƯỚNG DẪN SỬ DỤNG GIT** --- [link github](https://gist.github.com/antruongnguyen/6bb4ebbcb8ad3608eeddff97ca615c47)
+**LINK HƯỚNG DẪN COMMIT CHUẨN** --- [Tài liệu](https://devops.vn/posts/cach-viet-git-commit-convention-chuan-chinh-lam-code-sach-doi-lam-drama/#:~:text=%C4%90%C3%A2y%20l%C3%A0%20b%E1%BB%99%20quy%20t%E1%BA%AFc%20chu%E1%BA%A9n%20h%C3%B3a%20c%C3%A1ch,CI%2FCD%2C%20changelog%20generator%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng%20m%C6%B0%E1%BB%A3t%20m%C3%A0%20h%C6%A1n.)
+
+**HƯỚNG DẪN SỬ DỤNG GIT** --- [Link Github](https://gist.github.com/antruongnguyen/6bb4ebbcb8ad3608eeddff97ca615c47)
 
 
-**LINK TRA CỨU CSS**  ----   [w3schools](https://www.w3schools.com/css/default.asp)
+**LINK TRA CỨU CSS**  ----   [W3schools](https://www.w3schools.com/css/default.asp)
 ## Hướng dẫn đóng góp dự án
 
 1. **Clone repository**: Clone dự án từ repository bằng lệnh:
