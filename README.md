@@ -2,6 +2,10 @@
 
 Lưu ý: tất cả các ảnh đều dùng dạng \*.webp hãy dùng công cụ nào đấy để convert sang, chúc may mắn
 
+**HƯỚNG DẪN SỬ DỤNG GIT** --- [link github](hhttps://gist.github.com/antruongnguyen/6bb4ebbcb8ad3608eeddff97ca615c47)
+
+
+**LINK TRA CỨU CSS**  ----   [w3schools](https://www.w3schools.com/css/default.asp)
 ## Hướng dẫn đóng góp dự án
 
 1. **Clone repository**: Clone dự án từ repository bằng lệnh:
@@ -61,3 +65,21 @@ src
 |- .gitignore       # file .gitignore và README không đụng vào  
 |- README.md 
 ```
+
+## ***Cấu trúc folder***
+
+- Tạo folder thì nhớ tạo theo kiểu **HoVaTen_msv** để dễ quản lí
+
+- Đặt tên ID hoặc class thì nhớ đặt theo cấu trúc tên rút gọn-tên class
+
+<br>
+
+
+| Họ và tên        | Tên rút gọn |SĐT        |EMAIL              |
+|------------------|-------------|-----------|-------------------|
+| Nguyễn Đức Vũ    | dvu         |0333496018 |ndv120806@gmail.com|
+| Mai Tiến Việt    | mviet       |   ||
+| Nguyễn Kim Tuyền | ktuyen      |||
+| Lê Quý Tùng      | qtung       |||
+
+
