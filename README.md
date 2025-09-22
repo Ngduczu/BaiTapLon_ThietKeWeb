@@ -52,11 +52,11 @@ src
 |- index.html       # trang chính
 |
 |- assets\          # chứa font, ảnh
-|
+|      |
 |      |-images\    # chứa ảnh
-|             |-<HoVaTen_MSV>
-|                   # tạo folder chứa ảnh là tên của mình kèm msv
-|
+|      |     |-<HoVaTen_MSV>
+|      |             # tạo folder chứa ảnh là tên của mình kèm msv
+|      |
 |      |-fonts\     # chứa fonts
 |
 |- styles\          # chứa các file css
