@@ -165,6 +165,7 @@ header {
     display: none;
     position: fixed;
     top: 0;
+    right: 100%;
     background-color: #fff;
     width: 60vw;
     height: 100vh;
@@ -172,13 +173,11 @@ header {
     border-radius: 6px;
     overflow: hidden;
     z-index: 99;
-    transition: right 0.3s ease;
     border: 1px solid black;
 }
 
 .drop-down-menu-for-mobile.active {
     display: block;
-    right: 0;
 }
 
 .drop-down-menu-for-mobile a {
@@ -201,7 +200,7 @@ header {
     background: rgba(0, 0, 0, 0.6);
     display: none;
     z-index: 98;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.8s ease;
 }
 .overlay.active {
     display: block;
@@ -215,7 +214,7 @@ footer {
     font-size: 14px;
     position: relative;
     bottom: 0;
-    z-index: ;
+    z-index: 10;
 }
 
 .footer-wrapper {
@@ -284,7 +283,7 @@ footer {
 }
 
 /* --- For Mobile (<=768px) --- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 890px) {
     header {
         padding: 10px 0;
     }
