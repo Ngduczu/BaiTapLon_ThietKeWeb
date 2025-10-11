@@ -1,26 +1,39 @@
-:root{
+:root {
     --navbarbg: #515154;
     --menu-item-color: #D2D2D7;
-    --footerbg : #1D1D1F;
-}
-.master-wrapper-page{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    --footerbg: #1D1D1F;
 }
 
-*{
+/* ===== Reset & Global ===== */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-header{
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+/* ===== Layout Wrapper ===== */
+.master-wrapper-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-page-content {
+    flex: 1;
+}
+
+/* ===== HEADER ===== */
+header {
     padding: 20px 0 10px 0;
     background-color: var(--navbarbg);
     color: whitesmoke;
@@ -29,7 +42,8 @@ header{
     z-index: 11;
     top: 0;
 }
-.higher-header{
+
+.higher-header {
     display: flex;
     max-width: 1200px;
     justify-content: center;
@@ -37,21 +51,25 @@ header{
     margin: auto;
     padding: 0;
 }
-.header-logo{
+
+.header-logo {
     max-width: 200px;
 }
 
-.search-box-new{
+/* --- Search Box --- */
+.search-box-new {
     width: 50%;
     height: 100%;
 }
-#small-search-box-form{
+
+#small-search-box-form {
     position: relative;
     width: 100%;
     max-width: 770px;
     height: 100%;
 }
-#small-searchterms{
+
+#small-searchterms {
     padding-left: 20px;
     width: 100%;
     min-height: 40px;
@@ -59,17 +77,22 @@ header{
     margin-left: 20px;
 }
 
-.login-icon{
+/* --- Login Dropdown --- */
+.login-icon {
     align-items: center;
-    margin-left: 40PX;
+    margin-left: 40px;
     font-weight: bold;
     position: relative;
     cursor: pointer;
 }
-.login-dropdown {
+
+#login-icon-img {
+    max-width: 20px;
+}
+
+.login-dropdown-for-destop {
     display: none;
     position: absolute;
-    margin-top: 0px;
     top: 106%;
     left: 25%;
     background-color: #fff;
@@ -80,7 +103,8 @@ header{
     z-index: 99;
     border: 1px solid black;
 }
-.login-dropdown a {
+
+.login-dropdown-for-destop a {
     display: block;
     padding: 12px;
     color: #333;
@@ -88,36 +112,32 @@ header{
     text-decoration: none;
     transition: background 0.3s;
 }
-.login-dropdown a:hover {
+
+.login-dropdown-for-destop a:hover {
     background-color: black;
     color: white;
 }
-.login-icon:hover .login-dropdown {
+
+.login-icon:hover .login-dropdown-for-destop {
     display: block;
 }
-#login-icon-img{
-    max-width: 20px;
-}
-a{
-    color: inherit;
-}
-.header-navbar-for-desktop{
-    padding: 15px;
-    padding-bottom: 0;
-    padding-top: 0;
+
+/* --- Desktop Navbar --- */
+.header-navbar-for-desktop {
+    padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--menu-item-color);
     height: 63px;
 }
-.top-menu-not-mobile{
-    display: flex;
-    justify-content: space-around ;
 
+.top-menu-not-mobile {
+    display: flex;
+    justify-content: space-around;
 }
 
-.top-menu-not-mobile li{
+.top-menu-not-mobile li {
     list-style: none;
     display: inline;
     font-size: 15px;
@@ -126,17 +146,68 @@ a{
     margin-bottom: 0;
 }
 
-.category-menu-items:hover{
-    padding-bottom: 9px ;
+.category-menu-items:hover {
+    padding-bottom: 9px;
     border-bottom: 1px solid white;
     color: white;
-
 }
 
-.wrapper-page-content{
-    flex: 1;
+/* --- Mobile Menu --- */
+.menu-for-mobile {
+    display: none;
+    position: relative;
+    margin-left: 40px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
+.drop-down-menu-for-mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 60vw;
+    height: 100vh;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 99;
+    transition: right 0.3s ease;
+    border: 1px solid black;
+}
+
+.drop-down-menu-for-mobile.active {
+    display: block;
+    right: 0;
+}
+
+.drop-down-menu-for-mobile a {
+    display: block;
+    padding: 15px 12px 15px 20px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    border: 0.1px solid #f3f3f3;
+    transition: background 0.3s;
+}
+
+.drop-down-menu-for-mobile a:active {
+    background-color: black;
+    color: white;
+}
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    z-index: 98;
+    transition: opacity 0.3s ease;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+/* ===== FOOTER ===== */
 footer {
     background-color: var(--footerbg);
     color: #f0f0f0;
@@ -144,7 +215,7 @@ footer {
     font-size: 14px;
     position: relative;
     bottom: 0;
-    z-index: 11;
+    z-index: ;
 }
 
 .footer-wrapper {
@@ -203,4 +274,79 @@ footer {
     padding-top: 15px;
     font-size: 13px;
     color: #aaa;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* --- For large screens up to 2400px --- */
+@media screen and (max-width: 2400px) {
+    /* giữ nguyên layout chính, đã sắp xếp ở trên */
+}
+
+/* --- For Mobile (<=768px) --- */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .header-navbar-for-desktop {
+        display: none;
+    }
+
+    .higher-header {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-box-new {
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    #small-searchterms {
+        margin-left: 0;
+    }
+
+    .header-logo {
+        padding-right: 10px;
+        max-width: 100px;
+        margin-left: 0;
+    }
+
+    .login-icon {
+        display: none;
+    }
+
+    .login-icon:hover .login-dropdown-for-destop {
+        display: none;
+    }
+
+    .menu-for-mobile {
+        display: block;
+    }
+    .drop-down-menu-for-mobile {
+        display: none;
+        right: -20px;
+    }
+    .menu-btn:hover {
+        .drop-down-menu-for-mobile{
+            display: block;
+        }
+        
+    }
+    .footer-links {
+        display: none;
+    }
+
+    .footer-wrapper {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-about,
+    .footer-links {
+        margin-bottom: 20px;
+    }
 }
