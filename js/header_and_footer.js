@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuBtn = document.querySelector(".menu-btn");
     const mobileMenu = document.querySelector(".drop-down-menu-for-mobile");
     const overlay = document.querySelector(".overlay");
-
+    const shoppingCart = document.querySelector(".cart-icon");
     // Mở menu
     menuBtn.addEventListener("click", () => {
         mobileMenu.classList.add("active");
@@ -28,5 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
             mobileMenu.classList.remove("active");
             overlay.classList.remove("active");
         }
+    });
+
+    shoppingCart.addEventListener("click", () => {
+        alert('Chức năng giỏ hàng đang trong quá trình phát triển\nXin vui lòng liên hệ lại với nhà phát triển để biết thêm chi tiết');  // Chuyển đến trang giỏ hàng
     });
 });

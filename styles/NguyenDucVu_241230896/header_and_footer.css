@@ -23,13 +23,16 @@ a {
 
 /* ===== Layout Wrapper ===== */
 .master-wrapper-page {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .wrapper-page-content {
     flex: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ===== HEADER ===== */
