@@ -27,7 +27,7 @@ Lưu ý: tất cả các ảnh đều dùng dạng \*.webp hãy dùng công cụ
 
 3. **Thêm code**: Thực hiện các thay đổi cần thiết trong mã nguồn.
 
-   Code vào cái phần đã comment trong code, ngoài ra đối với file css và js thì mỗi phần một file riêng và cách đặt tên classname, id thì đã phổ biến như hôm bữa, còn tên file thì chính là tên của phần mình làm.
+   Đối với file css và js thì mỗi phần một file riêng, còn tên file thì chính là tên của phần mình làm.
 
 4. **Chạy**: Test thử trên localhost xem chạy được ổn vấn đề gì không để fix
 
@@ -80,10 +80,10 @@ src
 <br>
 
 
-| Họ và tên        | Tên rút gọn |SĐT        |EMAIL              |
-|------------------|-------------|-----------|-------------------|
-| Nguyễn Đức Vũ    | dvu         |0333496018 |ndv120806@gmail.com|
-| Nguyễn Kim Tuyền | ktuyen      |||
-| Lê Quý Tùng      | qtung       |||
+| Họ và tên        |SĐT        |EMAIL              |
+|------------------|-----------|-------------------|
+| Nguyễn Đức Vũ    |0333496018 |ndv120806@gmail.com|
+| Nguyễn Kim Tuyền |||
+| Lê Quý Tùng      |||
 
 
