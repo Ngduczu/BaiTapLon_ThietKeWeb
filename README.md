@@ -47,7 +47,7 @@ Lưu ý: tất cả các ảnh đều dùng dạng \*.webp hãy dùng công cụ
 7. **Tạo Pull Request**: Truy cập repository trên GitHub/GitLab và tạo một Pull Request để yêu cầu review code.
 
 ## Cấu trúc thư mục
-``` python
+```
 src
 |- index.html       # trang chính
 |
