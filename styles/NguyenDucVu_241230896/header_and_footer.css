@@ -30,7 +30,6 @@ a {
 
 .wrapper-page-content {
     flex: 1;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -338,6 +337,9 @@ footer {
             display: block;
         }
         
+    }
+    footer{
+        text-align: ;
     }
     .footer-links {
         display: none;

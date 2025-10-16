@@ -42,7 +42,7 @@
     top: 50%;
     transform: translateY(-50%);
     border: none;
-    background: rgba(121, 121, 121, 0.1);
+    background: rgba(121, 121, 121, 0);
     padding: 0.5rem 1.3rem;
     font-size: 1.5rem;
     height: 100%;
@@ -52,7 +52,7 @@
 }
 
 .ctrl-btn:hover {
-    background-color: rgba(121, 121, 121, 0.3);
+    background-color: rgba(121, 121, 121, 0.1);
     color: black;
 }
 
@@ -93,6 +93,9 @@
 }
 @media screen and (max-width: 890px) {
     .ctrl-btn {
+        display: none;
+    }
+    .dots{
         display: none;
     }
 }
