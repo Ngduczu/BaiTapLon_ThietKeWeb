@@ -27,6 +27,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(250, 239, 241);
 }
 
 .wrapper-page-content {
@@ -318,7 +319,7 @@ footer {
 
     .header-logo {
         padding-right: 10px;
-        max-width: 100px;
+        max-width: 70px;
         margin-left: 0;
     }
 
