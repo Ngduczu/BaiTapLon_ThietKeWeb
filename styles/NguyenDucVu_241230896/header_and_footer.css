@@ -25,12 +25,15 @@ a {
 .master-wrapper-page {
     min-height: 100vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
 .wrapper-page-content {
     flex: 1;
+    max-width: 1400px;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -43,6 +46,7 @@ header {
     position: sticky;
     z-index: 11;
     top: 0;
+    width: 100%;
 }
 
 .higher-header {
@@ -55,7 +59,7 @@ header {
 }
 
 .header-logo {
-    max-width: 200px;
+    max-width: 65px;
 }
 
 /* --- Search Box --- */
@@ -218,6 +222,7 @@ footer {
     position: relative;
     bottom: 0;
     z-index: 10;
+    width: 100%;
 }
 
 .footer-wrapper {
@@ -235,7 +240,7 @@ footer {
 }
 
 .footer-logo {
-    max-width: 150px;
+    max-width: 80px;
     margin-bottom: 10px;
 }
 
