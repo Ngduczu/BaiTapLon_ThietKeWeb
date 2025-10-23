@@ -319,7 +319,7 @@ footer {
 
     .header-logo {
         padding-right: 10px;
-        max-width: 70px;
+        max-width: 80px;
         margin-left: 0;
     }
 
@@ -345,7 +345,7 @@ footer {
         
     }
     footer{
-        text-align: ;
+        text-align: center;
     }
     .footer-links {
         display: none;
