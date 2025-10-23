@@ -296,7 +296,9 @@ footer {
     header {
         padding: 10px 0;
     }
-
+    .cart-icon{
+        display: none;
+    }
     .header-navbar-for-desktop {
         display: none;
     }
