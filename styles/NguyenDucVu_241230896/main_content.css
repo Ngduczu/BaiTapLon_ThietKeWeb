@@ -1,4 +1,7 @@
 .page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
 }
 .category-list{
@@ -44,10 +47,11 @@
 }
 .item-image{
     width: 60%;
-    max-width: 250px;
+    max-width: 100%;
     margin-bottom: 20px;
 }
 .item-name{
+    margin-top: auto;
     width: 80%;
     font-size: 20px;
     margin-bottom: 20px;
@@ -93,8 +97,67 @@
     color: white;
 }
 
+.main-page-newsfeed{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-page-newsfeed h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.newsfeed-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsfeed-card{
+    max-width: 32%;
+    background-color: white;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    min-width: 330px;
+}
+.decription-img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.newsfeed-title{
+    padding:0 25px;
+    margin: 25px 0px;
+    font-size: 20px;
+}
+.newsfeed-posted-day{
+    padding-left: 25px;
+    margin: 10px 0px;
+    color: gray;
+}
+.newsfeed-link{
+    margin-top: 30px;
+    border: 1px solid #0066CC;
+    padding: 15px 20px;
+    color: #0066CC;
+    border-radius: 10px;
+}
+.newsfeed-link:hover{
+    background-color: #0066CC;
+    color: white;
+}
+.decor-image{
+    width: 80%;    
+}
 @media screen and (max-width: 890px) {
     .page-content{
         padding-top: 50px;
+    }
+    .decor-image{
+        display: none;
     }
 }

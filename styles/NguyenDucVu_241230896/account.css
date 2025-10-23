@@ -1,0 +1,107 @@
+.master-wrapper-page-login-and-register{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.login-page{
+    padding: 50px 0px;
+    max-width: 1400px;
+    width: 100%;
+}
+.decor-login-img{
+    width: 50%;
+    display: inline-block;
+}
+.decor-login-img img{
+    width: 100%;
+}
+.customer-block{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    flex-grow: 1;
+}
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.login-form form input{
+    padding: 20px 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+}
+.login-form form button{
+    margin-top: 10px;
+    padding: 15px 30px;
+    width: 100%;
+    background-color: #0066CC;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.form-field{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.acta{
+    width: 100%;
+}
+.account-link{
+    color: rgb(112, 151, 235);
+}
+#check-box-register{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#check-box-register input[type="checkbox"]{
+    margin-top: 0;
+    margin-right: 10px;
+}
+@media screen and (max-width: 890px) {
+    .decor-login-img{
+        display: none;
+    }
+    .page-content{
+        padding: 0;
+    }
+    .form-field{
+        margin: 10px;
+    }
+    .login-form{
+        border: 1px solid rgb(218, 218, 218);
+        width: 100%;
+        padding: 40px 60px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(238, 247, 248);
+    }
+    form{
+        min-width: 300px;
+        padding: 0;
+    }
+    input{
+        width: 100%;
+        background-color: white;
+    }
+    .login-page{
+        width: 100%;
+    }
+}
