@@ -1,0 +1,255 @@
+/* main {
+  width: 100%;
+} */
+
+/* list watch */
+.list-watch {
+  margin-bottom: 40px;
+}
+.list-watch ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  max-height: 150px;
+}
+.list-watch ul li {
+  list-style-type: none;
+  /* min-width: 200px; */
+  transition: all 0.4s ease;
+}
+
+.list-watch ul li:hover {
+  transform: scale(1.1) translateZ(0);
+}
+
+.list-watch ul li a {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* End list watch */
+
+/* section-1  */
+.section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.section-1 .product-box {
+  background-color: #ffffff;
+  width: calc(199% / 4 - 5px);
+  min-width: 330px;
+  background-color: white;
+  padding: 20px 10px 30px 10px;
+  border-radius: 10px;
+  width: 24%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.section-1 .product-box .product-inner .product-tag {
+  min-height: 30px;
+}
+
+.section-1 .product-box .product-inner .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-1 .product-box .product-inner .product-name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.section-1 .product-box .product-inner .product-price {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 5px;
+  left: 10px;
+}
+
+.section-1 .product-box .product-inner .product-price .product-new-price {
+  color: #0066cc;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.section-1 .product-box .product-inner .product-price .product-old-price {
+  text-decoration: line-through;
+  font: 15px;
+  color: grey;
+}
+
+.section-1 .product-box {
+  transition: 0.3s;
+}
+.section-1 .product-box:hover {
+  transform: scale(1.05) translateZ(0);
+}
+/* End section-1  */
+
+/* section-2 */
+.section-2 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.section-2 .section-2-inner {
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 .section-2-inner .video {
+  width: 100%;
+  aspect-ratio: 16/10;
+  min-height: 200px;
+}
+
+.section-2 .section-2-inner .title {
+  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.section-2 .section-2-inner .title h2 {
+  padding: 20px;
+  font-size: 30px;
+}
+
+hr {
+  height: 1px;
+  width: 90%;
+  background-color: #cccccc;
+  border: none;
+  margin: 30px auto;
+  opacity: 0.8;
+}
+
+.section-2 .section-2-inner .video {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.section-2 .section-2-inner .content {
+  font-size: 19px;
+  letter-spacing: 0.7px;
+  line-height: 1.5;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.section-2 .section-2-inner .content p {
+  padding: 10px;
+}
+
+.section-2 .section-2-inner .content .apple-watch {
+  color: #236fa1;
+  font-weight: 600;
+}
+
+.section-2 .section-2-inner .content .phien-ban h2 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.section-2 .section-2-inner .content .phien-ban h3 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.section-2 .section-2-inner .content .phien-ban .product {
+  margin-bottom: 20px;
+}
+
+.section-2 .section-2-inner .content .phien-ban .product .product-ads p {
+  margin-bottom: 0px;
+}
+
+.section-2 .section-2-inner .content .cong-nghe h2 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.section-2 .section-2-inner .content .cong-nghe span {
+  font-size: 19px;
+}
+
+.section-2 .section-2-inner .content .cong-nghe ul li {
+  margin-left: 60px;
+}
+
+.section-2 .section-2-inner .content .tinh-nang h3 {
+  font-size: 18px;
+}
+.section-2 .section-2-inner .content .tinh-nang .tinh-tang-list ul li {
+  margin-left: 60px;
+}
+
+.section-2 .section-2-inner .content .pin h2 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.section-2 .section-2-inner .content .pin ul li {
+  margin-left: 60px;
+}
+
+.section-2 .section-2-inner .content .pin span {
+  font-size: 19px;
+}
+.section-2 .section-2-inner .content .gia h2 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.section-2 .section-2-inner .content .gia span {
+  font-size: 19px;
+}
+/* End section-2 */
+
+@media (max-width: 890px) {
+  .section-2 .section-2-inner .title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+  }
+
+  .section-2 .section-2-inner .title h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .list-watch {
+    margin-top: 20px;
+    overflow: auto;
+  }
+
+  .list-watch ul {
+    margin-top: 20px;
+  }
+  .list-watch ul li a {
+    font-size: 18px;
+    margin: 0px;
+    display: block;
+  }
+
+  .list-watch ul li {
+    margin-bottom: 15px;
+  }
+}
