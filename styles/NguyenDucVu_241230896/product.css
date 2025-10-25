@@ -1,0 +1,285 @@
+.product-container {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 36px;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    min-width: 80vw;
+}
+
+/* Cột trái: Hình ảnh */
+.product-gallery {
+    flex: 1;
+    /* Chiếm 1 phần */
+    padding-right: 20px;
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 600px;
+}
+
+#main-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbnails img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.thumbnails img.active {
+    border-color: #007bff;
+}
+
+/* Cột phải: Thông tin */
+.product-info {
+    flex: 1;
+    /* Chiếm 1 phần */
+    padding-left: 20px;
+}
+
+#product-name {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.price-section {
+    margin: 20px 0px;
+}
+
+.current-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.old-price {
+    font-size: 18px;
+    color: #757575;
+    text-decoration: line-through;
+}
+
+.options-section {
+    margin: 10px 0 20px 0;
+
+}
+
+.options-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.options-group button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.options-group button.active {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
+
+.options-group button.color-swatch {
+    height: 15px;
+    width: 15px;
+    padding: 15px 15px;
+    border-radius: 50%;
+}
+
+.options-group button.color-swatch.active {
+    border: 3px solid #007bff;
+}
+
+.buy-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.buy-button:hover {
+    transform: scale(1.01);
+    background-color: #006adb;
+    transition: 0.3s ease-in-out;
+}
+
+.credit-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    background-color: #ffff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.credit-button:hover {
+    transform: scale(1.01);
+    transition: 0.3s ease-in-out;
+}
+
+.policy-list {
+    margin-top: 30px;
+    list-style: none;
+    /* Xóa dấu chấm đầu dòng mặc định */
+    margin: 0;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid rgb(173, 173, 173);
+}
+
+/* Từng mục <li> trong danh sách */
+.policy-list li {
+    display: flex;
+    /* Dùng Flexbox để căn chỉnh icon và chữ */
+    align-items: flex-start;
+    /* Căn theo đầu dòng, phòng khi chữ bị xuống dòng */
+    /* Khoảng cách giữa các dòng */
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    /* Giãn dòng cho dễ đọc */
+}
+
+/* Thẻ <li> cuối cùng không cần khoảng cách bên dưới */
+.policy-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Icon dấu tích (tạo bằng CSS) */
+.icon-check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    /* Màu xanh dương (bạn có thể đổi mã màu) */
+    border-radius: 50%;
+    /* Bo tròn */
+    position: relative;
+    margin-right: 10px;
+    /* Khoảng cách giữa icon và chữ */
+    flex-shrink: 0;
+    /* Ngăn icon bị co lại khi chữ quá dài */
+}
+
+/* Vẽ dấu tích màu trắng bên trong vòng tròn */
+.icon-check::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #ffffff;
+    /* Màu dấu tích */
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* Kiểu cho các đường link (chi tiết) */
+.policy-list a {
+    color: #007bff;
+    /* Màu link */
+    text-decoration: none;
+    /* Bỏ gạch chân */
+    margin-left: 4px;
+    /* Khoảng cách nhỏ với chữ đằng trước */
+}
+
+.policy-list a:hover {
+    text-decoration: underline;
+    /* Thêm gạch chân khi di chuột */
+}
+
+.comment-section{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.comment-section h2{
+    margin: 10px
+}
+.cmt{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.comment-field{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+.comment-form{
+    width: 40%;
+}
+.comment-section label{
+    margin-bottom: 10px;
+}
+.comment-section input{
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid rgb(182, 180, 180);
+    border-radius: 10px;
+}
+.comment-section textarea{
+    resize: vertical;
+    padding: 10px;
+    width: 100%;
+    min-height: 100px;
+    border:1px solid rgb(182, 180, 180) ;
+    border-radius: 10px;
+}
+#submit-comnt-btn{
+    margin-left: 20px;
+    padding: 15px 50px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.other-comment{
+    width: 60%;
+    display: flex;
+    flex-grow: 1;
+    border-left: 1px solid rgb(172, 172, 172);
+}
