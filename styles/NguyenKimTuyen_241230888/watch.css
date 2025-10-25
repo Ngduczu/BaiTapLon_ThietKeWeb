@@ -1,0 +1,324 @@
+main {
+  width: 100%;
+}
+
+.wrapper-page-content {
+  width: 100%;
+}
+/* list watch */
+.list-watch {
+  margin-bottom: 40px;
+  margin-top: 0;
+  width: 100%;
+}
+.list-watch ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  min-height: 60px;
+}
+
+.list-watch ul::-webkit-scrollbar {
+  height: 8px;
+}
+.list-watch ul::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.list-watch ul li {
+  list-style-type: none;
+  /* min-width: 200px; */
+  transition: all 0.4s ease;
+}
+
+.list-watch ul li:hover {
+  transform: scale(1.1) translateZ(0);
+}
+
+.list-watch ul li a {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* End list watch */
+
+/* section-1  */
+.section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.section-1 .product-box {
+  background-color: #ffffff;
+  width: calc(199% / 4 - 5px);
+  /* min-width: 330px; */
+  background-color: white;
+  padding: 20px 10px 30px 10px;
+  border-radius: 10px;
+  width: 24%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.section-1 .product-box .product-inner .product-tag {
+  min-height: 30px;
+}
+
+.section-1 .product-box .product-inner .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-1 .product-box .product-inner .product-name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.section-1 .product-box .product-inner .product-price {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 5px;
+  left: 10px;
+}
+
+.section-1 .product-box .product-inner .product-price .product-new-price {
+  color: #0066cc;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.section-1 .product-box .product-inner .product-price .product-old-price {
+  text-decoration: line-through;
+  font: 15px;
+  color: grey;
+}
+
+.section-1 .product-box {
+  transition: 0.3s;
+}
+.section-1 .product-box:hover {
+  transform: scale(1.05) translateZ(0);
+}
+/* End section-1  */
+
+/* section-2 */
+.section-2 {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.section-2 .section-2-inner {
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 .section-2-inner .video {
+  width: 85%;
+  height: auto;
+  aspect-ratio: 16/10;
+}
+
+.section-2 .section-2-inner .big-title {
+  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+hr {
+  height: 1px;
+  width: 90%;
+  background-color: #cccccc;
+  border: none;
+  margin: 30px auto;
+  opacity: 0.8;
+}
+
+.section-2 .section-2-inner .video {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.section-2 .section-2-inner .content {
+  font-size: 19px;
+  letter-spacing: 0.7px;
+  line-height: 1.5;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.section-2 .section-2-inner .content p {
+  padding: 10px;
+}
+
+.section-2 .section-2-inner .content .links {
+  color: #236fa1;
+  font-weight: 600;
+  cursor: pointer;
+}
+.section-2 .section-2-inner .content ul li {
+  margin-left: 50px;
+  padding: 6px;
+}
+.section-2 .section-2-inner .content .inner-title {
+  padding: 20px 0;
+}
+/* .section-2 .section-2-inner .content h2 {
+
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.section-2 .section-2-inner .content h3 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.section-2 .section-2-inner .content {
+  margin-bottom: 20px;
+}
+
+.section-2 .section-2-inner .content p {
+  margin-bottom: 0px;
+}
+
+.section-2 .section-2-inner .content h2 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.section-2 .section-2-inner .content span {
+  font-size: 19px;
+}
+
+.section-2 .section-2-inner .content ul li {
+  margin-left: 60px;
+}
+
+.section-2 .section-2-inner .content h3 {
+  font-size: 18px;
+}
+.section-2 .section-2-inner .content ul li {
+  margin-left: 60px;
+}
+
+.section-2 .section-2-inner .content h2 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.section-2 .section-2-inner .content ul li {
+  margin-left: 60px;
+}
+
+.section-2 .section-2-inner .content span {
+  font-size: 19px;
+}
+.section-2 .section-2-inner .content    h2 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.section-2 .section-2-inner .content    span {
+  font-size: 19px;
+} */
+
+/* End section-2 */
+
+@media (max-width: 1000px) {
+  .list-watch {
+    width: 98%;
+    margin-top: 20px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .list-watch ul {
+    margin-top: 8px;
+    padding-top: 27px;
+    justify-content: flex-start; /* Không nên dùng center ở đây */
+    min-width: 200px;
+    min-height: 50px;
+  }
+
+  .list-watch ul li {
+    margin-bottom: 15px;
+  }
+  .section-1 {
+    gap: 15px;
+  }
+
+  .section-1 .product-box {
+    min-width: 46%;
+    margin-bottom: 15px;
+  }
+
+  .section-1 .product-box .product-inner .product-price .product-new-price {
+    font-size: 19px;
+  }
+
+  .section-1 .product-box .product-inner .product-price .product-old-price {
+    font-size: 17px;
+  }
+
+  .section-1 .product-box .product-inner .product-name {
+    font-size: 18px;
+  }
+  .section-2 .section-2-inner .title {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .section-2 .section-2-inner .video {
+    padding-top: 0;
+  }
+  .section-2 .section-2-inner .content .inner-title {
+    padding: 5px 0;
+  }
+  .section-2 .section-2-inner .content {
+    font-size: 15px;
+  }
+  .section-2 .section-2-inner .content ul li {
+    margin-left: 33px;
+  }
+}
+
+@media (max-width: 767px) {
+  .list-watch ul li a {
+    font-size: 15px;
+  }
+  .section-1 {
+    gap: 9px;
+  }
+  .section-1 .product-box .product-inner .product-price .product-new-price {
+    font-size: 14px;
+  }
+  .section-1 .product-box .product-inner .product-price .product-old-price {
+    font-size: 12px;
+  }
+  .section-1 .product-box .product-inner .product-name {
+    font-size: 15px;
+  }
+}
