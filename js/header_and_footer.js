@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const loginDropdown = document.querySelector(".login-dropdown-for-destop");
     const mobileMenu = document.querySelector(".menu-mobile");
     const currentUser = JSON.parse(localStorage.getItem("CurrentUser"));
-
+    console.log(currentUser)
     // --- Nếu đã đăng nhập ---
     if (currentUser && Object.keys(currentUser).length > 0) {
         // ===== PHẦN HEADER DESKTOP =====
