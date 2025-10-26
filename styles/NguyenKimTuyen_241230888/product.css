@@ -328,4 +328,10 @@ hr {
   .section-1 .product-box .product-inner .product-name {
     font-size: 15px;
   }
+  .section-2 .section-2-inner .content {
+    font-size: 10px;
+  }
+  .section-2 .section-2-inner .big-title {
+    font-size: 17px;
+  }
 }
