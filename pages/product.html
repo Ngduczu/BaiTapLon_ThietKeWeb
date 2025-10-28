@@ -82,15 +82,15 @@
                 <div class="product-container">
                     <div class="product-gallery">
                         <img id="main-image"
-                            src="../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-17-pro-max_cam.png"
+                            src=""
                             alt="Hình ảnh sản phẩm chính">
                     </div>
 
                     <div class="product-info">
-                        <h1 id="product-name">iPhone 17 ProMax</h1>
+                        <h1 id="product-name"></h1>
                         <div class="price-section">
-                            <span id="product-price" class="current-price">47.799.000</span>
-                            <span id="product-old-price" class="old-price">50.999.000</span>
+                            <span id="product-price" class="current-price"></span>
+                            <span id="product-old-price" class="old-price"></span>
                         </div>
                         <div class="options-section">
                             <strong>Dung lượng:</strong>
@@ -139,32 +139,32 @@
                             </li>
                         </ul>
                     </div>
-            </div>
+                </div>
                 <div class="comment-section">
                     <h2>Bình luận</h2>
                     <hr>
                     <div class="cmt">
                         <form action="" class="comment-form" id="comment-form">
-                        <h3>Viết bình luận của bạn</h3>
-                        <div class="comment-field">
-                            <label for="username">Tên người dùng</label>
-                            <input type="text" id="username" required>
+                            <h3>Viết bình luận của bạn</h3>
+                            <div class="comment-field">
+                                <label for="username">Tên người dùng</label>
+                                <input type="text" id="username" required>
+                            </div>
+                            <div class="comment-field">
+                                <label for="email-or-phonenum">Email | SĐT</label>
+                                <input type="text" id="email-or-phonenum" required>
+                            </div>
+                            <div class="comment-field">
+                                <label for="comment">Bình Luận</label>
+                                <textarea name="comment" id="comment" required></textarea>
+                            </div>
+                            <button type="submit" id="submit-comnt-btn">Gửi</button>
+                        </form>
+                        <div class="other-comment">
                         </div>
-                        <div class="comment-field">
-                            <label for="email-or-phonenum">Email | SĐT</label>
-                            <input type="text" id="email-or-phonenum" required>
-                        </div>
-                        <div class="comment-field">
-                            <label for="comment">Bình Luận</label>
-                            <textarea name="comment" id="comment" required></textarea>
-                        </div>
-                        <button type="submit" id="submit-comnt-btn">Gửi</button>
-                    </form>
-                    <div class="other-comment">
-                    </div>
                     </div>
                 </div>
-        </div>
+            </div>
             <!-- Ket thuc code -->
         </div>
         <!-- this is begin of footer -->
@@ -239,6 +239,48 @@
         </footer>
         <!-- this is end of footer -->
         <!-- this is a comment -->
+    </div>
+    <div id="checkout-modal" class="checkout-modal">
+        <div class="checkout-content">
+            <span class="close-btn">&times;</span>
+            <h2>Thanh toán đơn hàng</h2>
+
+            <div class="checkout-info">
+                <img id="checkout-image" src="" alt="Sản phẩm" />
+                <div class="checkout-details">
+                    <p><strong>Tên sản phẩm:</strong> <span id="checkout-name"></span></p>
+                    <p><strong>Dung lượng:</strong> <span id="checkout-storage">Không có</span></p>
+                    <p><strong>Màu sắc:</strong> <span id="checkout-color">Không có</span></p>
+                    <p><strong>Giá:</strong> <span id="checkout-price"></span></p>
+                </div>
+            </div>
+
+            <form id="checkout-form" class="checkout-form">
+                <label>Họ và tên người nhận:</label>
+                <input type="text" id="receiver-name" placeholder="Nhập họ và tên đầy đủ của bạn" required>
+
+                <label>Số điện thoại nhận hàng:</label>
+                <input type="text" id="receiver-phone" placeholder="Nhập SĐT của bạn" required>
+
+                <label>Địa chỉ giao hàng:</label>
+                <input type="text" id="receiver-address" placeholder="Nhập địa chỉ đầy đủ của bạn"required>
+
+                <label>Ghi chú cho đơn vị vận chuyển:</label>
+                <textarea id="receiver-note" placeholder="Ghi chú" rows="3"></textarea>
+
+                <h3>Phương thức thanh toán:</h3>
+                <div class="payment-methods">
+                    <button type="button" id="cash-btn" class="payment-btn active">Tiền mặt</button>
+                    <button type="button" id="bank-btn" class="payment-btn">Chuyển khoản</button>
+                </div>
+
+                <div id="qr-section" class="qr-section">
+                    <img src="../assets/images/NguyenDucVu_241230896/payment_qr.png" alt="QR chuyển khoản">
+                </div>
+
+                <button type="submit" id="confirm-btn">Xác nhận thanh toán</button>
+            </form>
+        </div>
     </div>
 </body>
 
