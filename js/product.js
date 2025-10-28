@@ -198,12 +198,17 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('confirm-btn').addEventListener('click', (e) => {
         e.preventDefault();
         let isValid = true;
-        const checkoutForm = document.getElementById("checkout-form");
         let msg = 'Đặt hàng thành công!';
         const phoneRegex = /^0[1-9][1-9][0-9]{7}$/;
         const phoneNumber = document.getElementById("receiver-phone").value.trim();
+        const receiverName = document.getElementById('receiver-name').value.trim();
+        const receiverAddress = document.getElementById('receiver-address').value.trim();
+        const receiverNote = document.getElementById('receiver-note').value.trim();
 
-        if (!phoneRegex.test(phoneNumber)) {
+        if (receiverName === '' || receiverAddress === '' || phoneNumber === '') {
+            isValid = false;
+            msg = 'Vui lòng điền đầy đủ thông tin nhận hàng';}
+        if (isValid && !phoneRegex.test(phoneNumber)) {
             isValid = false;
             msg = 'Số điện thoại không hợp lệ';
         }
