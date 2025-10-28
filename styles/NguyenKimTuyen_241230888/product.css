@@ -12,6 +12,7 @@ main {
   width: 100%;
 }
 .list-product ul {
+  padding-left: 10px;
   width: 100%;
   height: auto;
   display: flex;
@@ -49,6 +50,11 @@ main {
   font-size: 20px;
   font-weight: 500;
 }
+.list-product ul li a:hover {
+  background-color: #515154;
+  color: white;
+  box-shadow: 0px 1px 8px rgb(0 0 0 / 16%);
+}
 
 /* End list watch */
 
@@ -58,6 +64,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+  width: 100%;
 }
 .section-1 .product-box {
   background-color: #ffffff;
@@ -320,5 +327,11 @@ hr {
   }
   .section-1 .product-box .product-inner .product-name {
     font-size: 15px;
+  }
+  .section-2 .section-2-inner .content {
+    font-size: 10px;
+  }
+  .section-2 .section-2-inner .big-title {
+    font-size: 17px;
   }
 }
