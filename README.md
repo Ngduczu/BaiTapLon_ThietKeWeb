@@ -80,10 +80,10 @@ src
 <br>
 
 
-| Họ và tên        | Tên rút gọn |SĐT        |EMAIL              |
-|------------------|-------------|-----------|-------------------|
-| Nguyễn Đức Vũ    | dvu         |0333496018 |ndv120806@gmail.com|
-| Nguyễn Kim Tuyền | ktuyen      |||
-| Lê Quý Tùng      | qtung       |||
+| Họ và tên        |SĐT        |EMAIL              |
+|------------------|-----------|-------------------|
+| Nguyễn Đức Vũ    |0333496018 |ndv120806@gmail.com|
+| Nguyễn Kim Tuyền |||
+| Lê Quý Tùng      |||
 
 
