@@ -1,0 +1,105 @@
+{
+    "iphone17-promax": {
+        "name": "iPhone 17 ProMax",
+        "storageOptions": [
+            {
+                "name": "256GB",
+                "price": "47.799.000đ",
+                "oldPrice": "50.999.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "50.799.000đ",
+                "oldPrice": "53.999.000đ"
+            },
+            {
+                "name": "1TB",
+                "price": "53.799.000đ",
+                "oldPrice": "56.999.000đ"
+            },
+            {
+                "name": "128GB",
+                "price": "53.799.000đ",
+                "oldPrice": "56.999.000đ"
+            }
+        ],
+        "colorOptions": [
+            {
+                "name": "Cam Vũ Trụ",
+                "colorCode": "#f77644ff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-17-pro-max_cam.png"
+            },
+            {
+                "name": "Đen",
+                "colorCode": "#3b3b3c",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-17-pro-max-tim.png"
+            },
+            {
+                "name": "Trắng",
+                "colorCode": "#f0f0f0",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-17-pro-max-white.png"
+            }
+        ]
+    },
+    "ipad-pro-m4": {
+        "name": "iPad Pro M4 11-inch",
+        "storageOptions": [
+            {
+                "name": "256GB",
+                "price": "28.999.000đ",
+                "oldPrice": "29.999.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "32.999.000đ",
+                "oldPrice": "33.999.000đ"
+            }
+        ],
+        "colorOptions": [
+            {
+                "name": "Space Black",
+                "colorCode": "#505152",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPad_image/ipad-pro-black.png"
+            },
+            {
+                "name": "Silver",
+                "colorCode": "#e3e4e6",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPad_image/ipad-pro-silver.png"
+            }
+        ]
+    },
+    "macbook-air-m3": {
+        "name": "Macbook Air M3 13-inch",
+        "price": "27.999.000đ",
+        "oldPrice": "29.999.000đ",
+        "colorOptions": [
+            {
+                "name": "Starlight",
+                "colorCode": "#f0e6dd",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/Mac_image/mac-starlight.png"
+            },
+            {
+                "name": "Midnight",
+                "colorCode": "#2e3642",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/Mac_image/mac-midnight.png"
+            }
+        ]
+    },
+    "apple-watch-s9": {
+        "name": "Apple Watch Series 9",
+        "price": "9.999.000đ",
+        "oldPrice": "10.499.000đ",
+        "colorOptions": [
+            {
+                "name": "Pink",
+                "colorCode": "#fad7d7",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/Watch_image/watch-pink.png"
+            },
+            {
+                "name": "Red",
+                "colorCode": "#c4102c",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/Watch_image/watch-red.png"
+            }
+        ]
+    }
+}

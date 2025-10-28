@@ -9,7 +9,7 @@
     margin-top: 30px;
     width: 100%;
     margin-bottom: 20px;
-    min-width: 80vw;
+    max-width: 1400px;
 }
 
 /* Cột trái: Hình ảnh */
@@ -31,29 +31,10 @@
     border-radius: 8px;
 }
 
-.thumbnails {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.thumbnails img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border: 2px solid #ddd;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.thumbnails img.active {
-    border-color: #007bff;
-}
-
 /* Cột phải: Thông tin */
 .product-info {
-    flex: 1;
     /* Chiếm 1 phần */
+    flex-grow: 0;
     padding-left: 20px;
 }
 
@@ -227,47 +208,55 @@
     /* Thêm gạch chân khi di chuột */
 }
 
-.comment-section{
+.comment-section {
     width: 100%;
     background-color: #ffffff;
     padding: 20px;
     display: flex;
     flex-direction: column;
 }
-.comment-section h2{
+
+.comment-section h2 {
     margin: 10px
 }
-.cmt{
+
+.cmt {
     padding: 20px;
     display: flex;
     flex-direction: row;
 }
-.comment-field{
+
+.comment-field {
     display: flex;
     flex-direction: column;
     margin: 10px 20px;
 }
-.comment-form{
+
+.comment-form {
     width: 40%;
 }
-.comment-section label{
+
+.comment-section label {
     margin-bottom: 10px;
 }
-.comment-section input{
+
+.comment-section input {
     width: 100%;
     padding: 15px 20px;
     border: 1px solid rgb(182, 180, 180);
     border-radius: 10px;
 }
-.comment-section textarea{
+
+.comment-section textarea {
     resize: vertical;
     padding: 10px;
     width: 100%;
     min-height: 100px;
-    border:1px solid rgb(182, 180, 180) ;
+    border: 1px solid rgb(182, 180, 180);
     border-radius: 10px;
 }
-#submit-comnt-btn{
+
+#submit-comnt-btn {
     margin-left: 20px;
     padding: 15px 50px;
     margin-top: 10px;
@@ -277,9 +266,219 @@
     border-radius: 10px;
     font-size: 16px;
 }
-.other-comment{
+
+.other-comment {
     width: 60%;
     display: flex;
     flex-grow: 1;
     border-left: 1px solid rgb(172, 172, 172);
+}
+
+/* POPUP THANH TOÁN */
+.checkout-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.checkout-content {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 60vw;
+    max-width: 95%;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    max-height: 90vh;
+    padding: 30px 60px;
+}
+
+.checkout-content h2,
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+}
+
+.checkout-info {
+    display: flex;
+    gap: 40px;
+    margin: 40px 0;
+    justify-content: center;
+
+}
+
+.checkout-info img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.checkout-details p {
+    margin: 5px 0;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+    width: 100%;
+    padding: 13px 20px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+}
+
+.payment-methods {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.payment-btn {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #007bff;
+    background: #fff;
+    color: #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.payment-btn.active {
+    background: #007bff;
+    color: white;
+}
+
+.qr-section {
+    display: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.qr-section img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+#confirm-btn {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#receiver-note {
+    resize: vertical;
+}
+
+@media screen and (max-width: 890px) {
+
+    /* --- 1. Khu vực Sản phẩm (product-container) --- */
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px; /* Giảm padding ngang của container */
+        width: 100%; /* Đảm bảo container chiếm 100% chiều rộng */
+        min-width: unset;
+        /* BOX-SIZING là quan trọng nhất để padding không cộng dồn vào width 100% */
+        box-sizing: border-box; 
+    }
+
+    /* Cột ảnh */
+    .product-gallery {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        max-height: unset;
+        justify-content: center;
+    }
+
+    #main-image {
+        /* Đặt max-width tuyệt đối và width tương đối để ảnh không bao giờ quá to */
+        max-width: 100%; 
+        width: 300px; /* Hoặc giữ nguyên 80vw nếu bạn thích, nhưng 100% là an toàn nhất */
+    }
+
+    /* Cột thông tin */
+    .product-info {
+        width: 80%;
+        padding: 0 10px; /* Padding nhỏ cho nội dung bên trong */
+        margin-top: 20px;
+        box-sizing: border-box; 
+    }
+    
+    /* --- 2. Khu vực Bình luận (comment-section) --- */
+    .comment-section {
+        padding: 10px;
+        box-sizing: border-box; 
+    }
+
+    .cmt {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0;
+    }
+
+    .comment-form,
+    .other-comment {
+        width: 100%;
+        border-left: none;
+        /* margin-bottom: 20px; */
+        padding: 30px 10px 0 10px;
+    }
+    
+    .comment-field {
+        margin: 10px 0;
+    }
+    
+    .comment-section input,
+    .comment-section textarea {
+        width: 100%;
+        box-sizing: border-box; /* Rất quan trọng cho input/textarea có padding */
+    }
+
+    #submit-comnt-btn {
+        margin-left: 0; 
+        width: 100%; 
+    }
+
+    .other-comment{
+        flex-grow: 0;
+    }
+    
+    /* --- 3. Popup Thanh Toán --- */
+    .checkout-content {
+        width: 90vw;
+        max-width: 95%; /* Đảm bảo không quá rộng */
+        padding: 20px 30px;
+        box-sizing: border-box; 
+    }
+
+    .checkout-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .qr-section img {
+        width: 80%;
+        max-width: 250px;
+    }
 }
