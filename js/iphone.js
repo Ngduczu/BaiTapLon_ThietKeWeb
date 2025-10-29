@@ -1,4 +1,5 @@
-{
+
+const productData = {
     "iphone17-promax": {
         "name": "iPhone 17 ProMax",
         "storageOptions": [
@@ -41,7 +42,7 @@
             }
         ]
     },
-    "iphone17-pro":{
+    "iphone17-pro": {
         "name": "iPhone 17 Pro",
         "storageOptions": [
             {
@@ -78,7 +79,7 @@
             }
         ]
     },
-    "iphone17":{
+    "iphone17": {
         "name": "iPhone 17",
         "storageOptions": [
             {
@@ -112,14 +113,14 @@
                 "name": "Xanh Bạc Hà",
                 "colorCode": "#B9C69B",
                 "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/ip17-mint.png"
-            },{
+            }, {
                 "name": "Xanh Bồng Bềnh",
                 "colorCode": "#A7BDDD",
                 "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/ip17-sage.png"
             }
         ]
     },
-    "iphone-air":{
+    "iphone-air": {
         "name": "iPhone Air",
         "storageOptions": [
             {
@@ -134,7 +135,7 @@
             }
         ],
         "colorOptions": [
-            
+
             {
                 "name": "Đen",
                 "colorCode": "black",
@@ -152,65 +153,106 @@
             }
         ]
     },
-    "ipad-pro-m4": {
-        "name": "iPad Pro M4 11-inch",
+    "iphone16-promax": {
+        "name": "iPhone 16 ProMax",
         "storageOptions": [
             {
                 "name": "256GB",
-                "price": "28.999.000đ",
-                "oldPrice": "29.999.000đ"
+                "price": "24.799.000đ",
+                "oldPrice": "27.999.000đ"
             },
             {
                 "name": "512GB",
-                "price": "32.999.000đ",
-                "oldPrice": "33.999.000đ"
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
             }
         ],
         "colorOptions": [
             {
-                "name": "Space Black",
-                "colorCode": "#505152",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPad_image/ipad-pro-black.png"
+                "name": "Titan sa mạc",
+                "colorCode": "#FFFFCC",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-16-prm-titansamac.png"
             },
             {
-                "name": "Silver",
-                "colorCode": "#e3e4e6",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPad_image/ipad-pro-silver.png"
-            }
-        ]
-    },
-    "macbook-air-m3": {
-        "name": "Macbook Air M3 13-inch",
-        "price": "27.999.000đ",
-        "oldPrice": "29.999.000đ",
-        "colorOptions": [
-            {
-                "name": "Starlight",
-                "colorCode": "#f0e6dd",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/Mac_image/mac-starlight.png"
+                "name": "Đen",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-16-prm-black.png"
             },
             {
-                "name": "Midnight",
-                "colorCode": "#2e3642",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/Mac_image/mac-midnight.png"
-            }
-        ]
-    },
-    "apple-watch-s9": {
-        "name": "Apple Watch Series 9",
-        "price": "9.999.000đ",
-        "oldPrice": "10.499.000đ",
-        "colorOptions": [
-            {
-                "name": "Pink",
-                "colorCode": "#fad7d7",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/Watch_image/watch-pink.png"
-            },
-            {
-                "name": "Red",
-                "colorCode": "#c4102c",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/Watch_image/watch-red.png"
+                "name": "Xanh Bồng Bềnh",
+                "colorCode": "#A7BDDD",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-air-sage.png"
             }
         ]
     }
+};
+
+/**
+ * Hàm tạo HTML cho một sản phẩm, đã được cập nhật để bao gồm thẻ <div class="item-box">.
+ * @param {string} productKey - Key của sản phẩm trong productData (ví dụ: 'iphone17-promax').
+ * @param {object} product - Đối tượng dữ liệu sản phẩm.
+ * @returns {string} HTML string cho sản phẩm.
+ */
+function createProductHtml(productKey, product) {
+    const firstStorage = product.storageOptions[0];
+    const firstColor = product.colorOptions[0];
+
+    // Định dạng URL chi tiết sản phẩm theo yêu cầu
+    const detailUrl = `product.html?id=${productKey}`; 
+
+    const productName = `${product.name}`;
+    const price = firstStorage ? firstStorage.price : 'Đang cập nhật';
+    const oldPrice = firstStorage ? firstStorage.oldPrice : '';
+    const imageSrc = firstColor ? firstColor.image : '';
+    const imageAlt = firstColor ? `${product.name} ${firstColor.name}` : productName;
+
+    return `<div class="product-box">
+            <div class="product-tag">
+                <img src="../assets/images/NguyenDucVu_241230896/product_image/Product_tag/new_tag.png" alt="" />
+            </div>
+            <a href="${detailUrl}" class="product-detail-url">
+                <div class="item-box"> <div class="product-image">
+                        <img src="${imageSrc}" alt="${imageAlt}" class="product-img">
+                    </div>
+                    <h3 class="product-name">${productName}</h3>
+                    <div class="price-section">
+                        <span class="curr_price">${price}</span>
+                        <span class="old-price">${oldPrice}</span>
+                    </div>
+                </div> </a>
+            </div>
+    `;
 }
+
+/**
+ * Hàm chính để load tất cả sản phẩm vào DOM.
+ */
+function loadProducts() {
+    // Lấy container cha để chứa tất cả sản phẩm
+    const productContainer = document.querySelector('.products-container');
+    
+    if (!productContainer) {
+        console.error("Không tìm thấy div.page-content để chèn sản phẩm.");
+        return;
+    }
+
+    let allProductsHtml = '';
+    // Lặp qua từng sản phẩm trong dữ liệu
+    for (const key in productData) {
+        if (productData.hasOwnProperty(key)) {
+            const product = productData[key];
+            allProductsHtml += createProductHtml(key, product);
+        }
+    }
+
+    // Chèn tất cả HTML sản phẩm vào container
+    productContainer.innerHTML = allProductsHtml;
+}
+
+// Chờ DOM load xong rồi thực thi hàm loadProducts
+document.addEventListener('DOMContentLoaded', loadProducts);

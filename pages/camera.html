@@ -1,1402 +1,1185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/header_and_footer.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/carousel_banner.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/main_content.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenKimTuyen_241230888/product.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/LeQuyTung_241230886/fix-products.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/9e100b4052.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../js/header_and_footer.js" defer></script>
-    <script src="../js/carousel_banner.js" defer></script>
-    <link
-      rel="shortcut icon"
-      href="assets/images/NguyenDucVu_241230896/"
-      type="image/x-icon"
-    />
-    <title>BaiTapLonThietKeWeb</title>
-  </head>
 
-  <body>
-    <div class="master-wrapper-page">
-      <!-- This is begin of header -->
-      <header>
-        <div class="higher-header">
-          <div class="header-logo">
-            <a href="../index.html"
-              ><img
-                class="header-logo"
-                src="../assets/images/NguyenDucVu_241230896/header_image/page_logo.png"
-                alt="page logo"
-            /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/header_and_footer.css" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/carousel_banner.css" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/main_content.css" />
+  <link rel="stylesheet" href="../styles/NguyenKimTuyen_241230888/product.css" />
+  <link rel="stylesheet" href="../styles/LeQuyTung_241230886/fix-products.css" />
+  <script src="https://kit.fontawesome.com/9e100b4052.js" crossorigin="anonymous"></script>
+  <script src="../js/header_and_footer.js" defer></script>
+  <script src="../js/carousel_banner.js" defer></script>
+  <link rel="shortcut icon" href="assets/images/NguyenDucVu_241230896/" type="image/x-icon" />
+  <title>BaiTapLonThietKeWeb</title>
+</head>
+
+<body>
+  <div class="master-wrapper-page">
+    <!-- This is begin of header -->
+    <header>
+      <div class="higher-header">
+        <div class="header-logo">
+          <a href="../index.html"><img class="header-logo"
+              src="../assets/images/NguyenDucVu_241230896/header_image/page_logo.png" alt="page logo" /></a>
+        </div>
+        <div class="search-box-new store-search-box">
+          <form action="" id="small-search-box-form">
+            <input type="text" name="" id="small-searchterms" placeholder="Bạn muốn tìm gì..." />
+          </form>
+        </div>
+        <div class="cart-icon">
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="login-icon">
+          <a href="">
+            <img src="../assets/images/NguyenDucVu_241230896/header_image/login-icon.png" alt="login icon"
+              id="login-icon-img" />
+          </a>
+          <div class="login-dropdown-for-destop">
+            <a href="./login.html">Đăng nhập</a>
+            <a href="./register.html">Đăng ký</a>
           </div>
-          <div class="search-box-new store-search-box">
-            <form action="" id="small-search-box-form">
-              <input
-                type="text"
-                name=""
-                id="small-searchterms"
-                placeholder="Bạn muốn tìm gì..."
-              />
-            </form>
+        </div>
+        <div class="menu-for-mobile">
+          <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
+          <div class="drop-down-menu-for-mobile">
+            <ul class="menu-mobile">
+              <li><a href="../index.html" class="menu-mobile-link">Trang chủ</a></li>
+              <li><a href="./iphone.html" class="menu-mobile-link">iPhone</a></li>
+              <li><a href="./iPad.html" class="menu-mobile-link">iPad</a></li>
+              <li><a href="./Mac.html" class="menu-mobile-link">Mac</a></li>
+              <li><a href="./watch.html" class="menu-mobile-link">Watch</a></li>
+              <li><a href="./phu_kien.html" class="menu-mobile-link">Phụ Kiện</a></li>
+              <li><a href="./earphone.html" class="menu-mobile-link">Âm Thanh</a></li>
+              <li><a href="./camera.html" class="menu-mobile-link">Camera</a></li>
+              <li><a href="./giadung.html" class="menu-mobile-link">Gia Dụng</a></li>
+              <li><a href="./tintuc.html" class="menu-mobile-link">Tin Tức</a></li>
+              <li><a href="./login.html" class="menu-mobile-link">Đăng Nhập</a></li>
+              <li><a href="./register.html" class="menu-mobile-link">Đăng Ký</a></li>
+            </ul>
           </div>
-          <div class="cart-icon">
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="header-navbar-for-desktop">
+        <ul class="top-menu-not-mobile">
+          <li class="category-menu-items"><a href="./iphone.html">iPhone</a></li>
+          <li class="category-menu-items"><a href="./iPad.html">iPad</a></li>
+          <li class="category-menu-items"><a href="./Mac.html">Mac</a></li>
+          <li class="category-menu-items"><a href="./watch.html">Watch</a></li>
+          <li class="category-menu-items"><a href="./phu_kien.html">Phụ kiện</a></li>
+          <li class="category-menu-items"><a href="./earphone.html">Âm thanh</a></li>
+          <li class="category-menu-items"><a href="./camera.html">Camera</a></li>
+          <li class="category-menu-items"><a href="./giadung.html">Gia dụng</a></li>
+          <li class="category-menu-items"><a href="./tintuc.html">Tin tức</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- This is end of header -->
+    <div class="wrapper-page-content">
+      <div class="carousel-container">
+        <div class="carousel-wrapper">
+          <div id="carousel" class="carousel">
+            <div id="slides" class="slides">
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel1.png"
+                  alt="Camera-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel2.png"
+                  alt="Camera-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel3.png"
+                  alt="Camera-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel4.png"
+                  alt="Camera-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel5.jpg"
+                  alt="Camera-carousel" />
+              </a>
+            </div>
+
+            <button id="prev" class="ctrl-btn prev">⟨</button>
+            <button id="next" class="ctrl-btn next">⟩</button>
+            <div id="dots" class="dots"></div>
           </div>
-          <div class="login-icon">
-            <a href="../pages/account.html">
-              <img
-                src="../assets/images/NguyenDucVu_241230896/header_image/login-icon.png"
-                alt="login icon"
-                id="login-icon-img"
-              />
+        </div>
+      </div>
+      <!-- Code vao day -->
+      <div class="list-product">
+        <ul id="filter-list">
+          <li><a href="#" data-series="all">Tất cả</a></li>
+          <li>
+            <a href="#" data-series="insta360"><img
+                src="../assets/images/LeQuyTung_241230886/camerapage/cameratag/insta360.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="dji"><img src="../assets/images/LeQuyTung_241230886/camerapage/cameratag/dji.png"
+                alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="fujifilm"><img
+                src="../assets/images/LeQuyTung_241230886/camerapage/cameratag/fujifilm.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="sony"><img src="../assets/images/LeQuyTung_241230886/camerapage/cameratag/sony.png"
+                alt="" /></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-1">
+        <div class="product-box insta360">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/X5EB.jpeg"
+                  alt="Insta360 X5 Essentials Bundle" />
+              </div>
+
+              <div class="product-name">Insta360 X5 Essentials Bundle</div>
             </a>
-            <div class="login-dropdown-for-destop">
-              <a href="../pages/login.html">Đăng nhập</a>
-              <a href="../pages/register.html">Đăng ký</a>
-            </div>
-          </div>
-          <div class="menu-for-mobile">
-            <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
-            <div class="drop-down-menu-for-mobile">
-              <ul class="menu-mobile">
-                <li>
-                  <a href="../index.html" class="menu-mobile-link">Trang chủ</a>
-                </li>
-                <li><a href="" class="menu-mobile-link">iPhone</a></li>
-                <li><a href="" class="menu-mobile-link">iPad</a></li>
-                <li><a href="" class="menu-mobile-link">Mac</a></li>
-                <li>
-                  <a href="../pages/watch.html" class="menu-mobile-link"
-                    >Watch</a
-                  >
-                </li>
-                <li><a href="../" class="menu-mobile-link">Phụ Kiện</a></li>
-                <li>
-                  <a href="../pages/earphone.html" class="menu-mobile-link"
-                    >Âm Thanh</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/camera.html" class="menu-mobile-link"
-                    >Camera</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/giadung.html" class="menu-mobile-link"
-                    >Gia Dụng</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/tintuc.html" class="menu-mobile-link"
-                    >Tin Tức</a
-                  >
-                </li>
-                <li>
-                  <a href="./pages/login.html" class="menu-mobile-link"
-                    >Đăng Nhập</a
-                  >
-                </li>
-                <li>
-                  <a href="./pages/register.html" class="menu-mobile-link"
-                    >Đăng Ký</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="overlay"></div>
-          </div>
-        </div>
-        <div class="header-navbar-for-desktop">
-          <ul class="top-menu-not-mobile">
-            <li class="category-menu-items"><a href="">iPhone</a></li>
-            <li class="category-menu-items"><a href="">iPad</a></li>
-            <li class="category-menu-items"><a href="">Mac</a></li>
-            <li class="category-menu-items">
-              <a href="../pages/watch.html">Watch</a>
-            </li>
-            <li class="category-menu-items"><a href="">Phụ kiện</a></li>
-            <li class="category-menu-items">
-              <a href="../pages/earphone.html">Âm thanh</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/camera.html">Camera</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/giadung.html">Gia dụng</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/tintuc.html">Tin tức</a>
-            </li>
-          </ul>
-        </div>
-      </header>
-      <!-- This is end of header -->
-      <div class="wrapper-page-content">
-        <div class="carousel-container">
-          <div class="carousel-wrapper">
-            <div id="carousel" class="carousel">
-              <div id="slides" class="slides">
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel1.png"
-                    alt="Camera-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel2.png"
-                    alt="Camera-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel3.png"
-                    alt="Camera-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel4.png"
-                    alt="Camera-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameracarousel/carousel5.jpg"
-                    alt="Camera-carousel"
-                  />
-                </a>
-              </div>
 
-              <button id="prev" class="ctrl-btn prev">⟨</button>
-              <button id="next" class="ctrl-btn next">⟩</button>
-              <div id="dots" class="dots"></div>
+            <div class="product-price">
+              <div class="product-new-price">16.800.000<sup>₫</sup></div>
             </div>
           </div>
         </div>
-        <!-- Code vao day -->
-        <div class="list-product">
-          <ul id="filter-list">
-            <li><a href="#" data-series="all">Tất cả</a></li>
-            <li>
-              <a href="#" data-series="insta360"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameratag/insta360.png"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="dji"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameratag/dji.png"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="fujifilm"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameratag/fujifilm.png"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="sony"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameratag/sony.png"
-                  alt=""
-              /></a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="section-1">
-          <div class="product-box insta360">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/X5EB.jpeg"
-                    alt="Insta360 X5 Essentials Bundle"
-                  />
-                </div>
-
-                <div class="product-name">Insta360 X5 Essentials Bundle</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">16.800.000<sup>₫</sup></div>
-              </div>
+        <div class="product-box insta360">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png" alt="newtag" />
             </div>
-          </div>
 
-          <div class="product-box insta360">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png"
-                  alt="newtag"
-                />
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/X5SB.jpeg"
+                  alt="Insta360 X5 Standard Bundle" />
               </div>
 
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/X5SB.jpeg"
-                    alt="Insta360 X5 Standard Bundle"
-                  />
-                </div>
-
-                <div class="product-name">Insta360 X5 Standard Bundle</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">14.000.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box insta360">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/Flow2PROSB.jpeg"
-                    alt="Insta360 Flow 2 Pro Standard Bundle"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Insta360 Flow 2 Pro Standard Bundle
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">3.690.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box dji">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png"
-                  alt="tag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/DJIOsmoPocket3.jpeg"
-                    alt="Camera cầm tay DJI Osmo Pocket 3 | Creator Combo"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Camera cầm tay DJI Osmo Pocket 3 | Creator Combo
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">15.890.000<sup>₫</sup></div>
-                <div class="product-old-price">16.490.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box dji">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="tag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/DJIOsmoNano.jpeg"
-                    alt="Camera hành trình DJI Osmo Nano"
-                  />
-                </div>
-
-                <div class="product-name">Camera hành trình DJI Osmo Nano</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">7.360.000<sup>₫</sup></div>
-                <div class="product-old-price">8.470.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box dji">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/DJIMic3.jpeg"
-                    alt="Microphone DJI Mic 3 (2TX + 1 RX + Hộp sạc)"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Microphone DJI Mic 3 (2TX + 1 RX + Hộp sạc)
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">9.820.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box fujifilm">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX-S20.jpeg"
-                    alt="Máy ảnh Fujifilm X-S20"
-                  />
-                </div>
-
-                <div class="product-name">Máy ảnh Fujifilm X-S20</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">34.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box fujifilm">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX100VI.jpeg"
-                    alt="Máy ảnh Fujifilm X100VI"
-                  />
-                </div>
-
-                <div class="product-name">Máy ảnh Fujifilm X100VI</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">51.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/SonyRX100VII.jpeg"
-                    alt="Máy ảnh Sony nhỏ gọn RX100 VII, khả năng AF vô song"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy ảnh Sony nhỏ gọn RX100 VII, khả năng AF vô song
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">28.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/SonyFDR-AX43A.jpeg"
-                    alt="Máy quay Sony Handycam FDR-AX43A"
-                  />
-                </div>
-
-                <div class="product-name">Máy quay Sony Handycam FDR-AX43A</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">19.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/FLAGSHIP.jpeg"
-                    alt="Máy ảnh flagship α1 II dành cho chuyên gia"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy ảnh flagship α1 II dành cho chuyên gia
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">155.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/Alpha7CII.jpeg"
-                    alt="Máy ảnh Sony full-frame nhỏ gọn Alpha7C II"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy ảnh Sony full-frame nhỏ gọn Alpha7C II
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">50.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box insta360">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/ACEPRO2SB.png"
-                    alt="Insta360 Ace Pro 2 Standard Bundle"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Insta360 Ace Pro 2 Standard Bundle
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">10.590.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box insta360">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/ALTRACKER.jpeg"
-                    alt="Insta360 Flow 2 AI Tracker Bundle"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Insta360 Flow 2 AI Tracker Bundle
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">2.890.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box dji">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/ComboDJIOsmoActionAdvanced.jpeg"
-                    alt="Camera hành động DJI Osmo Action 360 Advanced Combo"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Camera hành động DJI Osmo Action 360 Advanced Combo
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">11.600.000<sup>₫</sup></div>
-                <div class="product-old-price">13.650.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box dji">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png"
-                  alt="tag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/ComboDJIOsmoActionStandard.jpeg"
-                    alt="Camera hành động DJI Osmo Action 360 Standard combo"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Camera hành động DJI Osmo Action 360 Standard combo
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">9.150.000<sup>₫</sup></div>
-                <div class="product-old-price">10.770.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box dji">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/ChongRungOE200.jpeg"
-                    alt="Thiết bị cầm tay chống rung cho điện thoại DJI Osmo Mobile 6_OE200"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Thiết bị cầm tay chống rung cho điện thoại DJI Osmo Mobile
-                  6_OE200
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">2.210.000<sup>₫</sup></div>
-                <div class="product-old-price">2.950.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box fujifilm">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX-T50.jpeg"
-                    alt="Máy ảnh Fujifilm X-T50"
-                  />
-                </div>
-
-                <div class="product-name">Máy ảnh Fujifilm X-T50</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">35.490.000<sup>₫</sup></div>
-                <div class="product-old-price">35.990.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box fujifilm">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX-M5.jpeg"
-                    alt="Máy ảnh Fujifilm X-M5"
-                  />
-                </div>
-
-                <div class="product-name">Máy ảnh Fujifilm X-M5</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">26.490.000<sup>₫</sup></div>
-                <div class="product-old-price">28.490.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/Alpha7CR.jpeg"
-                    alt="Máy ảnh Sony full-frame nhỏ gọn Alpha7CR 61,0 MP"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy ảnh Sony full-frame nhỏ gọn Alpha7CR 61,0 MP
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">69.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/Alpha9III.jpeg"
-                    alt="Máy ảnh Sony Alpha 9 III với màn trập bao trùm"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy ảnh Sony Alpha 9 III với màn trập bao trùm
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">145.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box dji">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/ChongRungOK200.jpeg"
-                    alt="Thiết bị cầm tay chống rung cho điện thoại DJI Osmo Mobile SE_OK200"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Thiết bị cầm tay chống rung cho điện thoại DJI Osmo Mobile
-                  SE_OK200
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.519.000<sup>₫</sup></div>
-                <div class="product-old-price">1.899.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box insta360">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/ACEPRO2SB.png"
-                    alt="Insta360 Ace Pro 2 Dual Battery Standard Bundle"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Insta360 Ace Pro 2 Dual Battery Standard Bundle
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">11.190.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box insta360">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/GO3SSC.jpeg"
-                    alt="Insta360 GO 3S Standalone Camera | 128GB"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Insta360 GO 3S Standalone Camera | 128GB
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">11.590.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box fujifilm">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/OngKinhMayAnh.jpeg"
-                    alt="Ống kính máy ảnh Fujifilm XF35mmF1.4"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Ống kính máy ảnh Fujifilm XF35mmF1.4
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">11.990.000<sup>₫</sup></div>
-                <div class="product-old-price">12.590.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box fujifilm">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX-T30.jpeg"
-                    alt="Máy ảnh Fujifilm X-T30 II"
-                  />
-                </div>
-
-                <div class="product-name">Máy ảnh Fujifilm X-T30 II</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">26.990.000<sup>₫</sup></div>
-                <div class="product-old-price">28.490.000</div>
-              </div>
+              <div class="product-name">Insta360 X5 Standard Bundle</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">14.000.000<sup>₫</sup></div>
             </div>
           </div>
         </div>
-        <div class="section-2">
-          <div class="section-2-inner">
-            <h2 class="big-title">
-              Máy ảnh Fujifilm: Trọn bộ từ X series đến GFX đáng mua nhất
+
+        <div class="product-box insta360">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/Flow2PROSB.jpeg"
+                  alt="Insta360 Flow 2 Pro Standard Bundle" />
+              </div>
+
+              <div class="product-name">
+                Insta360 Flow 2 Pro Standard Bundle
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">3.690.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box dji">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png" alt="tag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/DJIOsmoPocket3.jpeg"
+                  alt="Camera cầm tay DJI Osmo Pocket 3 | Creator Combo" />
+              </div>
+
+              <div class="product-name">
+                Camera cầm tay DJI Osmo Pocket 3 | Creator Combo
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">15.890.000<sup>₫</sup></div>
+              <div class="product-old-price">16.490.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box dji">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="tag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/DJIOsmoNano.jpeg"
+                  alt="Camera hành trình DJI Osmo Nano" />
+              </div>
+
+              <div class="product-name">Camera hành trình DJI Osmo Nano</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">7.360.000<sup>₫</sup></div>
+              <div class="product-old-price">8.470.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box dji">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/DJIMic3.jpeg"
+                  alt="Microphone DJI Mic 3 (2TX + 1 RX + Hộp sạc)" />
+              </div>
+
+              <div class="product-name">
+                Microphone DJI Mic 3 (2TX + 1 RX + Hộp sạc)
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">9.820.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box fujifilm">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX-S20.jpeg"
+                  alt="Máy ảnh Fujifilm X-S20" />
+              </div>
+
+              <div class="product-name">Máy ảnh Fujifilm X-S20</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">34.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box fujifilm">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX100VI.jpeg"
+                  alt="Máy ảnh Fujifilm X100VI" />
+              </div>
+
+              <div class="product-name">Máy ảnh Fujifilm X100VI</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">51.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/SonyRX100VII.jpeg"
+                  alt="Máy ảnh Sony nhỏ gọn RX100 VII, khả năng AF vô song" />
+              </div>
+
+              <div class="product-name">
+                Máy ảnh Sony nhỏ gọn RX100 VII, khả năng AF vô song
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">28.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/SonyFDR-AX43A.jpeg"
+                  alt="Máy quay Sony Handycam FDR-AX43A" />
+              </div>
+
+              <div class="product-name">Máy quay Sony Handycam FDR-AX43A</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">19.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/FLAGSHIP.jpeg"
+                  alt="Máy ảnh flagship α1 II dành cho chuyên gia" />
+              </div>
+
+              <div class="product-name">
+                Máy ảnh flagship α1 II dành cho chuyên gia
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">155.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/Alpha7CII.jpeg"
+                  alt="Máy ảnh Sony full-frame nhỏ gọn Alpha7C II" />
+              </div>
+
+              <div class="product-name">
+                Máy ảnh Sony full-frame nhỏ gọn Alpha7C II
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">50.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box insta360">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/ACEPRO2SB.png"
+                  alt="Insta360 Ace Pro 2 Standard Bundle" />
+              </div>
+
+              <div class="product-name">
+                Insta360 Ace Pro 2 Standard Bundle
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">10.590.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box insta360">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/ALTRACKER.jpeg"
+                  alt="Insta360 Flow 2 AI Tracker Bundle" />
+              </div>
+
+              <div class="product-name">
+                Insta360 Flow 2 AI Tracker Bundle
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">2.890.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box dji">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/ComboDJIOsmoActionAdvanced.jpeg"
+                  alt="Camera hành động DJI Osmo Action 360 Advanced Combo" />
+              </div>
+
+              <div class="product-name">
+                Camera hành động DJI Osmo Action 360 Advanced Combo
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">11.600.000<sup>₫</sup></div>
+              <div class="product-old-price">13.650.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box dji">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png" alt="tag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/ComboDJIOsmoActionStandard.jpeg"
+                  alt="Camera hành động DJI Osmo Action 360 Standard combo" />
+              </div>
+
+              <div class="product-name">
+                Camera hành động DJI Osmo Action 360 Standard combo
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">9.150.000<sup>₫</sup></div>
+              <div class="product-old-price">10.770.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box dji">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/ChongRungOE200.jpeg"
+                  alt="Thiết bị cầm tay chống rung cho điện thoại DJI Osmo Mobile 6_OE200" />
+              </div>
+
+              <div class="product-name">
+                Thiết bị cầm tay chống rung cho điện thoại DJI Osmo Mobile
+                6_OE200
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">2.210.000<sup>₫</sup></div>
+              <div class="product-old-price">2.950.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box fujifilm">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX-T50.jpeg"
+                  alt="Máy ảnh Fujifilm X-T50" />
+              </div>
+
+              <div class="product-name">Máy ảnh Fujifilm X-T50</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">35.490.000<sup>₫</sup></div>
+              <div class="product-old-price">35.990.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box fujifilm">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX-M5.jpeg"
+                  alt="Máy ảnh Fujifilm X-M5" />
+              </div>
+
+              <div class="product-name">Máy ảnh Fujifilm X-M5</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">26.490.000<sup>₫</sup></div>
+              <div class="product-old-price">28.490.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/Alpha7CR.jpeg"
+                  alt="Máy ảnh Sony full-frame nhỏ gọn Alpha7CR 61,0 MP" />
+              </div>
+
+              <div class="product-name">
+                Máy ảnh Sony full-frame nhỏ gọn Alpha7CR 61,0 MP
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">69.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/sony/Alpha9III.jpeg"
+                  alt="Máy ảnh Sony Alpha 9 III với màn trập bao trùm" />
+              </div>
+
+              <div class="product-name">
+                Máy ảnh Sony Alpha 9 III với màn trập bao trùm
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">145.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box dji">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/dji/ChongRungOK200.jpeg"
+                  alt="Thiết bị cầm tay chống rung cho điện thoại DJI Osmo Mobile SE_OK200" />
+              </div>
+
+              <div class="product-name">
+                Thiết bị cầm tay chống rung cho điện thoại DJI Osmo Mobile
+                SE_OK200
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.519.000<sup>₫</sup></div>
+              <div class="product-old-price">1.899.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box insta360">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/ACEPRO2SB.png"
+                  alt="Insta360 Ace Pro 2 Dual Battery Standard Bundle" />
+              </div>
+
+              <div class="product-name">
+                Insta360 Ace Pro 2 Dual Battery Standard Bundle
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">11.190.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box insta360">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/insta360/GO3SSC.jpeg"
+                  alt="Insta360 GO 3S Standalone Camera | 128GB" />
+              </div>
+
+              <div class="product-name">
+                Insta360 GO 3S Standalone Camera | 128GB
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">11.590.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box fujifilm">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/OngKinhMayAnh.jpeg"
+                  alt="Ống kính máy ảnh Fujifilm XF35mmF1.4" />
+              </div>
+
+              <div class="product-name">
+                Ống kính máy ảnh Fujifilm XF35mmF1.4
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">11.990.000<sup>₫</sup></div>
+              <div class="product-old-price">12.590.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box fujifilm">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/camerapage/cameraproduct/fujifilm/FujiFilmX-T30.jpeg"
+                  alt="Máy ảnh Fujifilm X-T30 II" />
+              </div>
+
+              <div class="product-name">Máy ảnh Fujifilm X-T30 II</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">26.990.000<sup>₫</sup></div>
+              <div class="product-old-price">28.490.000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-2">
+        <div class="section-2-inner">
+          <h2 class="big-title">
+            Máy ảnh Fujifilm: Trọn bộ từ X series đến GFX đáng mua nhất
+          </h2>
+          <div class="content">
+            <hr />
+            <p>
+              Trong thế giới máy ảnh ngày càng đa dạng, máy ảnh Fujifilm vẫn
+              giữ được chỗ đứng riêng nhờ thiết kế hoài cổ đặc trưng, màu ảnh
+              film độc đáo và trải nghiệm chụp ảnh đầy cảm xúc. Không cần hậu
+              kỳ cầu kỳ, không cần quá am hiểu kỹ thuật, bạn vẫn có thể tạo ra
+              những bức ảnh nghệ thuật đầy cảm hứng. Cùng khám phá vì sao máy
+              ảnh Fujifilm được lòng hàng triệu người yêu nhiếp ảnh trên toàn
+              thế giới.
+            </p>
+
+            <h2 class="title">
+              1. Giới thiệu tổng quan về thương hiệu Fujifilm
             </h2>
-            <div class="content">
-              <hr />
-              <p>
-                Trong thế giới máy ảnh ngày càng đa dạng, máy ảnh Fujifilm vẫn
-                giữ được chỗ đứng riêng nhờ thiết kế hoài cổ đặc trưng, màu ảnh
-                film độc đáo và trải nghiệm chụp ảnh đầy cảm xúc. Không cần hậu
-                kỳ cầu kỳ, không cần quá am hiểu kỹ thuật, bạn vẫn có thể tạo ra
-                những bức ảnh nghệ thuật đầy cảm hứng. Cùng khám phá vì sao máy
-                ảnh Fujifilm được lòng hàng triệu người yêu nhiếp ảnh trên toàn
-                thế giới.
-              </p>
+            <p>
+              Fujifilm là một trong những thương hiệu máy ảnh hàng đầu đến từ
+              Nhật Bản, nổi tiếng với thiết kế hoài cổ, chất lượng hình ảnh
+              xuất sắc và màu film giả lập mang đậm chất nghệ thuật. Từ những
+              năm 1934, Fujifilm đã khẳng định tên tuổi trong lĩnh vực nhiếp
+              ảnh với những sản phẩm mang đậm dấu ấn thời gian nhưng vẫn đón
+              đầu xu hướng công nghệ hiện đại.
+            </p>
 
-              <h2 class="title">
-                1. Giới thiệu tổng quan về thương hiệu Fujifilm
-              </h2>
-              <p>
-                Fujifilm là một trong những thương hiệu máy ảnh hàng đầu đến từ
-                Nhật Bản, nổi tiếng với thiết kế hoài cổ, chất lượng hình ảnh
-                xuất sắc và màu film giả lập mang đậm chất nghệ thuật. Từ những
-                năm 1934, Fujifilm đã khẳng định tên tuổi trong lĩnh vực nhiếp
-                ảnh với những sản phẩm mang đậm dấu ấn thời gian nhưng vẫn đón
-                đầu xu hướng công nghệ hiện đại.
-              </p>
+            <h2 class="title">
+              2. Các dòng máy ảnh Fujifilm phổ biến hiện nay
+            </h2>
+            <p>
+              Fujifilm phân chia sản phẩm của mình thành các dòng rất rõ ràng,
+              giúp người dùng dễ dàng lựa chọn.
+            </p>
 
-              <h2 class="title">
-                2. Các dòng máy ảnh Fujifilm phổ biến hiện nay
-              </h2>
-              <p>
-                Fujifilm phân chia sản phẩm của mình thành các dòng rất rõ ràng,
-                giúp người dùng dễ dàng lựa chọn.
-              </p>
+            <h3 class="inner-title">a. Fujifilm X Series</h3>
+            <div class="decs-image">
+              <img src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh1.jpg" alt="anh1" />
+              <p class="image-info">Máy ảnh Fujifilm X-T5</p>
+            </div>
+            <p>
+              Đây là dòng máy ảnh phổ biến và được yêu thích nhất của hãng, sử
+              dụng cảm biến APS-C X-Trans độc quyền. Dòng X-Series là sự cân
+              bằng hoàn hảo giữa chất lượng hình ảnh xuất sắc, thiết kế nhỏ
+              gọn và tính linh hoạt.
+            </p>
 
-              <h3 class="inner-title">a. Fujifilm X Series</h3>
-              <div class="decs-image">
-                <img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh1.jpg"
-                  alt="anh1"
-                />
-                <p class="image-info">Máy ảnh Fujifilm X-T5</p>
-              </div>
-              <p>
-                Đây là dòng máy ảnh phổ biến và được yêu thích nhất của hãng, sử
-                dụng cảm biến APS-C X-Trans độc quyền. Dòng X-Series là sự cân
-                bằng hoàn hảo giữa chất lượng hình ảnh xuất sắc, thiết kế nhỏ
-                gọn và tính linh hoạt.
-              </p>
-
+            <ul>
+              <li>
+                <strong>Đối tượng:</strong> Phù hợp với tất cả mọi người, từ
+                người mới bắt đầu, người yêu nhiếp ảnh đường phố, du lịch cho
+                đến các nhiếp ảnh gia chuyên nghiệp (sự kiện, chân dung, đám
+                cưới).
+              </li>
+              <li><strong>Các model nổi bật:</strong></li>
               <ul>
                 <li>
-                  <strong>Đối tượng:</strong> Phù hợp với tất cả mọi người, từ
-                  người mới bắt đầu, người yêu nhiếp ảnh đường phố, du lịch cho
-                  đến các nhiếp ảnh gia chuyên nghiệp (sự kiện, chân dung, đám
-                  cưới).
-                </li>
-                <li><strong>Các model nổi bật:</strong></li>
-                <ul>
-                  <li>
-                    X100V, X100VI: Máy ảnh nhỏ gọn, lens cố định 23mm f/2, cảm
-                    biến APS-C, màu film đẹp sẵn không cần hậu kỳ.
-                  </li>
-                  <li>
-                    X-M5, X-E5, X-A Series: Giá dễ tiếp cận, thao tác gọn gàng,
-                    quay video tốt.
-                  </li>
-                  <li>
-                    X-T30 II, X-T50, X-S20: Chất ảnh đẹp, quay video tốt, lấy
-                    nét nhanh.
-                  </li>
-                  <li>
-                    X-T5, X-H2/H2S, X-Pro3: Cảm biến 40MP, IBIS, hiệu năng cao,
-                    quay 6K–8K.
-                  </li>
-                </ul>
-              </ul>
-
-              <h3 class="inner-title">b. Fujifilm GFX Series</h3>
-              <p>
-                Đây là dòng máy ảnh Medium Format của Fujifilm, với cảm biến lớn
-                hơn 1.7 lần so với cảm biến Full-frame. GFX Series mang đến chất
-                lượng hình ảnh ở một đẳng cấp khác biệt, với độ chi tiết kinh
-                ngạc, dải tương phản động và khả năng tái tạo màu sắc trung thực
-                tuyệt đối.
-              </p>
-
-              <ul>
-                <li>
-                  <strong>Đối tượng:</strong> Các nhiếp ảnh gia chuyên nghiệp
-                  trong lĩnh vực thời trang, quảng cáo, phong cảnh, kiến trúc,
-                  nơi chất lượng hình ảnh là ưu tiên số một.
+                  X100V, X100VI: Máy ảnh nhỏ gọn, lens cố định 23mm f/2, cảm
+                  biến APS-C, màu film đẹp sẵn không cần hậu kỳ.
                 </li>
                 <li>
-                  <strong>Các model nổi bật:</strong> GFX 100S, GFX 100 II, GFX
-                  50S II.
+                  X-M5, X-E5, X-A Series: Giá dễ tiếp cận, thao tác gọn gàng,
+                  quay video tốt.
+                </li>
+                <li>
+                  X-T30 II, X-T50, X-S20: Chất ảnh đẹp, quay video tốt, lấy
+                  nét nhanh.
+                </li>
+                <li>
+                  X-T5, X-H2/H2S, X-Pro3: Cảm biến 40MP, IBIS, hiệu năng cao,
+                  quay 6K–8K.
                 </li>
               </ul>
+            </ul>
 
-              <h3 class="inner-title">c. Fujifilm Instax</h3>
-              <div class="decs-image">
-                <img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh2.jpg"
-                  alt="anh1"
-                />
-                <p class="image-info">Máy ảnh Fujifilm chụp lấy liền</p>
-              </div>
-              <p>
-                Dòng máy ảnh chụp lấy liền (instant camera) đã làm nên tên tuổi
-                của Fujifilm trong giới trẻ. Instax mang đến niềm vui thuần túy
-                của nhiếp ảnh: bấm máy và có ngay một tấm ảnh vật lý độc nhất để
-                lưu giữ hoặc chia sẻ.
+            <h3 class="inner-title">b. Fujifilm GFX Series</h3>
+            <p>
+              Đây là dòng máy ảnh Medium Format của Fujifilm, với cảm biến lớn
+              hơn 1.7 lần so với cảm biến Full-frame. GFX Series mang đến chất
+              lượng hình ảnh ở một đẳng cấp khác biệt, với độ chi tiết kinh
+              ngạc, dải tương phản động và khả năng tái tạo màu sắc trung thực
+              tuyệt đối.
+            </p>
+
+            <ul>
+              <li>
+                <strong>Đối tượng:</strong> Các nhiếp ảnh gia chuyên nghiệp
+                trong lĩnh vực thời trang, quảng cáo, phong cảnh, kiến trúc,
+                nơi chất lượng hình ảnh là ưu tiên số một.
+              </li>
+              <li>
+                <strong>Các model nổi bật:</strong> GFX 100S, GFX 100 II, GFX
+                50S II.
+              </li>
+            </ul>
+
+            <h3 class="inner-title">c. Fujifilm Instax</h3>
+            <div class="decs-image">
+              <img src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh2.jpg" alt="anh1" />
+              <p class="image-info">Máy ảnh Fujifilm chụp lấy liền</p>
+            </div>
+            <p>
+              Dòng máy ảnh chụp lấy liền (instant camera) đã làm nên tên tuổi
+              của Fujifilm trong giới trẻ. Instax mang đến niềm vui thuần túy
+              của nhiếp ảnh: bấm máy và có ngay một tấm ảnh vật lý độc nhất để
+              lưu giữ hoặc chia sẻ.
+            </p>
+
+            <ul>
+              <li>
+                <strong>Đối tượng:</strong> Tất cả mọi người, đặc biệt là các
+                bạn trẻ, gia đình, phù hợp cho các buổi tiệc, chuyến đi chơi,
+                sự kiện.
+              </li>
+              <li>
+                <strong>Phân khúc:</strong> Instax Mini (khổ ảnh nhỏ), Instax
+                Wide (khổ ảnh lớn), Instax Square (ảnh vuông). Máy có nhiều
+                phiên bản màu sắc, thiết kế hợp thời trang.
+              </li>
+            </ul>
+
+            <h2 class="title">3. Ưu điểm nổi bật của máy ảnh Fujifilm</h2>
+            <p>
+              Điều gì đã tạo nên “chất riêng” không thể trộn lẫn của Fujifilm?
+            </p>
+
+            <ul>
+              <li>
+                <strong>Thiết kế hoài cổ, chất lượng build cao cấp:</strong>
+                Thiết kế lấy cảm hứng từ những chiếc máy phim cổ điển, với các
+                vòng xoay chỉnh tốc độ, khẩu độ, ISO được bố trí trực quan.
+                Thân máy thường được làm từ hợp kim magiê chắc chắn, mang lại
+                cảm giác cầm nắm đầm tay, bền bỉ và đầy cảm hứng.
+              </li>
+            </ul>
+            <div class="decs-image">
+              <img src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh3.jpg" alt="anh1" />
+              <p class="image-info">
+                Thiết kế hoài cổ, chất lượng build cao cấp
               </p>
+            </div>
+            <ul>
+              <li>
+                <strong>Màu film giả lập, không cần hậu kỳ nhiều:</strong>
+                Đây chính là “vũ khí bí mật” của Fujifilm. Hãng đã tích hợp
+                profile màu của những cuộn phim huyền thoại (như Velvia,
+                Provia, Acros, Classic Chrome…) vào thẳng trong máy. Bạn có
+                thể tạo ra những bức ảnh JPEG với màu sắc nghệ thuật, giàu cảm
+                xúc ngay từ khi bấm máy mà không cần tốn nhiều giờ chỉnh sửa
+                trên máy tính.
+              </li>
+              <li>
+                <strong>Hệ lens Fujinon chất lượng, giá tiền đi cùng độ
+                  bền:</strong>
+                Ống kính Fujinon nổi tiếng thế giới về độ sắc nét vượt trội và
+                khả năng tái tạo chi tiết ấn tượng. Fujifilm cung cấp một hệ
+                sinh thái ống kính đa dạng, từ các lens prime nhỏ gọn, khẩu độ
+                lớn cho đến các lens zoom đa dụng. Mức giá hoàn toàn xứng đáng
+                với chất lượng quang học và độ bền mà bạn nhận được.
+              </li>
+              <li>
+                <strong>Người mới cũng không mất nhiều thời gian làm quen:</strong>
+                Nhờ hệ thống vòng xoay vật lý, người mới bắt đầu có thể dễ
+                dàng hiểu và làm chủ tam giác phơi sáng (Khẩu độ - Tốc độ -
+                ISO). Việc học nhiếp ảnh trở nên trực quan và thú vị hơn rất
+                nhiều.
+              </li>
+            </ul>
 
-              <ul>
-                <li>
-                  <strong>Đối tượng:</strong> Tất cả mọi người, đặc biệt là các
-                  bạn trẻ, gia đình, phù hợp cho các buổi tiệc, chuyến đi chơi,
-                  sự kiện.
-                </li>
-                <li>
-                  <strong>Phân khúc:</strong> Instax Mini (khổ ảnh nhỏ), Instax
-                  Wide (khổ ảnh lớn), Instax Square (ảnh vuông). Máy có nhiều
-                  phiên bản màu sắc, thiết kế hợp thời trang.
-                </li>
-              </ul>
+            <h2 class="title">4. Máy ảnh Fujifilm phù hợp với ai?</h2>
+            <div class="decs-image">
+              <img src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh4.jpg" alt="anh4" />
+              <p class="image-info">Máy ảnh Fujifilm phù hợp với ai?</p>
+            </div>
+            <p>
+              Với thiết kế đẹp, màu ảnh độc đáo và trải nghiệm dễ dùng, máy
+              ảnh Fujifilm phù hợp với nhiều đối tượng khác nhau. Dưới đây là
+              những người đặc biệt “hợp gu” với dòng máy ảnh này:
+            </p>
 
-              <h2 class="title">3. Ưu điểm nổi bật của máy ảnh Fujifilm</h2>
-              <p>
-                Điều gì đã tạo nên “chất riêng” không thể trộn lẫn của Fujifilm?
+            <ul>
+              <li>
+                <strong>Người yêu nhiếp ảnh đường phố, du lịch:</strong> Máy
+                nhỏ gọn, thiết kế không “hầm hố”, màu sắc JPEG đẹp giúp bạn
+                bắt trọn khoảnh khắc một cách nhanh chóng.
+              </li>
+              <li>
+                <strong>Người sáng tạo nội dung, Vlogger:</strong> Các dòng
+                máy như X-S20, X-T5, X-H2S có khả năng quay video rất mạnh mẽ,
+                chống rung hiệu quả và màu sắc F-Log tuyệt vời cho hậu kỳ.
+              </li>
+              <li>
+                <strong>Nhiếp ảnh gia chân dung, đám cưới:</strong> Màu da
+                người được tái tạo cực kỳ nịnh mắt, tự nhiên. Sự nhỏ gọn cũng
+                giúp nhiếp ảnh gia linh hoạt hơn trong các sự kiện.
+              </li>
+              <li>
+                <strong>Người mới bắt đầu nghiêm túc với nhiếp ảnh:</strong>
+                Fujifilm là một ngôi trường tuyệt vời để học các kiến thức
+                nhiếp ảnh nền tảng một cách trực quan nhất.
+              </li>
+            </ul>
+
+            <h2 class="title">
+              5. Vì sao nên mua máy ảnh Fujifilm ngay hôm nay?
+            </h2>
+            <div class="decs-image">
+              <img src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh5.jpg" alt="anh4" />
+              <p class="image-info">
+                Vì sao nên mua máy ảnh Fujifilm ngay hôm nay?
               </p>
+            </div>
+            <p>
+              Đầu tư vào một chiếc máy ảnh Fujifilm không chỉ là mua một thiết
+              bị công nghệ. Đó là bạn đang đầu tư vào niềm đam mê và sự sáng
+              tạo của chính mình.
+            </p>
 
-              <ul>
-                <li>
-                  <strong>Thiết kế hoài cổ, chất lượng build cao cấp:</strong>
-                  Thiết kế lấy cảm hứng từ những chiếc máy phim cổ điển, với các
-                  vòng xoay chỉnh tốc độ, khẩu độ, ISO được bố trí trực quan.
-                  Thân máy thường được làm từ hợp kim magiê chắc chắn, mang lại
-                  cảm giác cầm nắm đầm tay, bền bỉ và đầy cảm hứng.
-                </li>
-              </ul>
-              <div class="decs-image">
-                <img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh3.jpg"
-                  alt="anh1"
-                />
-                <p class="image-info">
-                  Thiết kế hoài cổ, chất lượng build cao cấp
-                </p>
-              </div>
-              <ul>
-                <li>
-                  <strong>Màu film giả lập, không cần hậu kỳ nhiều:</strong>
-                  Đây chính là “vũ khí bí mật” của Fujifilm. Hãng đã tích hợp
-                  profile màu của những cuộn phim huyền thoại (như Velvia,
-                  Provia, Acros, Classic Chrome…) vào thẳng trong máy. Bạn có
-                  thể tạo ra những bức ảnh JPEG với màu sắc nghệ thuật, giàu cảm
-                  xúc ngay từ khi bấm máy mà không cần tốn nhiều giờ chỉnh sửa
-                  trên máy tính.
-                </li>
-                <li>
-                  <strong
-                    >Hệ lens Fujinon chất lượng, giá tiền đi cùng độ
-                    bền:</strong
-                  >
-                  Ống kính Fujinon nổi tiếng thế giới về độ sắc nét vượt trội và
-                  khả năng tái tạo chi tiết ấn tượng. Fujifilm cung cấp một hệ
-                  sinh thái ống kính đa dạng, từ các lens prime nhỏ gọn, khẩu độ
-                  lớn cho đến các lens zoom đa dụng. Mức giá hoàn toàn xứng đáng
-                  với chất lượng quang học và độ bền mà bạn nhận được.
-                </li>
-                <li>
-                  <strong
-                    >Người mới cũng không mất nhiều thời gian làm quen:</strong
-                  >
-                  Nhờ hệ thống vòng xoay vật lý, người mới bắt đầu có thể dễ
-                  dàng hiểu và làm chủ tam giác phơi sáng (Khẩu độ - Tốc độ -
-                  ISO). Việc học nhiếp ảnh trở nên trực quan và thú vị hơn rất
-                  nhiều.
-                </li>
-              </ul>
+            <ul>
+              <li>
+                <strong>Tìm lại cảm hứng:</strong> Thiết kế và trải nghiệm sử
+                dụng của Fujifilm sẽ thôi thúc bạn ra ngoài và chụp ảnh nhiều
+                hơn.
+              </li>
+              <li>
+                <strong>Tiết kiệm thời gian:</strong> Với màu film giả lập,
+                bạn có thể dành nhiều thời gian hơn để sáng tạo thay vì ngồi
+                hàng giờ trước máy tính để hậu kỳ.
+              </li>
+              <li>
+                <strong>Tạo dấu ấn cá nhân:</strong> Màu sắc độc đáo của
+                Fujifilm sẽ giúp những bức ảnh của bạn nổi bật và mang đậm dấu
+                ấn cá nhân.
+              </li>
+            </ul>
 
-              <h2 class="title">4. Máy ảnh Fujifilm phù hợp với ai?</h2>
-              <div class="decs-image">
-                <img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh4.jpg"
-                  alt="anh4"
-                />
-                <p class="image-info">Máy ảnh Fujifilm phù hợp với ai?</p>
-              </div>
-              <p>
-                Với thiết kế đẹp, màu ảnh độc đáo và trải nghiệm dễ dùng, máy
-                ảnh Fujifilm phù hợp với nhiều đối tượng khác nhau. Dưới đây là
-                những người đặc biệt “hợp gu” với dòng máy ảnh này:
+            <h2 class="title">6. Mẹo chọn mua máy ảnh Fujifilm phù hợp</h2>
+            <p>
+              Để chọn được chiếc máy ảnh Fujifilm phù hợp, trước tiên bạn cần
+              xác định rõ nhu cầu sử dụng: Bạn chủ yếu chụp phong cảnh, chân
+              dung, đường phố hay quay video? Chụp tại nhà, đi du lịch hay
+              trong studio? Những câu hỏi này sẽ giúp bạn khoanh vùng dòng máy
+              phù hợp.
+            </p>
+            <div class="decs-image">
+              <img src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh6.jpg" alt="anh4" />
+              <p class="image-info">Mẹo chọn mua máy ảnh Fujifilm phù hợp</p>
+            </div>
+            <p>
+              Tiếp theo, hãy cân nhắc đến kích thước và trọng lượng. Nếu
+              thường xuyên di chuyển, các dòng nhỏ gọn như X100V, X-S20 sẽ là
+              lựa chọn lý tưởng. Ngược lại, nếu ưu tiên chất lượng hình ảnh và
+              không ngại mang vác, bạn có thể xem các model X-T5, X-H2 hoặc
+              GFX.
+            </p>
+
+            <p>
+              Bạn quay video nhiều? Hãy ưu tiên các dòng có chống rung IBIS,
+              màn hình lật như X-S20, X-T4/T5 hoặc X-H2S.
+            </p>
+
+            <p>
+              Đừng quên tính cả chi phí ống kính vào ngân sách. Fujifilm có hệ
+              lens Fujinon chất lượng cao, hãy lên kế hoạch rõ ràng. Và tốt
+              nhất, bạn nên ghé TamKa để trải nghiệm thực tế và nhận tư vấn
+              tận tâm từ đội ngũ chuyên viên.
+            </p>
+
+            <h2 class="title">
+              7. Ưu đãi và chính sách khi mua máy ảnh Fujifilm tại TamKa
+            </h2>
+            <div class="decs-image">
+              <img src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh7.jpg" alt="anh4" />
+              <p class="image-info">
+                Ưu đãi và chính sách khi mua máy ảnh Fujifilm tại TamKa
               </p>
+            </div>
+            <p>
+              TamKa tự hào là địa chỉ tin cậy mang đến cho bạn những sản phẩm
+              Fujifilm chính hãng với dịch vụ tốt nhất. Khi mua hàng tại
+              TamKa, bạn sẽ nhận được:
+            </p>
 
-              <ul>
-                <li>
-                  <strong>Người yêu nhiếp ảnh đường phố, du lịch:</strong> Máy
-                  nhỏ gọn, thiết kế không “hầm hố”, màu sắc JPEG đẹp giúp bạn
-                  bắt trọn khoảnh khắc một cách nhanh chóng.
-                </li>
-                <li>
-                  <strong>Người sáng tạo nội dung, Vlogger:</strong> Các dòng
-                  máy như X-S20, X-T5, X-H2S có khả năng quay video rất mạnh mẽ,
-                  chống rung hiệu quả và màu sắc F-Log tuyệt vời cho hậu kỳ.
-                </li>
-                <li>
-                  <strong>Nhiếp ảnh gia chân dung, đám cưới:</strong> Màu da
-                  người được tái tạo cực kỳ nịnh mắt, tự nhiên. Sự nhỏ gọn cũng
-                  giúp nhiếp ảnh gia linh hoạt hơn trong các sự kiện.
-                </li>
-                <li>
-                  <strong>Người mới bắt đầu nghiêm túc với nhiếp ảnh:</strong>
-                  Fujifilm là một ngôi trường tuyệt vời để học các kiến thức
-                  nhiếp ảnh nền tảng một cách trực quan nhất.
-                </li>
-              </ul>
+            <ul>
+              <li>
+                <strong>Cam kết 100% hàng chính hãng:</strong> An tâm tuyệt
+                đối về nguồn gốc và chất lượng sản phẩm, được phân phối chính
+                thức tại Việt Nam.
+              </li>
+              <li>
+                <strong>Chính sách bảo hành chuẩn mực:</strong> Bảo hành chính
+                hãng theo tiêu chuẩn của Fujifilm Việt Nam.
+              </li>
+              <li>
+                <strong>Mức giá cạnh tranh và khuyến mãi hấp dẫn:</strong>
+                Luôn có những chương trình ưu đãi, combo body + lens với giá
+                tốt nhất thị trường.
+              </li>
+              <li>
+                <strong>Hỗ trợ trả góp 0%:</strong> Dễ dàng sở hữu chiếc máy
+                ảnh mơ ước mà không cần lo lắng về tài chính.
+              </li>
+              <li>
+                <strong>Đội ngũ tư vấn am hiểu:</strong> Các chuyên viên của
+                chúng tôi sẽ giúp bạn lựa chọn sản phẩm phù hợp nhất với nhu
+                cầu và ngân sách.
+              </li>
+            </ul>
 
-              <h2 class="title">
-                5. Vì sao nên mua máy ảnh Fujifilm ngay hôm nay?
-              </h2>
-              <div class="decs-image">
-                <img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh5.jpg"
-                  alt="anh4"
-                />
-                <p class="image-info">
-                  Vì sao nên mua máy ảnh Fujifilm ngay hôm nay?
-                </p>
-              </div>
-              <p>
-                Đầu tư vào một chiếc máy ảnh Fujifilm không chỉ là mua một thiết
-                bị công nghệ. Đó là bạn đang đầu tư vào niềm đam mê và sự sáng
-                tạo của chính mình.
+            <h2 class="title">8. Câu hỏi thường gặp</h2>
+
+            <h3 class="inner-title">a. Máy ảnh Fujifilm có dễ dùng không?</h3>
+            <p>
+              Rất dễ. Đặc biệt với người mới bắt đầu, các vòng xoay vật lý
+              giúp bạn học nhiếp ảnh nhanh hơn. Đồng thời, máy cũng có đủ tính
+              năng chuyên sâu cho người dùng chuyên nghiệp.
+            </p>
+
+            <h3 class="inner-title">b. Màu film giả lập là gì?</h3>
+            <p>
+              Màu film giả lập là bộ preset màu tích hợp trong máy, mô phỏng
+              màu của các loại film nổi tiếng như Provia, Velvia, Eterna… giúp
+              ảnh đẹp ngay mà không cần chỉnh sửa nhiều.
+            </p>
+
+            <h3 class="inner-title">c. Nên mua máy Fujifilm mới hay cũ?</h3>
+            <p>
+              Máy mới mang lại yên tâm hơn về bảo hành và chất lượng. Tuy
+              nhiên nếu bạn có ngân sách giới hạn, một chiếc máy cũ còn tốt
+              cũng là lựa chọn hợp lý.
+            </p>
+
+            <h3 class="inner-title">
+              d. Chụp ảnh cưới bằng Fujifilm có ổn không?
+            </h3>
+            <p>
+              Hoàn toàn ổn, đặc biệt với dòng X Series (X-T4, X-T5, X-H2) và
+              GFX Series. Màu da đẹp tự nhiên, độ chi tiết cao, hệ lens
+              portrait tuyệt vời (56mm f/1.2, 90mm f/2…). Nhiều nhiếp ảnh gia
+              cưới chuyên nghiệp sử dụng dòng FUJI.
+            </p>
+            <div class="decs-image">
+              <img src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh8.jpg" alt="anh4" />
+              <p class="image-info">
+                Kevin Mullins - Nhiếp ảnh gia cưới phong cách phóng sự tại Anh
               </p>
-
-              <ul>
-                <li>
-                  <strong>Tìm lại cảm hứng:</strong> Thiết kế và trải nghiệm sử
-                  dụng của Fujifilm sẽ thôi thúc bạn ra ngoài và chụp ảnh nhiều
-                  hơn.
-                </li>
-                <li>
-                  <strong>Tiết kiệm thời gian:</strong> Với màu film giả lập,
-                  bạn có thể dành nhiều thời gian hơn để sáng tạo thay vì ngồi
-                  hàng giờ trước máy tính để hậu kỳ.
-                </li>
-                <li>
-                  <strong>Tạo dấu ấn cá nhân:</strong> Màu sắc độc đáo của
-                  Fujifilm sẽ giúp những bức ảnh của bạn nổi bật và mang đậm dấu
-                  ấn cá nhân.
-                </li>
-              </ul>
-
-              <h2 class="title">6. Mẹo chọn mua máy ảnh Fujifilm phù hợp</h2>
               <p>
-                Để chọn được chiếc máy ảnh Fujifilm phù hợp, trước tiên bạn cần
-                xác định rõ nhu cầu sử dụng: Bạn chủ yếu chụp phong cảnh, chân
-                dung, đường phố hay quay video? Chụp tại nhà, đi du lịch hay
-                trong studio? Những câu hỏi này sẽ giúp bạn khoanh vùng dòng máy
-                phù hợp.
-              </p>
-              <div class="decs-image">
-                <img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh6.jpg"
-                  alt="anh4"
-                />
-                <p class="image-info">Mẹo chọn mua máy ảnh Fujifilm phù hợp</p>
-              </div>
-              <p>
-                Tiếp theo, hãy cân nhắc đến kích thước và trọng lượng. Nếu
-                thường xuyên di chuyển, các dòng nhỏ gọn như X100V, X-S20 sẽ là
-                lựa chọn lý tưởng. Ngược lại, nếu ưu tiên chất lượng hình ảnh và
-                không ngại mang vác, bạn có thể xem các model X-T5, X-H2 hoặc
-                GFX.
-              </p>
-
-              <p>
-                Bạn quay video nhiều? Hãy ưu tiên các dòng có chống rung IBIS,
-                màn hình lật như X-S20, X-T4/T5 hoặc X-H2S.
-              </p>
-
-              <p>
-                Đừng quên tính cả chi phí ống kính vào ngân sách. Fujifilm có hệ
-                lens Fujinon chất lượng cao, hãy lên kế hoạch rõ ràng. Và tốt
-                nhất, bạn nên ghé TamKa để trải nghiệm thực tế và nhận tư vấn
-                tận tâm từ đội ngũ chuyên viên.
-              </p>
-
-              <h2 class="title">
-                7. Ưu đãi và chính sách khi mua máy ảnh Fujifilm tại TamKa
-              </h2>
-              <div class="decs-image">
-                <img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh7.jpg"
-                  alt="anh4"
-                />
-                <p class="image-info">
-                  Ưu đãi và chính sách khi mua máy ảnh Fujifilm tại TamKa
-                </p>
-              </div>
-              <p>
-                TamKa tự hào là địa chỉ tin cậy mang đến cho bạn những sản phẩm
-                Fujifilm chính hãng với dịch vụ tốt nhất. Khi mua hàng tại
-                TamKa, bạn sẽ nhận được:
-              </p>
-
-              <ul>
-                <li>
-                  <strong>Cam kết 100% hàng chính hãng:</strong> An tâm tuyệt
-                  đối về nguồn gốc và chất lượng sản phẩm, được phân phối chính
-                  thức tại Việt Nam.
-                </li>
-                <li>
-                  <strong>Chính sách bảo hành chuẩn mực:</strong> Bảo hành chính
-                  hãng theo tiêu chuẩn của Fujifilm Việt Nam.
-                </li>
-                <li>
-                  <strong>Mức giá cạnh tranh và khuyến mãi hấp dẫn:</strong>
-                  Luôn có những chương trình ưu đãi, combo body + lens với giá
-                  tốt nhất thị trường.
-                </li>
-                <li>
-                  <strong>Hỗ trợ trả góp 0%:</strong> Dễ dàng sở hữu chiếc máy
-                  ảnh mơ ước mà không cần lo lắng về tài chính.
-                </li>
-                <li>
-                  <strong>Đội ngũ tư vấn am hiểu:</strong> Các chuyên viên của
-                  chúng tôi sẽ giúp bạn lựa chọn sản phẩm phù hợp nhất với nhu
-                  cầu và ngân sách.
-                </li>
-              </ul>
-
-              <h2 class="title">8. Câu hỏi thường gặp</h2>
-
-              <h3 class="inner-title">a. Máy ảnh Fujifilm có dễ dùng không?</h3>
-              <p>
-                Rất dễ. Đặc biệt với người mới bắt đầu, các vòng xoay vật lý
-                giúp bạn học nhiếp ảnh nhanh hơn. Đồng thời, máy cũng có đủ tính
-                năng chuyên sâu cho người dùng chuyên nghiệp.
-              </p>
-
-              <h3 class="inner-title">b. Màu film giả lập là gì?</h3>
-              <p>
-                Màu film giả lập là bộ preset màu tích hợp trong máy, mô phỏng
-                màu của các loại film nổi tiếng như Provia, Velvia, Eterna… giúp
-                ảnh đẹp ngay mà không cần chỉnh sửa nhiều.
-              </p>
-
-              <h3 class="inner-title">c. Nên mua máy Fujifilm mới hay cũ?</h3>
-              <p>
-                Máy mới mang lại yên tâm hơn về bảo hành và chất lượng. Tuy
-                nhiên nếu bạn có ngân sách giới hạn, một chiếc máy cũ còn tốt
-                cũng là lựa chọn hợp lý.
+                Ví dụ: Kevin Mullins - nhiếp ảnh gia cưới nổi tiếng tại Anh,
+                sử dụng Fujifilm X-T5 để chụp phong cách phóng sự hay RJ
+                Photography tại Úc cũng dùng X-T4 và X-T3 nhờ màu film đẹp và
+                thiết kế gọn nhẹ.
               </p>
 
               <h3 class="inner-title">
-                d. Chụp ảnh cưới bằng Fujifilm có ổn không?
+                e. Máy ảnh Fujifilm có quay video tốt không?
               </h3>
               <p>
-                Hoàn toàn ổn, đặc biệt với dòng X Series (X-T4, X-T5, X-H2) và
-                GFX Series. Màu da đẹp tự nhiên, độ chi tiết cao, hệ lens
-                portrait tuyệt vời (56mm f/1.2, 90mm f/2…). Nhiều nhiếp ảnh gia
-                cưới chuyên nghiệp sử dụng dòng FUJI.
+                Các dòng như X-S20, X-T5 quay video rất tốt với khả năng quay
+                4K, chống rung IBIS, hỗ trợ mic ngoài hoàn hảo cho Vlog, video
+                YouTube.
               </p>
-              <div class="decs-image">
-                <img
-                  src="../assets/images/LeQuyTung_241230886/camerapage/cameradecs/anh8.jpg"
-                  alt="anh4"
-                />
-                <p class="image-info">
-                  Kevin Mullins - Nhiếp ảnh gia cưới phong cách phóng sự tại Anh
-                </p>
-                <p>
-                  Ví dụ: Kevin Mullins - nhiếp ảnh gia cưới nổi tiếng tại Anh,
-                  sử dụng Fujifilm X-T5 để chụp phong cách phóng sự hay RJ
-                  Photography tại Úc cũng dùng X-T4 và X-T3 nhờ màu film đẹp và
-                  thiết kế gọn nhẹ.
-                </p>
 
-                <h3 class="inner-title">
-                  e. Máy ảnh Fujifilm có quay video tốt không?
-                </h3>
-                <p>
-                  Các dòng như X-S20, X-T5 quay video rất tốt với khả năng quay
-                  4K, chống rung IBIS, hỗ trợ mic ngoài hoàn hảo cho Vlog, video
-                  YouTube.
-                </p>
+              <h3 class="inner-title">
+                f. Fujifilm có tương thích với lens hãng khác không?
+              </h3>
+              <p>
+                Có, thông qua Adapter (chuyển đổi ngàm). Bạn có thể gắn lens
+                Canon EF, Nikon F, Leica M… lên thân máy Fujifilm X/GFX. Tuy
+                nhiên, một số tính năng (lấy nét tự động, ổn định hình ảnh) có
+                thể bị hạn chế tùy adapter.
+              </p>
 
-                <h3 class="inner-title">
-                  f. Fujifilm có tương thích với lens hãng khác không?
-                </h3>
-                <p>
-                  Có, thông qua Adapter (chuyển đổi ngàm). Bạn có thể gắn lens
-                  Canon EF, Nikon F, Leica M… lên thân máy Fujifilm X/GFX. Tuy
-                  nhiên, một số tính năng (lấy nét tự động, ổn định hình ảnh) có
-                  thể bị hạn chế tùy adapter.
-                </p>
+              <h3 class="inner-title">
+                g. Có nên chọn Fujifilm thay vì Sony/Canon?
+              </h3>
+              <p>
+                Sony nổi bật với công nghệ hiện đại và khả năng lấy nét tự
+                động cực nhanh. Canon lại ghi điểm nhờ độ tin cậy, màu sắc
+                trung thực, dễ hậu kỳ. Còn Fujifilm là cảm hứng, từ cảm giác
+                cầm nắm, giao diện cổ điển đến màu JPEG lên đẹp sẵn không cần
+                chỉnh. Hơn mọi so sánh, hãy chọn chiếc máy khiến bạn muốn cầm
+                lên và bước ra ngoài để chụp.
+              </p>
 
-                <h3 class="inner-title">
-                  g. Có nên chọn Fujifilm thay vì Sony/Canon?
-                </h3>
-                <p>
-                  Sony nổi bật với công nghệ hiện đại và khả năng lấy nét tự
-                  động cực nhanh. Canon lại ghi điểm nhờ độ tin cậy, màu sắc
-                  trung thực, dễ hậu kỳ. Còn Fujifilm là cảm hứng, từ cảm giác
-                  cầm nắm, giao diện cổ điển đến màu JPEG lên đẹp sẵn không cần
-                  chỉnh. Hơn mọi so sánh, hãy chọn chiếc máy khiến bạn muốn cầm
-                  lên và bước ra ngoài để chụp.
-                </p>
-
-                <h3 class="inner-title">Lời kết</h3>
-                <p>
-                  Máy ảnh Fujifilm không chỉ là một thiết bị công nghệ mà là
-                  công cụ khơi nguồn cảm hứng và lưu giữ khoảnh khắc bằng chất
-                  ảnh đậm cá tính. Với thiết kế đẹp, màu ảnh ấn tượng và độ bền
-                  vượt thời gian, Fujifilm là lựa chọn hoàn hảo cho bất kỳ ai
-                  muốn bắt đầu hành trình nhiếp ảnh theo cách riêng. Nếu bạn
-                  đang tìm một máy ảnh vừa đẹp, vừa dễ dùng, lại mang lại trải
-                  nghiệm giàu cảm xúc, hãy ghé TamKa để nhận tư vấn và ưu đãi
-                  hấp dẫn nhất với bạn.
-                </p>
-              </div>
+              <h3 class="inner-title">Lời kết</h3>
+              <p>
+                Máy ảnh Fujifilm không chỉ là một thiết bị công nghệ mà là
+                công cụ khơi nguồn cảm hứng và lưu giữ khoảnh khắc bằng chất
+                ảnh đậm cá tính. Với thiết kế đẹp, màu ảnh ấn tượng và độ bền
+                vượt thời gian, Fujifilm là lựa chọn hoàn hảo cho bất kỳ ai
+                muốn bắt đầu hành trình nhiếp ảnh theo cách riêng. Nếu bạn
+                đang tìm một máy ảnh vừa đẹp, vừa dễ dùng, lại mang lại trải
+                nghiệm giàu cảm xúc, hãy ghé TamKa để nhận tư vấn và ưu đãi
+                hấp dẫn nhất với bạn.
+              </p>
             </div>
           </div>
         </div>
-        <!-- Ket thuc code -->
       </div>
-      <!-- this is begin of footer -->
-      <footer>
-        <div class="footer-wrapper">
-          <div class="footer-about">
-            <img
-              src="./assets/images/NguyenDucVu_241230896/header_image/page_logo.png"
-              alt="TamKa Logo"
-              class="footer-logo"
-            />
-            <p>
-              Năm 2020, DucVu Team trở thành đại lý ủy quyền của Apple. Chúng
-              tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm
-              mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho
-              người dùng Việt Nam.
-            </p>
-            <div class="footer-hotline">
-              <p><strong>Tổng đài hỗ trợ:</strong></p>
-              <p>
-                Mua hàng: <a href="tel:19006626">1234.6789</a> (08:00 - 22:00)
-              </p>
-              <p>
-                Bảo hành: <a href="tel:19008036">0123.1111</a> (08:30 - 20:00)
-              </p>
-            </div>
-          </div>
-
-          <div class="footer-links">
-            <h4>Thông tin</h4>
-            <ul>
-              <li><a href="#">Newsfeed</a></li>
-              <li><a href="#">Giới thiệu</a></li>
-              <li><a href="#">Check IMEI</a></li>
-              <li><a href="#">Phương thức thanh toán</a></li>
-              <li><a href="#">Thuê điểm bán lẻ</a></li>
-              <li><a href="#">Bảo hành và sửa chữa</a></li>
-              <li><a href="#">Tuyển dụng</a></li>
-              <li><a href="#">Đánh giá chất lượng, khiếu nại</a></li>
-              <li><a href="#">Tra cứu hoá đơn điện tử</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-links">
-            <h4>Chính sách</h4>
-            <ul>
-              <li><a href="#">Thu cũ đổi mới</a></li>
-              <li><a href="#">Giao hàng</a></li>
-              <li><a href="#">Giao hàng (ZaloPay)</a></li>
-              <li><a href="#">Huỷ giao dịch</a></li>
-              <li><a href="#">Đổi trả</a></li>
-              <li><a href="#">Bảo hành</a></li>
-              <li><a href="#">Dịch vụ</a></li>
-              <li><a href="#">Giải quyết khiếu nại</a></li>
-              <li><a href="#">Bảo mật thông tin</a></li>
-              <li><a href="#">Hướng dẫn thanh toán qua VNPAY</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-links">
-            <h4>Địa chỉ & Liên hệ</h4>
-            <ul>
-              <li><a href="#">Tài khoản của tôi</a></li>
-              <li><a href="#">Đơn đặt hàng</a></li>
-              <li><a href="#">Tìm Store trên Google Map</a></li>
-              <li><a href="#">Hệ thống cửa hàng</a></li>
-              <li><a href="tel:19006626">Mua hàng: 1900.6626</a></li>
-              <li><a href="tel:0822688668">Doanh nghiệp: 0822.688.668</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="footer-bottom">
-          <p>
-            © 2025 Nhóm BTL Thiết Kế Web Lớp N06 CNTT4 K65, Trường Đại Học Giao
-            Thông Vận Tải
-          </p>
-          <p>
-            Địa chỉ: Số 3, phường Láng Thượng, quận Đống Đa, Hà Nội, Việt Nam
-          </p>
-          <p>Đại diện nhóm trưởng: Nguyễn Đức Vũ - ĐT: 0333.496.018</p>
-          <p>Email: ndv120806@gmail.com</p>
-        </div>
-      </footer>
-      <!-- this is end of footer -->
+      <!-- Ket thuc code -->
     </div>
-    <script src="../js/giadung.js"></script>
-  </body>
+    <!-- this is begin of footer -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-about">
+          <img src="./assets/images/NguyenDucVu_241230896/header_image/page_logo.png" alt="TamKa Logo"
+            class="footer-logo" />
+          <p>
+            Năm 2020, DucVu Team trở thành đại lý ủy quyền của Apple. Chúng
+            tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm
+            mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho
+            người dùng Việt Nam.
+          </p>
+          <div class="footer-hotline">
+            <p><strong>Tổng đài hỗ trợ:</strong></p>
+            <p>
+              Mua hàng: <a href="tel:19006626">1234.6789</a> (08:00 - 22:00)
+            </p>
+            <p>
+              Bảo hành: <a href="tel:19008036">0123.1111</a> (08:30 - 20:00)
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Thông tin</h4>
+          <ul>
+            <li><a href="#">Newsfeed</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Check IMEI</a></li>
+            <li><a href="#">Phương thức thanh toán</a></li>
+            <li><a href="#">Thuê điểm bán lẻ</a></li>
+            <li><a href="#">Bảo hành và sửa chữa</a></li>
+            <li><a href="#">Tuyển dụng</a></li>
+            <li><a href="#">Đánh giá chất lượng, khiếu nại</a></li>
+            <li><a href="#">Tra cứu hoá đơn điện tử</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Chính sách</h4>
+          <ul>
+            <li><a href="#">Thu cũ đổi mới</a></li>
+            <li><a href="#">Giao hàng</a></li>
+            <li><a href="#">Giao hàng (ZaloPay)</a></li>
+            <li><a href="#">Huỷ giao dịch</a></li>
+            <li><a href="#">Đổi trả</a></li>
+            <li><a href="#">Bảo hành</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Giải quyết khiếu nại</a></li>
+            <li><a href="#">Bảo mật thông tin</a></li>
+            <li><a href="#">Hướng dẫn thanh toán qua VNPAY</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Địa chỉ & Liên hệ</h4>
+          <ul>
+            <li><a href="#">Tài khoản của tôi</a></li>
+            <li><a href="#">Đơn đặt hàng</a></li>
+            <li><a href="#">Tìm Store trên Google Map</a></li>
+            <li><a href="#">Hệ thống cửa hàng</a></li>
+            <li><a href="tel:19006626">Mua hàng: 1900.6626</a></li>
+            <li><a href="tel:0822688668">Doanh nghiệp: 0822.688.668</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © 2025 Nhóm BTL Thiết Kế Web Lớp N06 CNTT4 K65, Trường Đại Học Giao
+          Thông Vận Tải
+        </p>
+        <p>
+          Địa chỉ: Số 3, phường Láng Thượng, quận Đống Đa, Hà Nội, Việt Nam
+        </p>
+        <p>Đại diện nhóm trưởng: Nguyễn Đức Vũ - ĐT: 0333.496.018</p>
+        <p>Email: ndv120806@gmail.com</p>
+      </div>
+    </footer>
+    <!-- this is end of footer -->
+  </div>
+  <script src="../js/giadung.js"></script>
+</body>
+
 </html>
