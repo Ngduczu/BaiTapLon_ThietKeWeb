@@ -75,7 +75,7 @@ src
 
 - Tạo folder thì nhớ tạo theo kiểu **HoVaTen_msv** để dễ quản lí
 
-- Đặt tên ID hoặc class thì nhớ đặt theo cấu trúc tên rút gọn-tên class
+- Đặt tên ID hoặc class thì nhớ đặt theo cấu trúc
 
 <br>
 
