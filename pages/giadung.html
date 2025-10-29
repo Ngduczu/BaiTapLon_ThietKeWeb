@@ -1,841 +1,706 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/header_and_footer.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/carousel_banner.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/main_content.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenKimTuyen_241230888/product.css"
-    />
-    <link rel="stylesheet" href="../styles/LeQuyTung_241230886/giadung.css" />
-    <script
-      src="https://kit.fontawesome.com/9e100b4052.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../js/header_and_footer.js" defer></script>
-    <script src="../js/carousel_banner.js" defer></script>
-    <link
-      rel="shortcut icon"
-      href="assets/images/NguyenDucVu_241230896/"
-      type="image/x-icon"
-    />
-    <title>BaiTapLonThietKeWeb</title>
-  </head>
 
-  <body>
-    <div class="master-wrapper-page">
-      <!-- This is begin of header -->
-      <header>
-        <div class="higher-header">
-          <div class="header-logo">
-            <a href="../index.html"
-              ><img
-                class="header-logo"
-                src="../assets/images/NguyenDucVu_241230896/header_image/page_logo.png"
-                alt="page logo"
-            /></a>
-          </div>
-          <div class="search-box-new store-search-box">
-            <form action="" id="small-search-box-form">
-              <input
-                type="text"
-                name=""
-                id="small-searchterms"
-                placeholder="Bạn muốn tìm gì..."
-              />
-            </form>
-          </div>
-          <div class="cart-icon">
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-          </div>
-          <div class="login-icon">
-            <a href="../pages/account.html">
-              <img
-                src="../assets/images/NguyenDucVu_241230896/header_image/login-icon.png"
-                alt="login icon"
-                id="login-icon-img"
-              />
-            </a>
-            <div class="login-dropdown-for-destop">
-              <a href="../pages/login.html">Đăng nhập</a>
-              <a href="../pages/register.html">Đăng ký</a>
-            </div>
-          </div>
-          <div class="menu-for-mobile">
-            <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
-            <div class="drop-down-menu-for-mobile">
-              <ul class="menu-mobile">
-                <li>
-                  <a href="../index.html" class="menu-mobile-link">Trang chủ</a>
-                </li>
-                <li><a href="" class="menu-mobile-link">iPhone</a></li>
-                <li><a href="" class="menu-mobile-link">iPad</a></li>
-                <li><a href="" class="menu-mobile-link">Mac</a></li>
-                <li>
-                  <a href="../pages/watch.html" class="menu-mobile-link"
-                    >Watch</a
-                  >
-                </li>
-                <li><a href="../" class="menu-mobile-link">Phụ Kiện</a></li>
-                <li>
-                  <a href="../pages/earphone.html" class="menu-mobile-link"
-                    >Âm Thanh</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/camera.html" class="menu-mobile-link"
-                    >Camera</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/giadung.html" class="menu-mobile-link"
-                    >Gia Dụng</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/tintuc.html" class="menu-mobile-link"
-                    >Tin Tức</a
-                  >
-                </li>
-                <li>
-                  <a href="./pages/login.html" class="menu-mobile-link"
-                    >Đăng Nhập</a
-                  >
-                </li>
-                <li>
-                  <a href="./pages/register.html" class="menu-mobile-link"
-                    >Đăng Ký</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="overlay"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/header_and_footer.css" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/carousel_banner.css" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/main_content.css" />
+  <link rel="stylesheet" href="../styles/NguyenKimTuyen_241230888/product.css" />
+  <link rel="stylesheet" href="../styles/LeQuyTung_241230886/giadung.css" />
+  <script src="https://kit.fontawesome.com/9e100b4052.js" crossorigin="anonymous"></script>
+  <script src="../js/header_and_footer.js" defer></script>
+  <script src="../js/carousel_banner.js" defer></script>
+  <link rel="shortcut icon" href="assets/images/NguyenDucVu_241230896/" type="image/x-icon" />
+  <title>BaiTapLonThietKeWeb</title>
+</head>
+
+<body>
+  <div class="master-wrapper-page">
+    <!-- This is begin of header -->
+    <header>
+      <div class="higher-header">
+        <div class="header-logo">
+          <a href="../index.html"><img class="header-logo"
+              src="../assets/images/NguyenDucVu_241230896/header_image/page_logo.png" alt="page logo" /></a>
+        </div>
+        <div class="search-box-new store-search-box">
+          <form action="" id="small-search-box-form">
+            <input type="text" name="" id="small-searchterms" placeholder="Bạn muốn tìm gì..." />
+          </form>
+        </div>
+        <div class="cart-icon">
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="login-icon">
+          <a href="">
+            <img src="../assets/images/NguyenDucVu_241230896/header_image/login-icon.png" alt="login icon"
+              id="login-icon-img" />
+          </a>
+          <div class="login-dropdown-for-destop">
+            <a href="./login.html">Đăng nhập</a>
+            <a href="./register.html">Đăng ký</a>
           </div>
         </div>
-        <div class="header-navbar-for-desktop">
-          <ul class="top-menu-not-mobile">
-            <li class="category-menu-items"><a href="">iPhone</a></li>
-            <li class="category-menu-items"><a href="">iPad</a></li>
-            <li class="category-menu-items"><a href="">Mac</a></li>
-            <li class="category-menu-items">
-              <a href="../pages/watch.html">Watch</a>
-            </li>
-            <li class="category-menu-items"><a href="">Phụ kiện</a></li>
-            <li class="category-menu-items">
-              <a href="../pages/earphone.html">Âm thanh</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/camera.html">Camera</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/giadung.html">Gia dụng</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/tintuc.html">Tin tức</a>
-            </li>
-          </ul>
+        <div class="menu-for-mobile">
+          <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
+          <div class="drop-down-menu-for-mobile">
+            <ul class="menu-mobile">
+              <li><a href="../index.html" class="menu-mobile-link">Trang chủ</a></li>
+              <li><a href="./iphone.html" class="menu-mobile-link">iPhone</a></li>
+              <li><a href="./iPad.html" class="menu-mobile-link">iPad</a></li>
+              <li><a href="./Mac.html" class="menu-mobile-link">Mac</a></li>
+              <li><a href="./watch.html" class="menu-mobile-link">Watch</a></li>
+              <li><a href="./phu_kien.html" class="menu-mobile-link">Phụ Kiện</a></li>
+              <li><a href="./earphone.html" class="menu-mobile-link">Âm Thanh</a></li>
+              <li><a href="./camera.html" class="menu-mobile-link">Camera</a></li>
+              <li><a href="./giadung.html" class="menu-mobile-link">Gia Dụng</a></li>
+              <li><a href="./tintuc.html" class="menu-mobile-link">Tin Tức</a></li>
+              <li><a href="./login.html" class="menu-mobile-link">Đăng Nhập</a></li>
+              <li><a href="./register.html" class="menu-mobile-link">Đăng Ký</a></li>
+            </ul>
+          </div>
+          <div class="overlay"></div>
         </div>
-      </header>
-      <!-- This is end of header -->
-      <div class="wrapper-page-content">
-        <div class="carousel-container">
-          <div class="carousel-wrapper">
-            <div id="carousel" class="carousel">
-              <div id="slides" class="slides">
-                <a href="./pages/iPhone.html" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/carousel/carousel1.png"
-                    alt="Bep nuc time"
-                  />
-                </a>
-                <a href="./pages/iPhone.html" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/carousel/carosel2.png"
-                    alt="Bep nuc time"
-                  />
-                </a>
-              </div>
-
-              <button id="prev" class="ctrl-btn prev">⟨</button>
-              <button id="next" class="ctrl-btn next">⟩</button>
-              <div id="dots" class="dots"></div>
-            </div>
-          </div>
-        </div>
-        <!-- Code vao day -->
-        <div class="list-product">
-          <ul id="filter-list">
-            <li><a href="#" data-series="all">Tất cả</a></li>
-            <li>
-              <a href="#" data-series="may-loc-khong-khi">Máy lọc không khí</a>
-            </li>
-            <li>
-              <a href="#" data-series="ro-bot-hut-bui">Robot hút bụi</a>
-            </li>
-            <li><a href="#" data-series="noi-dien">Nồi điện</a></li>
-            <li>
-              <a href="#" data-series="may-hut-chan-khong"
-                >Máy hút chân không</a
-              >
-            </li>
-            <li><a href="#" data-series="may-ep">Máy ép</a></li>
-            <li><a href="#" data-series="am-dun-nuoc">Ấm đun nước</a></li>
-            <li><a href="#" data-series="may-say">Máy sấy</a></li>
-            <li><a href="#" data-series="may-xay">Máy xay</a></li>
-          </ul>
-        </div>
-        <div class="section-1">
-          <div class="product-box may-loc-khong-khi">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="image"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayLocKhongKhi/XiaomiElite.jpeg"
-                    alt=""
-                  />
-                </div>
-
-                <div class="product-name">Xiaomi Smart Air Purifier Elite</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.790.000<sup>₫</sup></div>
-                <div class="product-old-price">9.990.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box ro-bot-hut-bui">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/roborockSaros10.png"
-                    alt=""
-                  />
-                </div>
-
-                <div class="product-name">Robot hút bụi Roborock Saros 10</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">27.500.000<sup>₫</sup></div>
-                <div class="product-old-price">35.990.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box ro-bot-hut-bui">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/roborockZ70.png"
-                    alt="Robot hút bụi Roborock Saros Z70"
-                  />
-                </div>
-
-                <div class="product-name">Robot hút bụi Roborock Saros Z70</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">36.400.000<sup>₫</sup></div>
-                <div class="product-old-price">44.900.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box noi-dien">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/NoiDien/MorphyRichardMBC-UMD3N.png"
-                    alt="Nồi lẩu nướng đa năng Morphy Richards MBC-UMD3N"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Nồi lẩu nướng đa năng Morphy Richards MBC-UMD3N
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">4.590.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box noi-dien">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/NoiDien/MorphyRichardMBC-UPM3W.png"
-                    alt="Nồi điện đa năng Morphy Richards MBC-UPM3W"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Nồi điện đa năng Morphy Richards MBC-UPM3W
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box noi-dien">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/NoiDien/MorphyRichardMBC-MOC-RP3W.png"
-                    alt="Nồi áp suất điện đa năng Morphy Richards MOC-RP3W"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Nồi áp suất điện đa năng Morphy Richards MOC-RP3W
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">2.990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box may-hut-chan-khong">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutChanKhong/MorphyRichardMBC-VS3E.png"
-                    alt="Máy hút chân không tiện lợi Morphy Richards MBC-VS3E"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy hút chân không tiện lợi Morphy Richards MBC-VS3E
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">2.190.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box ro-bot-hut-bui">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/robotxiaomie10c.png"
-                    alt="Xiaomi Robot Vacuum E10C"
-                  />
-                </div>
-
-                <div class="product-name">Xiaomi Robot Vacuum E10C</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">2.790.000<sup>₫</sup></div>
-                <div class="product-old-price">3.990.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box ro-bot-hut-bui">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/robotxiaomiS20.png"
-                    alt="Xiaomi Robot Vacuum S20"
-                  />
-                </div>
-
-                <div class="product-name">Xiaomi Robot Vacuum S20</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">4.890.000<sup>₫</sup></div>
-                <div class="product-old-price">5.490.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box may-say">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MaySay/DreamePro.png"
-                    alt="Bộ máy sấy Dreame Hair Dryer Glory Pro"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Bộ máy sấy Dreame Hair Dryer Glory Pro
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">3.090.000<sup>₫</sup></div>
-                <div class="product-old-price">5.390.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box may-say">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MaySay/DreameAHD6A-RS.png"
-                    alt="Máy sấy tóc Dreame Hair Dryer Glory AHD6A-RS"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy sấy tóc Dreame Hair Dryer Glory AHD6A-RS
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">2.500.000<sup>₫</sup></div>
-                <div class="product-old-price">4.899.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box may-say">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MaySay/DreameAHD12A.png"
-                    alt="Máy sấy tóc Dreame Hair Dryer Gleam AHD12A"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy sấy tóc Dreame Hair Dryer Gleam AHD12A
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.720.000<sup>₫</sup></div>
-                <div class="product-old-price">2.739.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box may-say">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MaySay/DreameAHD54.png"
-                    alt="Bộ máy sấy Dreame Hair Pocket Uni AHD54"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Bộ máy sấy Dreame Hair Pocket Uni AHD54
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">3.875.000<sup>₫</sup></div>
-                <div class="product-old-price">6.372.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box ro-bot-hut-bui">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/robotxiaomieS20Plus.png"
-                    alt="Xiaomi Robot Vacuum S20+"
-                  />
-                </div>
-
-                <div class="product-name">Xiaomi Robot Vacuum S20+</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.190.000<sup>₫</sup></div>
-                <div class="product-old-price">6.990.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box may-ep">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayEp/BruanJ500BK.png"
-                    alt="Máy ép trái cây Braun J500BK"
-                  />
-                </div>
-
-                <div class="product-name">Máy ép trái cây Braun J500BK</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">4.490.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box am-dun-nuoc">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/BruanWK1000BK.jpeg"
-                    alt="Ấm siêu tốc Braun WK1100BK"
-                  />
-                </div>
-
-                <div class="product-name">Ấm siêu tốc Braun WK1100BK</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box am-dun-nuoc">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/BruanWK1100WH.jpeg"
-                    alt="Ấm siêu tốc Braun WK1100 WH"
-                  />
-                </div>
-
-                <div class="product-name">Ấm siêu tốc Braun WK1100 WH</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box am-dun-nuoc">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/BruanWK1500BK.jpeg"
-                    alt="Ấm siêu tốc Braun WK1500BK"
-                  />
-                </div>
-
-                <div class="product-name">Ấm siêu tốc Braun WK1500BK</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">990.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box may-loc-khong-khi">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayLocKhongKhi/dreamePM20CVF14A.png"
-                    alt="Máy lọc không khí Dreame PM20 CVF14A"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Máy lọc không khí Dreame PM20 CVF14A
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">17.630.000<sup>₫</sup></div>
-                <div class="product-old-price">19.627.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box may-xay">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayXay/BruanMQ7045X.jpeg"
-                    alt="Máy xay cầm tay Braun MQ7045X"
-                  />
-                </div>
-
-                <div class="product-name">Máy xay cầm tay Braun MQ7045X</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">4.199.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box may-xay">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayXay/Bruan5235CN.jpeg"
-                    alt="Máy xay cầm tay Braun MQ5235CN"
-                  />
-                </div>
-
-                <div class="product-name">Máy xay cầm tay Braun MQ5235CN</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.999.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box may-xay">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayXay/BruanMQ5200.png"
-                    alt="Máy xay cầm tay Braun MQ5200"
-                  />
-                </div>
-
-                <div class="product-name">Máy xay cầm tay Braun MQ5200</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.599.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box am-dun-nuoc">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/MorphyRichardMBC-KC2E.png"
-                    alt="Ấm đun nước cao cấp Morphy Richards MBC-KC2E"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Ấm đun nước cao cấp Morphy Richards MBC-KC2E
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.190.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box am-dun-nuoc">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/MorphyRichardMBC-KAF3N.png"
-                    alt="Ấm đun nước điện Morphy Richards MBC-KAF3N"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Ấm đun nước điện Morphy Richards MBC-KAF3N
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.790.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box may-xay">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/giadungpage/MayXay/BruanJB3150BK.jpeg"
-                    alt="Máy xay sinh tố Braun JB3150BK"
-                  />
-                </div>
-
-                <div class="product-name">Máy xay sinh tố Braun JB3150BK</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">2.699.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Ket thuc code -->
       </div>
-      <!-- this is begin of footer -->
-      <footer>
-        <div class="footer-wrapper">
-          <div class="footer-about">
-            <img
-              src="./assets/images/NguyenDucVu_241230896/header_image/page_logo.png"
-              alt="ShopDunk Logo"
-              class="footer-logo"
-            />
-            <p>
-              Năm 2020, DucVu Team trở thành đại lý ủy quyền của Apple. Chúng
-              tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm
-              mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho
-              người dùng Việt Nam.
-            </p>
-            <div class="footer-hotline">
-              <p><strong>Tổng đài hỗ trợ:</strong></p>
-              <p>
-                Mua hàng: <a href="tel:19006626">1234.6789</a> (08:00 - 22:00)
-              </p>
-              <p>
-                Bảo hành: <a href="tel:19008036">0123.1111</a> (08:30 - 20:00)
-              </p>
+      <div class="header-navbar-for-desktop">
+        <ul class="top-menu-not-mobile">
+          <li class="category-menu-items"><a href="./iphone.html">iPhone</a></li>
+          <li class="category-menu-items"><a href="./iPad.html">iPad</a></li>
+          <li class="category-menu-items"><a href="./Mac.html">Mac</a></li>
+          <li class="category-menu-items"><a href="./watch.html">Watch</a></li>
+          <li class="category-menu-items"><a href="./phu_kien.html">Phụ kiện</a></li>
+          <li class="category-menu-items"><a href="./earphone.html">Âm thanh</a></li>
+          <li class="category-menu-items"><a href="./camera.html">Camera</a></li>
+          <li class="category-menu-items"><a href="./giadung.html">Gia dụng</a></li>
+          <li class="category-menu-items"><a href="./tintuc.html">Tin tức</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- This is end of header -->
+    <div class="wrapper-page-content">
+      <div class="carousel-container">
+        <div class="carousel-wrapper">
+          <div id="carousel" class="carousel">
+            <div id="slides" class="slides">
+              <a href="./pages/iPhone.html" target="">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/carousel/carousel1.png" alt="Bep nuc time" />
+              </a>
+              <a href="./pages/iPhone.html" target="">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/carousel/carosel2.png" alt="Bep nuc time" />
+              </a>
+            </div>
+
+            <button id="prev" class="ctrl-btn prev">⟨</button>
+            <button id="next" class="ctrl-btn next">⟩</button>
+            <div id="dots" class="dots"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Code vao day -->
+      <div class="list-product">
+        <ul id="filter-list">
+          <li><a href="#" data-series="all">Tất cả</a></li>
+          <li>
+            <a href="#" data-series="may-loc-khong-khi">Máy lọc không khí</a>
+          </li>
+          <li>
+            <a href="#" data-series="ro-bot-hut-bui">Robot hút bụi</a>
+          </li>
+          <li><a href="#" data-series="noi-dien">Nồi điện</a></li>
+          <li>
+            <a href="#" data-series="may-hut-chan-khong">Máy hút chân không</a>
+          </li>
+          <li><a href="#" data-series="may-ep">Máy ép</a></li>
+          <li><a href="#" data-series="am-dun-nuoc">Ấm đun nước</a></li>
+          <li><a href="#" data-series="may-say">Máy sấy</a></li>
+          <li><a href="#" data-series="may-xay">Máy xay</a></li>
+        </ul>
+      </div>
+      <div class="section-1">
+        <div class="product-box may-loc-khong-khi">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="image" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayLocKhongKhi/XiaomiElite.jpeg" alt="" />
+              </div>
+
+              <div class="product-name">Xiaomi Smart Air Purifier Elite</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.790.000<sup>₫</sup></div>
+              <div class="product-old-price">9.990.000</div>
             </div>
           </div>
+        </div>
+        <div class="product-box ro-bot-hut-bui">
+          <div class="product-inner">
+            <div class="product-tag"></div>
 
-          <div class="footer-links">
-            <h4>Thông tin</h4>
-            <ul>
-              <li><a href="#">Newsfeed</a></li>
-              <li><a href="#">Giới thiệu</a></li>
-              <li><a href="#">Check IMEI</a></li>
-              <li><a href="#">Phương thức thanh toán</a></li>
-              <li><a href="#">Thuê điểm bán lẻ</a></li>
-              <li><a href="#">Bảo hành và sửa chữa</a></li>
-              <li><a href="#">Tuyển dụng</a></li>
-              <li><a href="#">Đánh giá chất lượng, khiếu nại</a></li>
-              <li><a href="#">Tra cứu hoá đơn điện tử</a></li>
-            </ul>
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/roborockSaros10.png" alt="" />
+              </div>
+
+              <div class="product-name">Robot hút bụi Roborock Saros 10</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">27.500.000<sup>₫</sup></div>
+              <div class="product-old-price">35.990.000</div>
+            </div>
           </div>
+        </div>
+        <div class="product-box ro-bot-hut-bui">
+          <div class="product-inner">
+            <div class="product-tag"></div>
 
-          <div class="footer-links">
-            <h4>Chính sách</h4>
-            <ul>
-              <li><a href="#">Thu cũ đổi mới</a></li>
-              <li><a href="#">Giao hàng</a></li>
-              <li><a href="#">Giao hàng (ZaloPay)</a></li>
-              <li><a href="#">Huỷ giao dịch</a></li>
-              <li><a href="#">Đổi trả</a></li>
-              <li><a href="#">Bảo hành</a></li>
-              <li><a href="#">Dịch vụ</a></li>
-              <li><a href="#">Giải quyết khiếu nại</a></li>
-              <li><a href="#">Bảo mật thông tin</a></li>
-              <li><a href="#">Hướng dẫn thanh toán qua VNPAY</a></li>
-            </ul>
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/roborockZ70.png"
+                  alt="Robot hút bụi Roborock Saros Z70" />
+              </div>
+
+              <div class="product-name">Robot hút bụi Roborock Saros Z70</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">36.400.000<sup>₫</sup></div>
+              <div class="product-old-price">44.900.000</div>
+            </div>
           </div>
+        </div>
+        <div class="product-box noi-dien">
+          <div class="product-inner">
+            <div class="product-tag"></div>
 
-          <div class="footer-links">
-            <h4>Địa chỉ & Liên hệ</h4>
-            <ul>
-              <li><a href="#">Tài khoản của tôi</a></li>
-              <li><a href="#">Đơn đặt hàng</a></li>
-              <li><a href="#">Tìm Store trên Google Map</a></li>
-              <li><a href="#">Hệ thống cửa hàng</a></li>
-              <li><a href="tel:19006626">Mua hàng: 1900.6626</a></li>
-              <li><a href="tel:0822688668">Doanh nghiệp: 0822.688.668</a></li>
-            </ul>
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/NoiDien/MorphyRichardMBC-UMD3N.png"
+                  alt="Nồi lẩu nướng đa năng Morphy Richards MBC-UMD3N" />
+              </div>
+
+              <div class="product-name">
+                Nồi lẩu nướng đa năng Morphy Richards MBC-UMD3N
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">4.590.000<sup>₫</sup></div>
+            </div>
           </div>
         </div>
 
-        <div class="footer-bottom">
-          <p>
-            © 2025 Nhóm BTL Thiết Kế Web Lớp N06 CNTT4 K65, Trường Đại Học Giao
-            Thông Vận Tải
-          </p>
-          <p>
-            Địa chỉ: Số 3, phường Láng Thượng, quận Đống Đa, Hà Nội, Việt Nam
-          </p>
-          <p>Đại diện nhóm trưởng: Nguyễn Đức Vũ - ĐT: 0333.496.018</p>
-          <p>Email: ndv120806@gmail.com</p>
+        <div class="product-box noi-dien">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/NoiDien/MorphyRichardMBC-UPM3W.png"
+                  alt="Nồi điện đa năng Morphy Richards MBC-UPM3W" />
+              </div>
+
+              <div class="product-name">
+                Nồi điện đa năng Morphy Richards MBC-UPM3W
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.990.000<sup>₫</sup></div>
+            </div>
+          </div>
         </div>
-      </footer>
-      <!-- this is end of footer -->
+
+        <div class="product-box noi-dien">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/NoiDien/MorphyRichardMBC-MOC-RP3W.png"
+                  alt="Nồi áp suất điện đa năng Morphy Richards MOC-RP3W" />
+              </div>
+
+              <div class="product-name">
+                Nồi áp suất điện đa năng Morphy Richards MOC-RP3W
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">2.990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box may-hut-chan-khong">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutChanKhong/MorphyRichardMBC-VS3E.png"
+                  alt="Máy hút chân không tiện lợi Morphy Richards MBC-VS3E" />
+              </div>
+
+              <div class="product-name">
+                Máy hút chân không tiện lợi Morphy Richards MBC-VS3E
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">2.190.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box ro-bot-hut-bui">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/robotxiaomie10c.png"
+                  alt="Xiaomi Robot Vacuum E10C" />
+              </div>
+
+              <div class="product-name">Xiaomi Robot Vacuum E10C</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">2.790.000<sup>₫</sup></div>
+              <div class="product-old-price">3.990.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box ro-bot-hut-bui">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/robotxiaomiS20.png"
+                  alt="Xiaomi Robot Vacuum S20" />
+              </div>
+
+              <div class="product-name">Xiaomi Robot Vacuum S20</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">4.890.000<sup>₫</sup></div>
+              <div class="product-old-price">5.490.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box may-say">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MaySay/DreamePro.png"
+                  alt="Bộ máy sấy Dreame Hair Dryer Glory Pro" />
+              </div>
+
+              <div class="product-name">
+                Bộ máy sấy Dreame Hair Dryer Glory Pro
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">3.090.000<sup>₫</sup></div>
+              <div class="product-old-price">5.390.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box may-say">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MaySay/DreameAHD6A-RS.png"
+                  alt="Máy sấy tóc Dreame Hair Dryer Glory AHD6A-RS" />
+              </div>
+
+              <div class="product-name">
+                Máy sấy tóc Dreame Hair Dryer Glory AHD6A-RS
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">2.500.000<sup>₫</sup></div>
+              <div class="product-old-price">4.899.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box may-say">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MaySay/DreameAHD12A.png"
+                  alt="Máy sấy tóc Dreame Hair Dryer Gleam AHD12A" />
+              </div>
+
+              <div class="product-name">
+                Máy sấy tóc Dreame Hair Dryer Gleam AHD12A
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.720.000<sup>₫</sup></div>
+              <div class="product-old-price">2.739.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box may-say">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MaySay/DreameAHD54.png"
+                  alt="Bộ máy sấy Dreame Hair Pocket Uni AHD54" />
+              </div>
+
+              <div class="product-name">
+                Bộ máy sấy Dreame Hair Pocket Uni AHD54
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">3.875.000<sup>₫</sup></div>
+              <div class="product-old-price">6.372.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box ro-bot-hut-bui">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayHutBui/robotxiaomieS20Plus.png"
+                  alt="Xiaomi Robot Vacuum S20+" />
+              </div>
+
+              <div class="product-name">Xiaomi Robot Vacuum S20+</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.190.000<sup>₫</sup></div>
+              <div class="product-old-price">6.990.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box may-ep">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayEp/BruanJ500BK.png"
+                  alt="Máy ép trái cây Braun J500BK" />
+              </div>
+
+              <div class="product-name">Máy ép trái cây Braun J500BK</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">4.490.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box am-dun-nuoc">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/BruanWK1000BK.jpeg"
+                  alt="Ấm siêu tốc Braun WK1100BK" />
+              </div>
+
+              <div class="product-name">Ấm siêu tốc Braun WK1100BK</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box am-dun-nuoc">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/BruanWK1100WH.jpeg"
+                  alt="Ấm siêu tốc Braun WK1100 WH" />
+              </div>
+
+              <div class="product-name">Ấm siêu tốc Braun WK1100 WH</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box am-dun-nuoc">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/BruanWK1500BK.jpeg"
+                  alt="Ấm siêu tốc Braun WK1500BK" />
+              </div>
+
+              <div class="product-name">Ấm siêu tốc Braun WK1500BK</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">990.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box may-loc-khong-khi">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayLocKhongKhi/dreamePM20CVF14A.png"
+                  alt="Máy lọc không khí Dreame PM20 CVF14A" />
+              </div>
+
+              <div class="product-name">
+                Máy lọc không khí Dreame PM20 CVF14A
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">17.630.000<sup>₫</sup></div>
+              <div class="product-old-price">19.627.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box may-xay">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayXay/BruanMQ7045X.jpeg"
+                  alt="Máy xay cầm tay Braun MQ7045X" />
+              </div>
+
+              <div class="product-name">Máy xay cầm tay Braun MQ7045X</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">4.199.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box may-xay">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayXay/Bruan5235CN.jpeg"
+                  alt="Máy xay cầm tay Braun MQ5235CN" />
+              </div>
+
+              <div class="product-name">Máy xay cầm tay Braun MQ5235CN</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.999.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box may-xay">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayXay/BruanMQ5200.png"
+                  alt="Máy xay cầm tay Braun MQ5200" />
+              </div>
+
+              <div class="product-name">Máy xay cầm tay Braun MQ5200</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.599.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box am-dun-nuoc">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/MorphyRichardMBC-KC2E.png"
+                  alt="Ấm đun nước cao cấp Morphy Richards MBC-KC2E" />
+              </div>
+
+              <div class="product-name">
+                Ấm đun nước cao cấp Morphy Richards MBC-KC2E
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.190.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box am-dun-nuoc">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/AmDunNuoc/MorphyRichardMBC-KAF3N.png"
+                  alt="Ấm đun nước điện Morphy Richards MBC-KAF3N" />
+              </div>
+
+              <div class="product-name">
+                Ấm đun nước điện Morphy Richards MBC-KAF3N
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.790.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box may-xay">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/giadungpage/MayXay/BruanJB3150BK.jpeg"
+                  alt="Máy xay sinh tố Braun JB3150BK" />
+              </div>
+
+              <div class="product-name">Máy xay sinh tố Braun JB3150BK</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">2.699.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ket thuc code -->
     </div>
-    <script src="../js/giadung.js"></script>
-  </body>
+    <!-- this is begin of footer -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-about">
+          <img src="./assets/images/NguyenDucVu_241230896/header_image/page_logo.png" alt="ShopDunk Logo"
+            class="footer-logo" />
+          <p>
+            Năm 2020, DucVu Team trở thành đại lý ủy quyền của Apple. Chúng
+            tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm
+            mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho
+            người dùng Việt Nam.
+          </p>
+          <div class="footer-hotline">
+            <p><strong>Tổng đài hỗ trợ:</strong></p>
+            <p>
+              Mua hàng: <a href="tel:19006626">1234.6789</a> (08:00 - 22:00)
+            </p>
+            <p>
+              Bảo hành: <a href="tel:19008036">0123.1111</a> (08:30 - 20:00)
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Thông tin</h4>
+          <ul>
+            <li><a href="#">Newsfeed</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Check IMEI</a></li>
+            <li><a href="#">Phương thức thanh toán</a></li>
+            <li><a href="#">Thuê điểm bán lẻ</a></li>
+            <li><a href="#">Bảo hành và sửa chữa</a></li>
+            <li><a href="#">Tuyển dụng</a></li>
+            <li><a href="#">Đánh giá chất lượng, khiếu nại</a></li>
+            <li><a href="#">Tra cứu hoá đơn điện tử</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Chính sách</h4>
+          <ul>
+            <li><a href="#">Thu cũ đổi mới</a></li>
+            <li><a href="#">Giao hàng</a></li>
+            <li><a href="#">Giao hàng (ZaloPay)</a></li>
+            <li><a href="#">Huỷ giao dịch</a></li>
+            <li><a href="#">Đổi trả</a></li>
+            <li><a href="#">Bảo hành</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Giải quyết khiếu nại</a></li>
+            <li><a href="#">Bảo mật thông tin</a></li>
+            <li><a href="#">Hướng dẫn thanh toán qua VNPAY</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Địa chỉ & Liên hệ</h4>
+          <ul>
+            <li><a href="#">Tài khoản của tôi</a></li>
+            <li><a href="#">Đơn đặt hàng</a></li>
+            <li><a href="#">Tìm Store trên Google Map</a></li>
+            <li><a href="#">Hệ thống cửa hàng</a></li>
+            <li><a href="tel:19006626">Mua hàng: 1900.6626</a></li>
+            <li><a href="tel:0822688668">Doanh nghiệp: 0822.688.668</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © 2025 Nhóm BTL Thiết Kế Web Lớp N06 CNTT4 K65, Trường Đại Học Giao
+          Thông Vận Tải
+        </p>
+        <p>
+          Địa chỉ: Số 3, phường Láng Thượng, quận Đống Đa, Hà Nội, Việt Nam
+        </p>
+        <p>Đại diện nhóm trưởng: Nguyễn Đức Vũ - ĐT: 0333.496.018</p>
+        <p>Email: ndv120806@gmail.com</p>
+      </div>
+    </footer>
+    <!-- this is end of footer -->
+  </div>
+  <script src="../js/giadung.js"></script>
+</body>
+
 </html>

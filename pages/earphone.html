@@ -1,1173 +1,993 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/header_and_footer.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/carousel_banner.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenDucVu_241230896/main_content.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/NguyenKimTuyen_241230888/product.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/LeQuyTung_241230886/fix-products.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/9e100b4052.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../js/header_and_footer.js" defer></script>
-    <script src="../js/carousel_banner.js" defer></script>
-    <link
-      rel="shortcut icon"
-      href="assets/images/NguyenDucVu_241230896/"
-      type="image/x-icon"
-    />
-    <title>BaiTapLonThietKeWeb</title>
-  </head>
 
-  <body>
-    <div class="master-wrapper-page">
-      <!-- This is begin of header -->
-      <header>
-        <div class="higher-header">
-          <div class="header-logo">
-            <a href="../index.html"
-              ><img
-                class="header-logo"
-                src="../assets/images/NguyenDucVu_241230896/header_image/page_logo.png"
-                alt="page logo"
-            /></a>
-          </div>
-          <div class="search-box-new store-search-box">
-            <form action="" id="small-search-box-form">
-              <input
-                type="text"
-                name=""
-                id="small-searchterms"
-                placeholder="Bạn muốn tìm gì..."
-              />
-            </form>
-          </div>
-          <div class="cart-icon">
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-          </div>
-          <div class="login-icon">
-            <a href="../pages/account.html">
-              <img
-                src="../assets/images/NguyenDucVu_241230896/header_image/login-icon.png"
-                alt="login icon"
-                id="login-icon-img"
-              />
-            </a>
-            <div class="login-dropdown-for-destop">
-              <a href="../pages/login.html">Đăng nhập</a>
-              <a href="../pages/register.html">Đăng ký</a>
-            </div>
-          </div>
-          <div class="menu-for-mobile">
-            <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
-            <div class="drop-down-menu-for-mobile">
-              <ul class="menu-mobile">
-                <li>
-                  <a href="../index.html" class="menu-mobile-link">Trang chủ</a>
-                </li>
-                <li><a href="" class="menu-mobile-link">iPhone</a></li>
-                <li><a href="" class="menu-mobile-link">iPad</a></li>
-                <li><a href="" class="menu-mobile-link">Mac</a></li>
-                <li>
-                  <a href="../pages/watch.html" class="menu-mobile-link"
-                    >Watch</a
-                  >
-                </li>
-                <li><a href="../" class="menu-mobile-link">Phụ Kiện</a></li>
-                <li>
-                  <a href="../pages/earphone.html" class="menu-mobile-link"
-                    >Âm Thanh</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/camera.html" class="menu-mobile-link"
-                    >Camera</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/giadung.html" class="menu-mobile-link"
-                    >Gia Dụng</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/tintuc.html" class="menu-mobile-link"
-                    >Tin Tức</a
-                  >
-                </li>
-                <li>
-                  <a href="./pages/login.html" class="menu-mobile-link"
-                    >Đăng Nhập</a
-                  >
-                </li>
-                <li>
-                  <a href="./pages/register.html" class="menu-mobile-link"
-                    >Đăng Ký</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="overlay"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/header_and_footer.css" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/carousel_banner.css" />
+  <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/main_content.css" />
+  <link rel="stylesheet" href="../styles/NguyenKimTuyen_241230888/product.css" />
+  <link rel="stylesheet" href="../styles/LeQuyTung_241230886/fix-products.css" />
+  <script src="https://kit.fontawesome.com/9e100b4052.js" crossorigin="anonymous"></script>
+  <script src="../js/header_and_footer.js" defer></script>
+  <script src="../js/carousel_banner.js" defer></script>
+  <link rel="shortcut icon" href="assets/images/NguyenDucVu_241230896/" type="image/x-icon" />
+  <title>BaiTapLonThietKeWeb</title>
+</head>
+
+<body>
+  <div class="master-wrapper-page">
+    <!-- This is begin of header -->
+    <header>
+      <div class="higher-header">
+        <div class="header-logo">
+          <a href="../index.html"><img class="header-logo"
+              src="../assets/images/NguyenDucVu_241230896/header_image/page_logo.png" alt="page logo" /></a>
+        </div>
+        <div class="search-box-new store-search-box">
+          <form action="" id="small-search-box-form">
+            <input type="text" name="" id="small-searchterms" placeholder="Bạn muốn tìm gì..." />
+          </form>
+        </div>
+        <div class="cart-icon">
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="login-icon">
+          <a href="../pages/account.html">
+            <img src="../assets/images/NguyenDucVu_241230896/header_image/login-icon.png" alt="login icon"
+              id="login-icon-img" />
+          </a>
+          <div class="login-dropdown-for-destop">
+            <a href="../pages/login.html">Đăng nhập</a>
+            <a href="../pages/register.html">Đăng ký</a>
           </div>
         </div>
-        <div class="header-navbar-for-desktop">
-          <ul class="top-menu-not-mobile">
-            <li class="category-menu-items"><a href="">iPhone</a></li>
-            <li class="category-menu-items"><a href="">iPad</a></li>
-            <li class="category-menu-items"><a href="">Mac</a></li>
-            <li class="category-menu-items">
-              <a href="../pages/watch.html">Watch</a>
-            </li>
-            <li class="category-menu-items"><a href="">Phụ kiện</a></li>
-            <li class="category-menu-items">
-              <a href="../pages/earphone.html">Âm thanh</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/camera.html">Camera</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/giadung.html">Gia dụng</a>
-            </li>
-            <li class="category-menu-items">
-              <a href="../pages/tintuc.html">Tin tức</a>
-            </li>
-          </ul>
+        <div class="menu-for-mobile">
+          <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
+          <div class="drop-down-menu-for-mobile">
+            <ul class="menu-mobile">
+              <li><a href="../index.html" class="menu-mobile-link">Trang chủ</a></li>
+              <li><a href="./iphone.html" class="menu-mobile-link">iPhone</a></li>
+              <li><a href="./iPad.html" class="menu-mobile-link">iPad</a></li>
+              <li><a href="./Mac.html" class="menu-mobile-link">Mac</a></li>
+              <li><a href="./watch.html" class="menu-mobile-link">Watch</a></li>
+              <li><a href="./phu_kien.html" class="menu-mobile-link">Phụ Kiện</a></li>
+              <li><a href="./earphone.html" class="menu-mobile-link">Âm Thanh</a></li>
+              <li><a href="./camera.html" class="menu-mobile-link">Camera</a></li>
+              <li><a href="./giadung.html" class="menu-mobile-link">Gia Dụng</a></li>
+              <li><a href="./tintuc.html" class="menu-mobile-link">Tin Tức</a></li>
+              <li><a href="./login.html" class="menu-mobile-link">Đăng Nhập</a></li>
+              <li><a href="./register.html" class="menu-mobile-link">Đăng Ký</a></li>
+            </ul>
+          </div>
+          <div class="overlay"></div>
         </div>
-      </header>
-      <!-- This is end of header -->
-      <div class="wrapper-page-content">
-        <div class="carousel-container">
-          <div class="carousel-wrapper">
-            <div id="carousel" class="carousel">
-              <div id="slides" class="slides">
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh1.png"
-                    alt="Earphone-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh2.png"
-                    alt="Earphone-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh3.png"
-                    alt="Earphone-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh4.png"
-                    alt="Earphone-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh5.png"
-                    alt="Earphone-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh6.png"
-                    alt="Earphone-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh7.png"
-                    alt="Earphone-carousel"
-                  />
-                </a>
-                <a href="#" target="">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh8.png"
-                    alt="Earphone-carousel"
-                  />
-                </a>
-              </div>
-
-              <button id="prev" class="ctrl-btn prev">⟨</button>
-              <button id="next" class="ctrl-btn next">⟩</button>
-              <div id="dots" class="dots"></div>
-            </div>
-          </div>
-        </div>
-        <!-- Code vao day -->
-        <div class="list-product">
-          <ul id="filter-list">
-            <li><a href="#" data-series="all">Tất cả</a></li>
-            <li>
-              <a href="#" data-series="airpod"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/airpod.jpeg"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="marshall"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/marshall.jpeg"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="beats"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/beats.jpeg"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="harman-kardon"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/harman kardon.jpeg"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="jbl"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/jbl.jpeg"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="belkin"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/belkin.png"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="sony"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/sony.jpeg"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" data-series="jabra"
-                ><img
-                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/jabra.png"
-                  alt=""
-              /></a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="section-1">
-          <div class="product-box airpod">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/airpod/pro3.jpeg"
-                    alt="AirPods Pro 3"
-                  />
-                </div>
-
-                <div class="product-name">AirPods Pro 3</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.690.000<sup>₫</sup></div>
-                <div class="product-old-price">6.799.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box airpod">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png"
-                  alt="tragop"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/airpod/pods4.jpeg"
-                    alt="AirPods 4"
-                  />
-                </div>
-
-                <div class="product-name">AirPods 4</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">3.690.000<sup>₫</sup></div>
-                <div class="product-old-price">4.990.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box airpod">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png"
-                  alt="tragop"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/airpod/maxusbc.jpeg"
-                    alt="AirPods Max cổng USB C 2024"
-                  />
-                </div>
-
-                <div class="product-name">AirPods Max cổng USB C 2024</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">12.190.000<sup>₫</sup></div>
-                <div class="product-old-price">13.990.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box marshall">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/marshall/stanmore3.png"
-                    alt="Loa Marshall Stanmore III"
-                  />
-                </div>
-
-                <div class="product-name">Loa Marshall Stanmore III</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">9.990.000<sup>₫</sup></div>
-                <div class="product-old-price">11.780.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box marshall">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/marshall/0033180_tai-nghe-marshall-motif-ii-anc-black_240.jpeg"
-                    alt="Tai nghe Marshall Motif II A.N.C. Black"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Tai nghe Marshall Motif II A.N.C. Black
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">4.550.000<sup>₫</sup></div>
-                <div class="product-old-price">5.490.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box marshall">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/marshall/0041670_tai-nghe-marshall-minor-iv_240.png"
-                    alt="Tai Nghe Marshall Minor IV"
-                  />
-                </div>
-
-                <div class="product-name">Tai Nghe Marshall Minor IV</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">3.270.000<sup>₫</sup></div>
-                <div class="product-old-price">3.630.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box marshall">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png"
-                  alt="tragop"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/marshall/0041671_loa-marshall-acton-iii_240.png"
-                    alt="Loa Marshall Acton III"
-                  />
-                </div>
-
-                <div class="product-name">Loa Marshall Acton III</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.770.000<sup>₫</sup></div>
-                <div class="product-old-price">7.950.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box beats">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/beats/0038414_tai-nghe-apple-beats-solo-buds_240.jpeg"
-                    alt="Tai nghe Apple Beats Solo Buds"
-                  />
-                </div>
-
-                <div class="product-name">Tai nghe Apple Beats Solo Buds</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.590.000<sup>₫</sup></div>
-                <div class="product-old-price">1.990.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box beats">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/beats/0038422_tai-nghe-apple-beats-studio-buds-trpt-mqlk3zpa_240.jpeg"
-                    alt="Tai nghe Apple Beats Studio Buds TRPT MQLK3ZP/A"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Tai nghe Apple Beats Studio Buds TRPT MQLK3ZP/A
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">3.290.000<sup>₫</sup></div>
-                <div class="product-old-price">3.990.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box beats">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/beats/0038429_tai-nghe-apple-beats-studio-pro-wireless_240.jpeg"
-                    alt="Tai nghe Apple Beats Studio Pro Wireless"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Tai nghe Apple Beats Studio Pro Wireless
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.990.000<sup>₫</sup></div>
-                <div class="product-old-price">7.990.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box beats">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/beats/0038436_tai-nghe-khong-day-beats-powerbeats-pro-den-my582zpa_240.jpeg"
-                    alt="Tai nghe không dây Beats Powerbeats Pro Đen (MYS82ZP/A)"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Tai nghe không dây Beats Powerbeats Pro Đen (MYS82ZP/A)
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.490.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box harman-kardon">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/harman kardon/0002142_loa-harman-kardon-go-play-mini_240.jpeg"
-                    alt="Loa Harman Kardon Go + Play Mini"
-                  />
-                </div>
-
-                <div class="product-name">Loa Harman Kardon Go + Play Mini</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">5.490.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box harman-kardon">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/harman kardon/0032378_loa-harman-kardon-onyx-studio-8_240.png"
-                    alt="Loa Harman Kardon Onyx Studio 8"
-                  />
-                </div>
-
-                <div class="product-name">Loa Harman Kardon Onyx Studio 8</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">4.590.000<sup>₫</sup></div>
-                <div class="product-old-price">4.890.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box harman-kardon">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/harman kardon/0033345_loa-harman-kardon-go-play-3_240.png"
-                    alt="Loa Harman Kardon Go + Play 3"
-                  />
-                </div>
-
-                <div class="product-name">Loa Harman Kardon Go + Play 3</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.990.000<sup>₫</sup></div>
-                <div class="product-old-price">7.045.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box airpod">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/airpod/earpods-usb-c.jpeg"
-                    alt="EarPods with USB-C"
-                  />
-                </div>
-
-                <div class="product-name">EarPods with USB-C</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">550.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box jbl">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jbl/0037188_loa-jbl-charge-6_240.png"
-                    alt="Loa JBL CHARGE 6"
-                  />
-                </div>
-
-                <div class="product-name">Loa JBL CHARGE 6</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">4.290.000<sup>₫</sup></div>
-                <div class="product-old-price">4.590.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box jbl">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jbl/0037300_loa-jbl-flip-7_240.png"
-                    alt="Loa JBL Flip 7"
-                  />
-                </div>
-
-                <div class="product-name">Loa JBL Flip 7</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">3.290.000<sup>₫</sup></div>
-                <div class="product-old-price">3.590.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box jbl">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jbl/0033388_loa-jbl-clip-5_240.png"
-                    alt="Loa JBL Clip 5"
-                  />
-                </div>
-
-                <div class="product-name">Loa JBL Clip 5</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.490.000<sup>₫</sup></div>
-                <div class="product-old-price">1.561.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box jbl">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jbl/0050517_loa-jbl-boombox-4_240.png"
-                    alt="Loa JBL Boombox 4"
-                  />
-                </div>
-
-                <div class="product-name">Loa JBL Boombox 4</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">13.900.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box belkin">
-            <div class="product-inner">
-              <div class="product-tag">
-                <img
-                  src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png"
-                  alt="newtag"
-                />
-              </div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/belkin/0028045_tai-nghe-belkin-bluetooth-soundform-play_240.jpeg"
-                    alt="Tai nghe Belkin Bluetooth SOUNDFORM Play"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Tai nghe Belkin Bluetooth SOUNDFORM Play
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">790.000<sup>₫</sup></div>
-                <div class="product-old-price">1.190.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box belkin">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/belkin/0042023_tai-nghe-belkin-soundform-rhythm-tre-wireless-earbuds_240.jpeg"
-                    alt="Tai Nghe Belkin SOUNDFORM RHYTHM TRE WIRELESS EARBUDS"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Tai Nghe Belkin SOUNDFORM RHYTHM TRE WIRELESS EARBUDS
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.190.000<sup>₫</sup></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0028633_tai-nghe-bluetooth-chup-tai-sony-wh1000xm5_240.jpeg"
-                    alt="Tai nghe Bluetooth chụp tai Sony WH1000XM5"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Tai nghe Bluetooth chụp tai Sony WH1000XM5
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.890.000<sup>₫</sup></div>
-                <div class="product-old-price">7.045.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0028647_tai-nghe-chup-tai-sony-whult900n_240.jpeg"
-                    alt="Tai nghe chụp tai Sony WHULT900N"
-                  />
-                </div>
-
-                <div class="product-name">Tai nghe chụp tai Sony WHULT900N</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">3.690.000<sup>₫</sup></div>
-                <div class="product-old-price">4.490.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0038084_tai-nghe-bluetooth-true-wireless-sony-wh-1000xm6_240.jpeg"
-                    alt="Tai nghe Bluetooth True Wireless Sony WH-1000XM6"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Tai nghe Bluetooth True Wireless Sony WH-1000XM6
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">9.990.000<sup>₫</sup></div>
-                <div class="product-old-price">11.990.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box jabra">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jabra/0024203_tai-nghe-jabra-elite-4-active_240.png"
-                    alt="Tai nghe Jabra Elite 4 Active"
-                  />
-                </div>
-
-                <div class="product-name">Tai nghe Jabra Elite 4 Active</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">1.900.000<sup>₫</sup></div>
-                <div class="product-old-price">2.849.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box jabra">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jabra/0015565_tai-nghe-jabra-elite-4_240.webp"
-                    alt="Tai nghe Jabra Elite 4"
-                  />
-                </div>
-
-                <div class="product-name">Tai nghe Jabra Elite 4</div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">2.599.000<sup>₫</sup></div>
-                <div class="product-old-price">2.849.000</div>
-              </div>
-            </div>
-          </div>
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0041787_loa-di-dong-khong-day-ult-field-3-srs-ult30_240.jpeg"
-                    alt="Loa di động không dây ULT Field 3 SRS-ULT30"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Loa di động không dây ULT Field 3 SRS-ULT30
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">4.290.000<sup>₫</sup></div>
-                <div class="product-old-price">4.990.000</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-box sony">
-            <div class="product-inner">
-              <div class="product-tag"></div>
-
-              <a href="">
-                <div class="product-image">
-                  <img
-                    src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0041835_loa-di-dong-khong-day-sony-ult-field-5-srs-ult50_240.jpeg"
-                    alt="Loa di động không dây Sony ULT FIELD 5 SRS-ULT50"
-                  />
-                </div>
-
-                <div class="product-name">
-                  Loa di động không dây Sony ULT FIELD 5 SRS-ULT50
-                </div>
-              </a>
-
-              <div class="product-price">
-                <div class="product-new-price">6.990.000<sup>₫</sup></div>
-                <div class="product-old-price">8.190.000</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-2">
-          <div class="section-2-inner">
-            <div class="content">
-              <h2 class="title">
-                Thiết bị âm thanh - Mang lại trải nghiệm nghe nhạc cực đã
-              </h2>
-              <p>
-                Nghe nhạc, xem phim là nhu cầu thường ngày trong cuộc sống, giúp
-                chúng ta thư giãn sau quãng thời gian học tập và làm việc căng
-                thẳng. Tuy nhiên, để nâng cao trải nghiệm và có được những giây
-                phút giải trí ấn tượng hơn, người dùng nên mua những thiết bị âm
-                thanh chuyên dụng.
-              </p>
-
-              <h2 class="title">
-                Các thiết bị âm thanh hiện đại đang có mặt tại ShopDunk?
-              </h2>
-
-              <h3 class="inner-title">Tai nghe dây</h3>
-              <p>
-                Tai nghe dây dành riêng cho các sản phẩm Apple, kết nối với
-                thiết bị thông qua jack cắm lightning.
-              </p>
-
-              <p><strong>Điểm nổi bật:</strong></p>
-              <ul>
-                <li>Đầu tai nghe nhỏ, áp sát, nằm gọn trong tai.</li>
-                <li>Tăng giảm âm lượng với nút bấm dễ dàng.</li>
-                <li>
-                  Chiều dài dây tai nghe 1.2m, dễ dàng kết nối và bỏ gọn trong
-                  túi hoặc balo.
-                </li>
-              </ul>
-              <p>
-                Các sản phẩm tai nghe dây tiêu biểu tại ShopDunk đến từ thương
-                hiệu Earpods của Apple, tối ưu hóa về chất lượng âm thanh, mang
-                lại những bản nhạc có chất âm rõ ràng, trung thực và sâu lắng.
-              </p>
-
-              <h3 class="inner-title">Tai nghe Bluetooth</h3>
-              <p>
-                Tai nghe sử dụng giao tiếp Bluetooth như AirPods 3 để kết nối
-                không dây với các thiết bị di động, rất thuận tiện cho những
-                người thường xuyên di chuyển.
-              </p>
-
-              <p><strong>Điểm nổi bật:</strong></p>
-              <ul>
-                <li>
-                  Thiết kế tinh tế, toát lên vẻ thời trang, tích hợp công nghệ
-                  loại bỏ tạp âm, truyền tải âm thanh chân thực, hỗ trợ micro
-                  cho phép đàm thoại rảnh tay (không cần dùng đến điện thoại).
-                </li>
-                <li>
-                  Tai nghe gọn nhẹ, dễ dàng mang theo mọi nơi. Thiết kế hiện
-                  đại, kết hợp thời trang, thể hiện được cá tính của người trẻ,
-                  cộng với màu sắc thu hút, đang là những điểm mạnh thu hút
-                  nhiều người dùng chuyển từ tai nghe Bluetooth bất chấp giá cả
-                  có phần cao hơn.
-                </li>
-                <li>Dòng sản phẩm tiêu biểu: AirPods, Beats, JBL.</li>
-              </ul>
-
-              <h3 class="inner-title">Loa Bluetooth di động</h3>
-              <p>
-                Loa nghe nhạc kết nối thông qua Bluetooth, có kích thước nhỏ
-                gọn, tiện lợi và dễ dàng mang theo.
-              </p>
-
-              <p><strong>Điểm nổi bật:</strong></p>
-              <ul>
-                <li>
-                  Chức năng kết nối Bluetooth nhanh nhạy với tốc độ truyền tải
-                  chất lượng. Duy trì kết nối không dây mượt mà trong bán kính
-                  lên tới 10m.
-                </li>
-                <li>
-                  Tự động tiêu chuẩn chống nước, chống bụi, âm lượng mạnh mẽ, có
-                  thể kết nối nhiều loa lại với nhau, hỗ trợ micro nhận – trả
-                  lời cuộc gọi tiện lợi và hiệu quả.
-                </li>
-                <li>Dòng sản phẩm tiêu biểu: JBL, Google, Harman Kardon.</li>
-              </ul>
-              <h3 class="inner-title">
-                Tại sao người dùng cần đến sự hỗ trợ của các thiết bị âm thanh?
-              </h3>
-
-              <ul>
-                <li>
-                  Nghe nhạc, xem phim với âm thanh không chỉ chân thực, sống
-                  động hơn, gia tăng sự thoải mái mà còn trong trẻo, rõ ràng, ấm
-                  bass chi tiết.
-                </li>
-                <li>
-                  Các sản phẩm tai nghe duy trì sự riêng tư, mang lại trải
-                  nghiệm cá nhân thêm phần ấn tượng.
-                </li>
-                <li>
-                  Nhiều loại mang tính di động cao, dễ dàng mang theo bên mình
-                  khi di chuyển.
-                </li>
-                <li>
-                  Tích hợp nhiều công nghệ, tính năng hiện đại và tiện ích.
-                </li>
-                <li>
-                  Những loại tai nghe Bluetooth được chú trọng về kiểu dáng
-                  thiết kế cùng như màu sắc, tạo nên sự thời thượng, phù hợp
-                  phong cách giới trẻ.
-                </li>
-              </ul>
-
-              <h3 class="inner-title">Địa chỉ mua Thiết bị âm thanh uy tín?</h3>
-              <p>
-                Nếu như bạn yêu thích cũng như đang có nhu cầu sở hữu các sản
-                phẩm Tai nghe hay Loa Bluetooth hiện đại, đến ngay ShopDunk để
-                lựa chọn cho mình sản phẩm ưa thích và phù hợp nhất hoặc tham
-                khảo các sản phẩm tại ShopDunk qua Website:
-                <a href="https://shopdunk.com/" target="_blank"
-                  >https://shopdunk.com/</a
-                >.
-              </p>
-
-              <p>
-                ShopDunk – Đại lý ủy quyền Apple, chúng tôi cam kết mang đến sự
-                hài lòng cho khách hàng không chỉ bởi luôn cập nhật thường xuyên
-                các mẫu mã sản phẩm âm thanh mới nhất từ các thương hiệu lớn
-                trên thị trường: Apple, JBL, Google,… mà còn bởi đội ngũ nhân
-                viên trẻ trung, luôn nắm bắt xu hướng công nghệ mới cũng như
-                luôn nhiệt tình tư vấn cho khách hàng.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Ket thuc code -->
       </div>
-      <!-- this is begin of footer -->
-      <footer>
-        <div class="footer-wrapper">
-          <div class="footer-about">
-            <img
-              src="./assets/images/NguyenDucVu_241230896/header_image/page_logo.png"
-              alt="TamKa Logo"
-              class="footer-logo"
-            />
-            <p>
-              Năm 2020, DucVu Team trở thành đại lý ủy quyền của Apple. Chúng
-              tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm
-              mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho
-              người dùng Việt Nam.
-            </p>
-            <div class="footer-hotline">
-              <p><strong>Tổng đài hỗ trợ:</strong></p>
-              <p>
-                Mua hàng: <a href="tel:19006626">1234.6789</a> (08:00 - 22:00)
-              </p>
-              <p>
-                Bảo hành: <a href="tel:19008036">0123.1111</a> (08:30 - 20:00)
-              </p>
+      <div class="header-navbar-for-desktop">
+        <ul class="top-menu-not-mobile">
+          <li class="category-menu-items"><a href="./iphone.html">iPhone</a></li>
+          <li class="category-menu-items"><a href="./iPad.html">iPad</a></li>
+          <li class="category-menu-items"><a href="./Mac.html">Mac</a></li>
+          <li class="category-menu-items"><a href="./watch.html">Watch</a></li>
+          <li class="category-menu-items"><a href="./phu_kien.html">Phụ kiện</a></li>
+          <li class="category-menu-items"><a href="./earphone.html">Âm thanh</a></li>
+          <li class="category-menu-items"><a href="./camera.html">Camera</a></li>
+          <li class="category-menu-items"><a href="./giadung.html">Gia dụng</a></li>
+          <li class="category-menu-items"><a href="./tintuc.html">Tin tức</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- This is end of header -->
+    <div class="wrapper-page-content">
+      <div class="carousel-container">
+        <div class="carousel-wrapper">
+          <div id="carousel" class="carousel">
+            <div id="slides" class="slides">
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh1.png"
+                  alt="Earphone-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh2.png"
+                  alt="Earphone-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh3.png"
+                  alt="Earphone-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh4.png"
+                  alt="Earphone-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh5.png"
+                  alt="Earphone-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh6.png"
+                  alt="Earphone-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh7.png"
+                  alt="Earphone-carousel" />
+              </a>
+              <a href="#" target="">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphonecarousel/anh8.png"
+                  alt="Earphone-carousel" />
+              </a>
+            </div>
+
+            <button id="prev" class="ctrl-btn prev">⟨</button>
+            <button id="next" class="ctrl-btn next">⟩</button>
+            <div id="dots" class="dots"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Code vao day -->
+      <div class="list-product">
+        <ul id="filter-list">
+          <li><a href="#" data-series="all">Tất cả</a></li>
+          <li>
+            <a href="#" data-series="airpod"><img
+                src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/airpod.jpeg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="marshall"><img
+                src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/marshall.jpeg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="beats"><img
+                src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/beats.jpeg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="harman-kardon"><img
+                src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/harman kardon.jpeg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="jbl"><img
+                src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/jbl.jpeg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="belkin"><img
+                src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/belkin.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="sony"><img
+                src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/sony.jpeg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" data-series="jabra"><img
+                src="../assets/images/LeQuyTung_241230886/earphonepage/earphonetag/jabra.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-1">
+        <div class="product-box airpod">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/airpod/pro3.jpeg"
+                  alt="AirPods Pro 3" />
+              </div>
+
+              <div class="product-name">AirPods Pro 3</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.690.000<sup>₫</sup></div>
+              <div class="product-old-price">6.799.000</div>
             </div>
           </div>
+        </div>
 
-          <div class="footer-links">
-            <h4>Thông tin</h4>
-            <ul>
-              <li><a href="#">Newsfeed</a></li>
-              <li><a href="#">Giới thiệu</a></li>
-              <li><a href="#">Check IMEI</a></li>
-              <li><a href="#">Phương thức thanh toán</a></li>
-              <li><a href="#">Thuê điểm bán lẻ</a></li>
-              <li><a href="#">Bảo hành và sửa chữa</a></li>
-              <li><a href="#">Tuyển dụng</a></li>
-              <li><a href="#">Đánh giá chất lượng, khiếu nại</a></li>
-              <li><a href="#">Tra cứu hoá đơn điện tử</a></li>
-            </ul>
-          </div>
+        <div class="product-box airpod">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png" alt="tragop" />
+            </div>
 
-          <div class="footer-links">
-            <h4>Chính sách</h4>
-            <ul>
-              <li><a href="#">Thu cũ đổi mới</a></li>
-              <li><a href="#">Giao hàng</a></li>
-              <li><a href="#">Giao hàng (ZaloPay)</a></li>
-              <li><a href="#">Huỷ giao dịch</a></li>
-              <li><a href="#">Đổi trả</a></li>
-              <li><a href="#">Bảo hành</a></li>
-              <li><a href="#">Dịch vụ</a></li>
-              <li><a href="#">Giải quyết khiếu nại</a></li>
-              <li><a href="#">Bảo mật thông tin</a></li>
-              <li><a href="#">Hướng dẫn thanh toán qua VNPAY</a></li>
-            </ul>
-          </div>
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/airpod/pods4.jpeg"
+                  alt="AirPods 4" />
+              </div>
 
-          <div class="footer-links">
-            <h4>Địa chỉ & Liên hệ</h4>
-            <ul>
-              <li><a href="#">Tài khoản của tôi</a></li>
-              <li><a href="#">Đơn đặt hàng</a></li>
-              <li><a href="#">Tìm Store trên Google Map</a></li>
-              <li><a href="#">Hệ thống cửa hàng</a></li>
-              <li><a href="tel:19006626">Mua hàng: 1900.6626</a></li>
-              <li><a href="tel:0822688668">Doanh nghiệp: 0822.688.668</a></li>
-            </ul>
+              <div class="product-name">AirPods 4</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">3.690.000<sup>₫</sup></div>
+              <div class="product-old-price">4.990.000</div>
+            </div>
           </div>
         </div>
 
-        <div class="footer-bottom">
-          <p>
-            © 2025 Nhóm BTL Thiết Kế Web Lớp N06 CNTT4 K65, Trường Đại Học Giao
-            Thông Vận Tải
-          </p>
-          <p>
-            Địa chỉ: Số 3, phường Láng Thượng, quận Đống Đa, Hà Nội, Việt Nam
-          </p>
-          <p>Đại diện nhóm trưởng: Nguyễn Đức Vũ - ĐT: 0333.496.018</p>
-          <p>Email: ndv120806@gmail.com</p>
+        <div class="product-box airpod">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png" alt="tragop" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/airpod/maxusbc.jpeg"
+                  alt="AirPods Max cổng USB C 2024" />
+              </div>
+
+              <div class="product-name">AirPods Max cổng USB C 2024</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">12.190.000<sup>₫</sup></div>
+              <div class="product-old-price">13.990.000</div>
+            </div>
+          </div>
         </div>
-      </footer>
-      <!-- this is end of footer -->
+        <div class="product-box marshall">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/marshall/stanmore3.png"
+                  alt="Loa Marshall Stanmore III" />
+              </div>
+
+              <div class="product-name">Loa Marshall Stanmore III</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">9.990.000<sup>₫</sup></div>
+              <div class="product-old-price">11.780.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box marshall">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/marshall/0033180_tai-nghe-marshall-motif-ii-anc-black_240.jpeg"
+                  alt="Tai nghe Marshall Motif II A.N.C. Black" />
+              </div>
+
+              <div class="product-name">
+                Tai nghe Marshall Motif II A.N.C. Black
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">4.550.000<sup>₫</sup></div>
+              <div class="product-old-price">5.490.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box marshall">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/marshall/0041670_tai-nghe-marshall-minor-iv_240.png"
+                  alt="Tai Nghe Marshall Minor IV" />
+              </div>
+
+              <div class="product-name">Tai Nghe Marshall Minor IV</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">3.270.000<sup>₫</sup></div>
+              <div class="product-old-price">3.630.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box marshall">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/tra-gop-0.png" alt="tragop" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/marshall/0041671_loa-marshall-acton-iii_240.png"
+                  alt="Loa Marshall Acton III" />
+              </div>
+
+              <div class="product-name">Loa Marshall Acton III</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.770.000<sup>₫</sup></div>
+              <div class="product-old-price">7.950.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box beats">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/beats/0038414_tai-nghe-apple-beats-solo-buds_240.jpeg"
+                  alt="Tai nghe Apple Beats Solo Buds" />
+              </div>
+
+              <div class="product-name">Tai nghe Apple Beats Solo Buds</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.590.000<sup>₫</sup></div>
+              <div class="product-old-price">1.990.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box beats">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/beats/0038422_tai-nghe-apple-beats-studio-buds-trpt-mqlk3zpa_240.jpeg"
+                  alt="Tai nghe Apple Beats Studio Buds TRPT MQLK3ZP/A" />
+              </div>
+
+              <div class="product-name">
+                Tai nghe Apple Beats Studio Buds TRPT MQLK3ZP/A
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">3.290.000<sup>₫</sup></div>
+              <div class="product-old-price">3.990.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box beats">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/beats/0038429_tai-nghe-apple-beats-studio-pro-wireless_240.jpeg"
+                  alt="Tai nghe Apple Beats Studio Pro Wireless" />
+              </div>
+
+              <div class="product-name">
+                Tai nghe Apple Beats Studio Pro Wireless
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.990.000<sup>₫</sup></div>
+              <div class="product-old-price">7.990.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box beats">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/beats/0038436_tai-nghe-khong-day-beats-powerbeats-pro-den-my582zpa_240.jpeg"
+                  alt="Tai nghe không dây Beats Powerbeats Pro Đen (MYS82ZP/A)" />
+              </div>
+
+              <div class="product-name">
+                Tai nghe không dây Beats Powerbeats Pro Đen (MYS82ZP/A)
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.490.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box harman-kardon">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/harman kardon/0002142_loa-harman-kardon-go-play-mini_240.jpeg"
+                  alt="Loa Harman Kardon Go + Play Mini" />
+              </div>
+
+              <div class="product-name">Loa Harman Kardon Go + Play Mini</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">5.490.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box harman-kardon">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/harman kardon/0032378_loa-harman-kardon-onyx-studio-8_240.png"
+                  alt="Loa Harman Kardon Onyx Studio 8" />
+              </div>
+
+              <div class="product-name">Loa Harman Kardon Onyx Studio 8</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">4.590.000<sup>₫</sup></div>
+              <div class="product-old-price">4.890.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box harman-kardon">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/harman kardon/0033345_loa-harman-kardon-go-play-3_240.png"
+                  alt="Loa Harman Kardon Go + Play 3" />
+              </div>
+
+              <div class="product-name">Loa Harman Kardon Go + Play 3</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.990.000<sup>₫</sup></div>
+              <div class="product-old-price">7.045.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box airpod">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/airpod/earpods-usb-c.jpeg"
+                  alt="EarPods with USB-C" />
+              </div>
+
+              <div class="product-name">EarPods with USB-C</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">550.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box jbl">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jbl/0037188_loa-jbl-charge-6_240.png"
+                  alt="Loa JBL CHARGE 6" />
+              </div>
+
+              <div class="product-name">Loa JBL CHARGE 6</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">4.290.000<sup>₫</sup></div>
+              <div class="product-old-price">4.590.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box jbl">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jbl/0037300_loa-jbl-flip-7_240.png"
+                  alt="Loa JBL Flip 7" />
+              </div>
+
+              <div class="product-name">Loa JBL Flip 7</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">3.290.000<sup>₫</sup></div>
+              <div class="product-old-price">3.590.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box jbl">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jbl/0033388_loa-jbl-clip-5_240.png"
+                  alt="Loa JBL Clip 5" />
+              </div>
+
+              <div class="product-name">Loa JBL Clip 5</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.490.000<sup>₫</sup></div>
+              <div class="product-old-price">1.561.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box jbl">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jbl/0050517_loa-jbl-boombox-4_240.png"
+                  alt="Loa JBL Boombox 4" />
+              </div>
+
+              <div class="product-name">Loa JBL Boombox 4</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">13.900.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box belkin">
+          <div class="product-inner">
+            <div class="product-tag">
+              <img src="../assets/images/NguyenKimTuyen_241230888/Product_tags/new.png" alt="newtag" />
+            </div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/belkin/0028045_tai-nghe-belkin-bluetooth-soundform-play_240.jpeg"
+                  alt="Tai nghe Belkin Bluetooth SOUNDFORM Play" />
+              </div>
+
+              <div class="product-name">
+                Tai nghe Belkin Bluetooth SOUNDFORM Play
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">790.000<sup>₫</sup></div>
+              <div class="product-old-price">1.190.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box belkin">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/belkin/0042023_tai-nghe-belkin-soundform-rhythm-tre-wireless-earbuds_240.jpeg"
+                  alt="Tai Nghe Belkin SOUNDFORM RHYTHM TRE WIRELESS EARBUDS" />
+              </div>
+
+              <div class="product-name">
+                Tai Nghe Belkin SOUNDFORM RHYTHM TRE WIRELESS EARBUDS
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.190.000<sup>₫</sup></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0028633_tai-nghe-bluetooth-chup-tai-sony-wh1000xm5_240.jpeg"
+                  alt="Tai nghe Bluetooth chụp tai Sony WH1000XM5" />
+              </div>
+
+              <div class="product-name">
+                Tai nghe Bluetooth chụp tai Sony WH1000XM5
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.890.000<sup>₫</sup></div>
+              <div class="product-old-price">7.045.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0028647_tai-nghe-chup-tai-sony-whult900n_240.jpeg"
+                  alt="Tai nghe chụp tai Sony WHULT900N" />
+              </div>
+
+              <div class="product-name">Tai nghe chụp tai Sony WHULT900N</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">3.690.000<sup>₫</sup></div>
+              <div class="product-old-price">4.490.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0038084_tai-nghe-bluetooth-true-wireless-sony-wh-1000xm6_240.jpeg"
+                  alt="Tai nghe Bluetooth True Wireless Sony WH-1000XM6" />
+              </div>
+
+              <div class="product-name">
+                Tai nghe Bluetooth True Wireless Sony WH-1000XM6
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">9.990.000<sup>₫</sup></div>
+              <div class="product-old-price">11.990.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box jabra">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jabra/0024203_tai-nghe-jabra-elite-4-active_240.png"
+                  alt="Tai nghe Jabra Elite 4 Active" />
+              </div>
+
+              <div class="product-name">Tai nghe Jabra Elite 4 Active</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">1.900.000<sup>₫</sup></div>
+              <div class="product-old-price">2.849.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box jabra">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/jabra/0015565_tai-nghe-jabra-elite-4_240.webp"
+                  alt="Tai nghe Jabra Elite 4" />
+              </div>
+
+              <div class="product-name">Tai nghe Jabra Elite 4</div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">2.599.000<sup>₫</sup></div>
+              <div class="product-old-price">2.849.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0041787_loa-di-dong-khong-day-ult-field-3-srs-ult30_240.jpeg"
+                  alt="Loa di động không dây ULT Field 3 SRS-ULT30" />
+              </div>
+
+              <div class="product-name">
+                Loa di động không dây ULT Field 3 SRS-ULT30
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">4.290.000<sup>₫</sup></div>
+              <div class="product-old-price">4.990.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box sony">
+          <div class="product-inner">
+            <div class="product-tag"></div>
+
+            <a href="">
+              <div class="product-image">
+                <img
+                  src="../assets/images/LeQuyTung_241230886/earphonepage/earphoneproducts/sony/0041835_loa-di-dong-khong-day-sony-ult-field-5-srs-ult50_240.jpeg"
+                  alt="Loa di động không dây Sony ULT FIELD 5 SRS-ULT50" />
+              </div>
+
+              <div class="product-name">
+                Loa di động không dây Sony ULT FIELD 5 SRS-ULT50
+              </div>
+            </a>
+
+            <div class="product-price">
+              <div class="product-new-price">6.990.000<sup>₫</sup></div>
+              <div class="product-old-price">8.190.000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-2">
+        <div class="section-2-inner">
+          <div class="content">
+            <h2 class="title">
+              Thiết bị âm thanh - Mang lại trải nghiệm nghe nhạc cực đã
+            </h2>
+            <p>
+              Nghe nhạc, xem phim là nhu cầu thường ngày trong cuộc sống, giúp
+              chúng ta thư giãn sau quãng thời gian học tập và làm việc căng
+              thẳng. Tuy nhiên, để nâng cao trải nghiệm và có được những giây
+              phút giải trí ấn tượng hơn, người dùng nên mua những thiết bị âm
+              thanh chuyên dụng.
+            </p>
+
+            <h2 class="title">
+              Các thiết bị âm thanh hiện đại đang có mặt tại ShopDunk?
+            </h2>
+
+            <h3 class="inner-title">Tai nghe dây</h3>
+            <p>
+              Tai nghe dây dành riêng cho các sản phẩm Apple, kết nối với
+              thiết bị thông qua jack cắm lightning.
+            </p>
+
+            <p><strong>Điểm nổi bật:</strong></p>
+            <ul>
+              <li>Đầu tai nghe nhỏ, áp sát, nằm gọn trong tai.</li>
+              <li>Tăng giảm âm lượng với nút bấm dễ dàng.</li>
+              <li>
+                Chiều dài dây tai nghe 1.2m, dễ dàng kết nối và bỏ gọn trong
+                túi hoặc balo.
+              </li>
+            </ul>
+            <p>
+              Các sản phẩm tai nghe dây tiêu biểu tại ShopDunk đến từ thương
+              hiệu Earpods của Apple, tối ưu hóa về chất lượng âm thanh, mang
+              lại những bản nhạc có chất âm rõ ràng, trung thực và sâu lắng.
+            </p>
+
+            <h3 class="inner-title">Tai nghe Bluetooth</h3>
+            <p>
+              Tai nghe sử dụng giao tiếp Bluetooth như AirPods 3 để kết nối
+              không dây với các thiết bị di động, rất thuận tiện cho những
+              người thường xuyên di chuyển.
+            </p>
+
+            <p><strong>Điểm nổi bật:</strong></p>
+            <ul>
+              <li>
+                Thiết kế tinh tế, toát lên vẻ thời trang, tích hợp công nghệ
+                loại bỏ tạp âm, truyền tải âm thanh chân thực, hỗ trợ micro
+                cho phép đàm thoại rảnh tay (không cần dùng đến điện thoại).
+              </li>
+              <li>
+                Tai nghe gọn nhẹ, dễ dàng mang theo mọi nơi. Thiết kế hiện
+                đại, kết hợp thời trang, thể hiện được cá tính của người trẻ,
+                cộng với màu sắc thu hút, đang là những điểm mạnh thu hút
+                nhiều người dùng chuyển từ tai nghe Bluetooth bất chấp giá cả
+                có phần cao hơn.
+              </li>
+              <li>Dòng sản phẩm tiêu biểu: AirPods, Beats, JBL.</li>
+            </ul>
+
+            <h3 class="inner-title">Loa Bluetooth di động</h3>
+            <p>
+              Loa nghe nhạc kết nối thông qua Bluetooth, có kích thước nhỏ
+              gọn, tiện lợi và dễ dàng mang theo.
+            </p>
+
+            <p><strong>Điểm nổi bật:</strong></p>
+            <ul>
+              <li>
+                Chức năng kết nối Bluetooth nhanh nhạy với tốc độ truyền tải
+                chất lượng. Duy trì kết nối không dây mượt mà trong bán kính
+                lên tới 10m.
+              </li>
+              <li>
+                Tự động tiêu chuẩn chống nước, chống bụi, âm lượng mạnh mẽ, có
+                thể kết nối nhiều loa lại với nhau, hỗ trợ micro nhận – trả
+                lời cuộc gọi tiện lợi và hiệu quả.
+              </li>
+              <li>Dòng sản phẩm tiêu biểu: JBL, Google, Harman Kardon.</li>
+            </ul>
+            <h3 class="inner-title">
+              Tại sao người dùng cần đến sự hỗ trợ của các thiết bị âm thanh?
+            </h3>
+
+            <ul>
+              <li>
+                Nghe nhạc, xem phim với âm thanh không chỉ chân thực, sống
+                động hơn, gia tăng sự thoải mái mà còn trong trẻo, rõ ràng, ấm
+                bass chi tiết.
+              </li>
+              <li>
+                Các sản phẩm tai nghe duy trì sự riêng tư, mang lại trải
+                nghiệm cá nhân thêm phần ấn tượng.
+              </li>
+              <li>
+                Nhiều loại mang tính di động cao, dễ dàng mang theo bên mình
+                khi di chuyển.
+              </li>
+              <li>
+                Tích hợp nhiều công nghệ, tính năng hiện đại và tiện ích.
+              </li>
+              <li>
+                Những loại tai nghe Bluetooth được chú trọng về kiểu dáng
+                thiết kế cùng như màu sắc, tạo nên sự thời thượng, phù hợp
+                phong cách giới trẻ.
+              </li>
+            </ul>
+
+            <h3 class="inner-title">Địa chỉ mua Thiết bị âm thanh uy tín?</h3>
+            <p>
+              Nếu như bạn yêu thích cũng như đang có nhu cầu sở hữu các sản
+              phẩm Tai nghe hay Loa Bluetooth hiện đại, đến ngay ShopDunk để
+              lựa chọn cho mình sản phẩm ưa thích và phù hợp nhất hoặc tham
+              khảo các sản phẩm tại ShopDunk qua Website:
+              <a href="https://shopdunk.com/" target="_blank">https://shopdunk.com/</a>.
+            </p>
+
+            <p>
+              ShopDunk – Đại lý ủy quyền Apple, chúng tôi cam kết mang đến sự
+              hài lòng cho khách hàng không chỉ bởi luôn cập nhật thường xuyên
+              các mẫu mã sản phẩm âm thanh mới nhất từ các thương hiệu lớn
+              trên thị trường: Apple, JBL, Google,… mà còn bởi đội ngũ nhân
+              viên trẻ trung, luôn nắm bắt xu hướng công nghệ mới cũng như
+              luôn nhiệt tình tư vấn cho khách hàng.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Ket thuc code -->
     </div>
-    <script src="../js/giadung.js"></script>
-  </body>
+    <!-- this is begin of footer -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-about">
+          <img src="./assets/images/NguyenDucVu_241230896/header_image/page_logo.png" alt="TamKa Logo"
+            class="footer-logo" />
+          <p>
+            Năm 2020, DucVu Team trở thành đại lý ủy quyền của Apple. Chúng
+            tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm
+            mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho
+            người dùng Việt Nam.
+          </p>
+          <div class="footer-hotline">
+            <p><strong>Tổng đài hỗ trợ:</strong></p>
+            <p>
+              Mua hàng: <a href="tel:19006626">1234.6789</a> (08:00 - 22:00)
+            </p>
+            <p>
+              Bảo hành: <a href="tel:19008036">0123.1111</a> (08:30 - 20:00)
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Thông tin</h4>
+          <ul>
+            <li><a href="#">Newsfeed</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Check IMEI</a></li>
+            <li><a href="#">Phương thức thanh toán</a></li>
+            <li><a href="#">Thuê điểm bán lẻ</a></li>
+            <li><a href="#">Bảo hành và sửa chữa</a></li>
+            <li><a href="#">Tuyển dụng</a></li>
+            <li><a href="#">Đánh giá chất lượng, khiếu nại</a></li>
+            <li><a href="#">Tra cứu hoá đơn điện tử</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Chính sách</h4>
+          <ul>
+            <li><a href="#">Thu cũ đổi mới</a></li>
+            <li><a href="#">Giao hàng</a></li>
+            <li><a href="#">Giao hàng (ZaloPay)</a></li>
+            <li><a href="#">Huỷ giao dịch</a></li>
+            <li><a href="#">Đổi trả</a></li>
+            <li><a href="#">Bảo hành</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Giải quyết khiếu nại</a></li>
+            <li><a href="#">Bảo mật thông tin</a></li>
+            <li><a href="#">Hướng dẫn thanh toán qua VNPAY</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Địa chỉ & Liên hệ</h4>
+          <ul>
+            <li><a href="#">Tài khoản của tôi</a></li>
+            <li><a href="#">Đơn đặt hàng</a></li>
+            <li><a href="#">Tìm Store trên Google Map</a></li>
+            <li><a href="#">Hệ thống cửa hàng</a></li>
+            <li><a href="tel:19006626">Mua hàng: 1900.6626</a></li>
+            <li><a href="tel:0822688668">Doanh nghiệp: 0822.688.668</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © 2025 Nhóm BTL Thiết Kế Web Lớp N06 CNTT4 K65, Trường Đại Học Giao
+          Thông Vận Tải
+        </p>
+        <p>
+          Địa chỉ: Số 3, phường Láng Thượng, quận Đống Đa, Hà Nội, Việt Nam
+        </p>
+        <p>Đại diện nhóm trưởng: Nguyễn Đức Vũ - ĐT: 0333.496.018</p>
+        <p>Email: ndv120806@gmail.com</p>
+      </div>
+    </footer>
+    <!-- this is end of footer -->
+  </div>
+  <script src="../js/giadung.js"></script>
+</body>
+
 </html>
