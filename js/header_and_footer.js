@@ -30,9 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    shoppingCart.addEventListener("click", () => {
-        alert('Chức năng giỏ hàng đang trong quá trình phát triển\nXin vui lòng liên hệ lại với nhà phát triển để biết thêm chi tiết');  // Chuyển đến trang giỏ hàng
-    });
 });
 document.addEventListener("DOMContentLoaded", function () {
     const loginDropdown = document.querySelector(".login-dropdown-for-destop");

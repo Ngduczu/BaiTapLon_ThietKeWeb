@@ -63,15 +63,16 @@ const productData = {
         ],
         "colorOptions": [
             {
-                "name": "Cam Vũ Trụ",
-                "colorCode": "#f77644ff",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-17-pro-max_cam.png"
-            },
-            {
                 "name": "Đen",
                 "colorCode": "#3b3b3c",
                 "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-17-pro-max-tim.png"
             },
+            {
+                "name": "Cam Vũ Trụ",
+                "colorCode": "#f77644ff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-17-pro-max_cam.png"
+            },
+            
             {
                 "name": "Trắng",
                 "colorCode": "#f0f0f0",
@@ -189,6 +190,248 @@ const productData = {
                 "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-air-sage.png"
             }
         ]
+    },
+    "iphone16-pro": {
+        "name": "iPhone 16 Pro",
+        "storageOptions": [
+            {
+                "name": "256GB",
+                "price": "24.799.000đ",
+                "oldPrice": "27.999.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            }
+        ],
+        "colorOptions": [
+            {
+                "name": "titan",
+                "colorCode": "#DDDDDD",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-16-prm-titan.jpeg"
+            },
+            {
+                "name": "Titan sa mạc",
+                "colorCode": "#FFFFCC",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-16-prm-titansamac.png"
+            },
+            {
+                "name": "Đen",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-16-prm-black.png"
+            }
+        ]
+    },
+    "iphone16-plus": {
+        "name": "iPhone 16 Plus",
+        "storageOptions": [
+            {
+                "name": "256GB",
+                "price": "24.799.000đ",
+                "oldPrice": "27.999.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            }
+        ],
+        "colorOptions": [
+            {
+                "name": "Titan sa mạc",
+                "colorCode": "#FFF",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-trang.png"
+            },
+            {
+                "name": "Đen",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-den.png"
+            },
+            {
+                "name": "Hồng",
+                "colorCode": "#eaaef1ff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-hong.png"
+            },
+            {
+                "name": "Đen",
+                "colorCode": "#4995ddff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-xanh.png"
+            },
+            {
+                "name": "Đen",
+                "colorCode": "#b3f8a5ff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-xanhngoc.png"
+            },
+        ]
+    },
+    "iphone16e": {
+        "name": "iPhone 16e",
+        "storageOptions": [
+            {
+                "name": "256GB",
+                "price": "24.799.000đ",
+                "oldPrice": "27.999.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            }
+        ],
+        "colorOptions": [
+            {
+                "name": "Đen",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16e-den.jpeg"
+            },
+            {
+                "name": "Trắng",
+                "colorCode": "#FFF",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16e-trang.png"
+            }
+        ]
+    },
+    "iphone16": {
+        "name": "iPhone 16",
+        "storageOptions": [
+            {
+                "name": "256GB",
+                "price": "24.799.000đ",
+                "oldPrice": "27.999.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            }
+        ],
+        "colorOptions": [
+            {
+                "name": "Hồng",
+                "colorCode": "#eaaef1ff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-hong.png"
+            },
+            {
+                "name": "Titan sa mạc",
+                "colorCode": "#FFF",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-trang.png"
+            },
+            {
+                "name": "Đen",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-den.png"
+            },
+            {
+                "name": "Xanh",
+                "colorCode": "#4995ddff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-xanh.png"
+            },
+            {
+                "name": "Xanh Bạc Hà",
+                "colorCode": "#b3f8a5ff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone16-plus-xanhngoc.png"
+            },
+        ]
+    },
+    "iphone15-promax": {
+        "name": "iPhone 15 ProMax",
+        "storageOptions": [
+            {
+                "name": "256GB",
+                "price": "24.799.000đ",
+                "oldPrice": "27.999.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            }
+        ],
+        "colorOptions": [
+            {
+                "name": "Bạch Kim",
+                "colorCode": "#fcfcfcff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone15-prm-white-titan.png"
+            },
+            {
+                "name": "Titan Đen",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone15-prm-black-titan.png"
+            },
+            {
+                "name": "Xám",
+                "colorCode": "gray",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone15-prm-tim-than.png"
+            },
+            {
+                "name": "Vàng Ánh Kim",
+                "colorCode": "#d2d6bbff",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone15-prm-titan-golden.png"
+            }
+        ]
+    },
+    "iphone15-pro": {
+        "name": "iPhone 15 Pro",
+        "storageOptions": [
+            {
+                "name": "128GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            },
+            {
+                "name": "256GB",
+                "price": "24.799.000đ",
+                "oldPrice": "27.999.000đ"
+            },
+            {
+                "name": "512GB",
+                "price": "31.299.000đ",
+                "oldPrice": "36.799.000đ"
+            }
+        ],
+        "colorOptions": [
+            {
+                "name": "titan",
+                "colorCode": "#DDDDDD",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-16-prm-titan.jpeg"
+            },
+            {
+                "name": "Titan sa mạc",
+                "colorCode": "#FFFFCC",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-16-prm-titansamac.png"
+            },
+            {
+                "name": "Đen",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenDucVu_241230896/product_image/iPhone_image/iphone-16-prm-black.png"
+            }
+        ]
     }
 };
 
@@ -256,3 +499,6 @@ function loadProducts() {
 
 // Chờ DOM load xong rồi thực thi hàm loadProducts
 document.addEventListener('DOMContentLoaded', loadProducts);
+
+
+//./product.html?id=
