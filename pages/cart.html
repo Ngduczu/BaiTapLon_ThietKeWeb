@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/header_and_footer.css">
     <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/main_content.css">
-    <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/account.css">
+    <link rel="stylesheet" href="../styles/NguyenDucVu_241230896/cart.css">
+    <script src="../js/cart.js"></script>
     <script src="https://kit.fontawesome.com/9e100b4052.js" crossorigin="anonymous"></script>
     <script src="../js/header_and_footer.js" defer></script>
-    <script src="../js/register.js" defer></script>
-    <link rel="shortcut icon" href="../assets/images/NguyenDucVu_241230896/account.css" type="image/x-icon">
     <title>BaiTapLonThietKeWeb</title>
 </head>
 
 <body>
-    <div class="master-wrapper-page-login-and-register">
+    <div class="master-wrapper-page">
         <!-- This is begin of header -->
         <header>
             <div class="higher-header">
                 <div class="header-logo">
-                    <a href="../index.html"><img class="header-logo" src="../assets/images/NguyenDucVu_241230896/header_image/page_logo.png"
-                            alt="page logo"></a>
+                    <a href="../index.html"><img class="header-logo"
+                            src="../assets/images/NguyenDucVu_241230896/header_image/page_logo.png" alt="page logo"></a>
                 </div>
                 <div class="search-box-new store-search-box">
                     <form action="" id="small-search-box-form"><input type="text" name="" id="small-searchterms"
@@ -77,46 +76,20 @@
         </header>
         <!-- This is end of header -->
         <div class="wrapper-page-content">
-            <!-- Code vao day -->
+            
             <div class="page-content">
-                <div class="login-page">
-                    <div class="customer-block">
-                        <div class="decor-login-img">
-                            <img src="../assets/images/NguyenDucVu_241230896/login-img/VNU_M492_08 1.jpeg" alt="">
-                        </div>
-                        <div class="login-form">
-                            <form action="">
-                                <h2>Đăng Ký</h2>
-                                <div class="form-field">
-                                    <label for="fullname">Họ và tên:</label>
-                                <input type="text" placeholder="Nhập tên của bạn" autocomplete=none id="fullname" required>
-                                </div>
-                                <div class="form-field">
-                                    <label for="phone">Phone:</label>
-                                <input type="text" placeholder="Nhập số điện thoại của bạn" autocomplete=none id="phone" required>
-                                </div>
-                                <div class="form-field">
-                                    <label for="email">Email:</label>
-                                <input type="text" placeholder="Nhập email của bạn" autocomplete=none id="email" required>
-                                </div>
-                                <div class="form-field">
-                                    <label for="password">Mật Khẩu:</label>
-                                <input type="password" id="password" placeholder="Nhập mật khẩu của bạn" required>
-                                </div>
-                                <div class="form-field">
-                                    <label for="confirm-password">Nhập Lại Mật Khẩu:</label>
-                                <input type="password" id="confirm-password" placeholder="Nhập lại mật khẩu của bạn" required>
-                                </div>
-                                <div class="form-field" id="check-box-register">
-                                    <input type="checkbox" name="agree" id="agree" required> <p>Tôi đã đồng ý với <span><a href="" class="account-link">chính sách</a></span> và <span><a href="" class="account-link">điều khoản</a></span> của cửa hàng</p>
-                                </div>
-                                <button type="submit">Đăng ký</button>
-                            </form>
-                            <p>Bạn đã có tài khoản? <a href="./login.html" class="account-link">Đăng nhập ngay</a></p>
-                        </div>
+                <div class="shopping-cart">
+                    <div class="products">
+                        <ul class="cart-list">
+
+                        </ul>
+                    </div>
+                    <div class="final-info">
+                        <p class="total-price"></p>
+                        <button class="payment-button"></button>
+                    </div>
                 </div>
-                </div>
-            </div>    
+            </div>
             <!-- Ket thuc code -->
         </div>
         <!-- this is begin of footer -->
@@ -190,6 +163,38 @@
             </div>
         </footer>
         <!-- this is end of footer -->
+        <!-- this is a comment -->
+    </div>
+    <div id="checkout-modal" class="checkout-modal">
+        <div class="checkout-content">
+            <span class="close-btn">&times;</span>
+            <h2>Thanh toán đơn hàng</h2>
+            <form id="checkout-form" class="checkout-form">
+                <label>Họ và tên người nhận:</label>
+                <input type="text" id="receiver-name" placeholder="Nhập họ và tên đầy đủ của bạn" required>
+
+                <label>Số điện thoại nhận hàng:</label>
+                <input type="text" id="receiver-phone" placeholder="Nhập SĐT của bạn" required>
+
+                <label>Địa chỉ giao hàng:</label>
+                <input type="text" id="receiver-address" placeholder="Nhập địa chỉ đầy đủ của bạn"required>
+
+                <label>Ghi chú cho đơn vị vận chuyển:</label>
+                <textarea id="receiver-note" placeholder="Ghi chú" rows="3"></textarea>
+
+                <h3>Phương thức thanh toán:</h3>
+                <div class="payment-methods">
+                    <button type="button" id="cash-btn" class="payment-btn active">Tiền mặt</button>
+                    <button type="button" id="bank-btn" class="payment-btn">Chuyển khoản</button>
+                </div>
+
+                <div id="qr-section" class="qr-section">
+                    <img src="../assets/images/NguyenDucVu_241230896/payment_qr.png" alt="QR chuyển khoản">
+                </div>
+
+                <button type="submit" id="confirm-btn">Xác nhận thanh toán</button>
+            </form>
+        </div>
     </div>
 </body>
 

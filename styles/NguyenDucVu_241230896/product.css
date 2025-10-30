@@ -26,8 +26,7 @@
 }
 
 #main-image {
-    width: 100%;
-    max-width: 400px;
+    width: 400px;
     border-radius: 8px;
 }
 
@@ -109,7 +108,20 @@
     margin-bottom: 20px;
 }
 
-.buy-button:hover {
+.to-cart-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.buy-button:hover, .to-cart-button:hover{
     transform: scale(1.01);
     background-color: #006adb;
     transition: 0.3s ease-in-out;
