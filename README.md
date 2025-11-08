@@ -1,4 +1,5 @@
 # Bài tập lớn Thiết Kế Web
+# Sản phẩm chưa hoàn thiện nên mới chỉ có 1 số thông tin về sản phẩm ở trang iPhone
 
 🔴 ***TUYỆT ĐỐI KHÔNG ĐƯỢC PUSH THẲNG VÀO MAIN MÀ PHẢI TẠO NHÁNH PUSH LÊN NHÁNH RỒI TẠO PULL REQUEST***🔴
 
