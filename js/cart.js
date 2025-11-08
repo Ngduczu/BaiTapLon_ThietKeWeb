@@ -109,6 +109,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Mở form khi bấm nút thanh toán ---
     paymentButton.addEventListener('click', () => {
+        let cart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
+        if(cart.length === 0){
+            paymentButton.disabled = true;
+        }
         modal.style.display = 'flex';
         document.body.style.overflow = 'hidden';
     });
