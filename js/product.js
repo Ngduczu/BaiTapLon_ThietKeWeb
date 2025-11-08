@@ -117,7 +117,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const productId = params.get('id'); 
 
     const database = await loadDatabase();
-    console.log(database);
     if (!database) {
         document.querySelector('.product-container').innerHTML =
             '<h1>Lỗi khi tải dữ liệu sản phẩm.</h1>';
@@ -127,6 +126,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!productId) {
         document.querySelector('.product-container').innerHTML =
             '<h1>Không tìm thấy ID sản phẩm trên URL.</h1>';
+            document.getElementById('cmt-section').style.display = 'none';
         return;
     }
 
@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     } else {
         document.querySelector('.product-container').innerHTML =
             `<h1>Không tìm thấy sản phẩm với ID: ${productId}</h1>`;
+        getElementById
     }
 });
 

@@ -400,7 +400,9 @@ h3 {
 #receiver-note {
     resize: vertical;
 }
-
+.checkout-content::-webkit-scrollbar {
+    display: none;
+}
 @media screen and (max-width: 890px) {
 
     /* --- 1. Khu vực Sản phẩm (product-container) --- */
