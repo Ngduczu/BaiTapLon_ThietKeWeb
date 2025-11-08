@@ -515,20 +515,85 @@
             }
         ]
     },
-    "macbook-air-m3": {
-        "name": "Macbook Air M3 13-inch",
+    "ipad-air-m3": {
+        "name": "iPad Air M3 13-inch",
         "price": "27.999.000đ",
         "oldPrice": "29.999.000đ",
         "colorOptions": [
             {
-                "name": "Starlight",
-                "colorCode": "#f0e6dd",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/Mac_image/mac-starlight.png"
+                "name": "Space Black",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenKimTuyen_241230888/Product_images/iPad/iPad_Air (M3)/ipad-air-m3-xam.png"
             },
             {
-                "name": "Midnight",
-                "colorCode": "#2e3642",
-                "image": "../assets/images/NguyenDucVu_241230896/product_image/Mac_image/mac-midnight.png"
+                "name": "White",
+                "colorCode": "white",
+                "image": "../assets/images/NguyenKimTuyen_241230888/Product_images/iPad/iPad_Air (M3)/ipad-air-m3-trang.png"
+            }
+        ]
+    },
+    "ipad-pro-m4": {
+        "name": "iPad Pro M4 13-inch",
+        "price": "27.999.000đ",
+        "oldPrice": "29.999.000đ",
+        "colorOptions": [
+            {
+                "name": "Space Black",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenKimTuyen_241230888/Product_images/iPad/iPad_pro_(M4)/ipad-pro-m4-den.jpeg"
+            },
+            {
+                "name": "White",
+                "colorCode": "white",
+                "image": "../assets/images/NguyenKimTuyen_241230888/Product_images/iPad/iPad_pro_(M4)/ipad-pro-m4-trang.jpeg"
+            }
+        ]
+    },
+    "mac-pro-m5-14inch": {
+        "name": "MacBook Pro 14 inch M5 2025 (10 core GPU| 10 core CPU| 16GB RAM| 512GB SSD)",
+        "price": "41.999.000đ",
+        "oldPrice": "",
+        "colorOptions": [
+            {
+                "name": "Space Black",
+                "colorCode": "black",
+                "image": "../assets/images/NguyenKimTuyen_241230888/Product_images/MacBook/MacBook Air M4/macbook-air-m4-den.jpeg"
+            }
+        ]
+    },
+    "mac-air-m4-13inch-256GB": {
+        "name": "MacBook Air M4 13 inch (8 core GPU | 16GB RAM | 256GB SSD)",
+        "price": "25.290.000đ",
+        "oldPrice": "26.999.000đ",
+        "colorOptions": [
+            {
+                "name": "Silver",
+                "colorCode": "#C0C0C0",
+                "image": "../assets/images/NguyenKimTuyen_241230888/Product_images/MacBook/MacBook Air M4/0036014_macbook-air-m4-13-inch-8-core-gpu-16gb-ram-256gb-ssd_240.jpeg"
+            }
+        ]
+    },
+    "mac-air-m4-13inch-512GB": {
+        "name": "MacBook Air M4 13 inch (8 core GPU | 16GB RAM | 512GB SSD)",
+        "price": "30.790.000đ",
+        "oldPrice": "31.999.000đ",
+        "colorOptions": [
+            {
+                "name": "Silver",
+                "colorCode": "#C0C0C0",
+                "image": "../assets/images/NguyenKimTuyen_241230888/Product_images/MacBook/MacBook Air M4/0036014_macbook-air-m4-13-inch-8-core-gpu-16gb-ram-256gb-ssd_240.jpeg"
+            }
+        ]
+    },
+    "mac-air-m4-13inch-24r-512GB": {
+        "name": "MacBook Air M4 13 inch (8 core GPU | 16GB RAM | 512GB SSD)",
+        "price": "36.990.000đ",
+        "oldPrice": "",
+        "colorOptions": [
+            {
+                "name": "Silver",
+                "colorCode": "#C0C0C0",
+                "image": "../assets/images/NguyenKimTuyen_241230888/Product_images/MacBook/MacBook Air M4/0036014_macbook-air-m4-13-inch-8-core-gpu-16gb-ram-256gb-ssd_240.jpeg"
             }
         ]
     },
